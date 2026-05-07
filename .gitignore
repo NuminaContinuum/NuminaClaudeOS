@@ -1,0 +1,39 @@
+# Personal data — never commit
+context-library/
+outputs/
+
+# But keep the structure tracked so first-time users land in a working tree
+!context-library/
+!context-library/.gitkeep
+!context-library/profile.template.md
+!context-library/journals/
+!context-library/journals/.gitkeep
+!context-library/dreams/
+!context-library/dreams/.gitkeep
+!context-library/journeys/
+!context-library/journeys/.gitkeep
+!context-library/meditations/
+!context-library/meditations/.gitkeep
+!context-library/integrations/
+!context-library/integrations/.gitkeep
+!context-library/relationships/
+!context-library/relationships/.gitkeep
+!context-library/archetypes/
+!context-library/archetypes/.gitkeep
+!context-library/maps/
+!context-library/maps/timeline.md
+!context-library/maps/relationships.md
+!context-library/maps/archetypes.md
+!outputs/
+!outputs/reflections/
+!outputs/reflections/.gitkeep
+
+# OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor
+.vscode/
+.idea/
