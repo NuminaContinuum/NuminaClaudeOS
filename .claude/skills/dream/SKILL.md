@@ -53,7 +53,7 @@ Only ask about the setting or atmosphere as a secondary follow-up if it would me
    - Indigenous elders / Harner → cosmological framing
    - No framework selected → stay symbolically neutral; use the user's own language
 2. Skim recent entries in `context-library/dreams/` (last 5-10) for recurring symbols, settings, or figures.
-3. Check `context-library/archetypes/` for any matches with what's in this dream.
+3. Check `context-library/archetypes/` for any matches with what's in this dream. Before using a file, verify it has substantive content — a real `## Description` section with more than a stub. If a file contains only a placeholder (e.g. "detected by keyword scan, not yet captured", or under two lines of actual description), skip it entirely. A stub is not a reading.
 
 ### Step 5 — Reflect
 
