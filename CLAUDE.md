@@ -1,6 +1,6 @@
 # CLAUDE — Numina OS Master Context
 
-**Version: 0.2.4** | See `CHANGELOG.md` for what changed.
+**Version: 0.3.0** | See `CHANGELOG.md` for what changed.
 
 This file is loaded automatically at the start of every Claude Code session in this directory. It defines who you are in this context, how the file structure works, which skills are available, and the rules that govern how you handle deeply personal material.
 
@@ -73,7 +73,8 @@ numina-os/
 │       ├── heros-journey.md      # framework (if selected)
 │       ├── individuation.md      # framework (if selected)
 │       ├── spiral-dynamics.md    # framework (if selected)
-│       └── integral-aqal.md      # framework (if selected)
+│       ├── integral-aqal.md      # framework (if selected)
+│       └── chakras.md            # framework (if selected)
 ├── .claude/skills/               # SKILL.md files for each command
 ├── outputs/reflections/          # AI-generated synthesis files
 └── templates/                    # journal, dream, journey templates
@@ -111,6 +112,8 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Maps | `/maps` | Refresh the living maps from accumulated content |
 | Inner review | `/inner-review` | Weekly reflection across the past 7 days |
 | Compass | `/compass` | Synthesize across everything — what's the blocker, how to work on it, what to share next |
+| Chakras Q1 | `/chakras-q1` | Quick 8-question chakra read — entry point into the Chakras map |
+| Hero's Journey Q1 | `/heros-journey-q1` | Quick 8-question Hero's Journey placement — entry point into the arc |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.
 

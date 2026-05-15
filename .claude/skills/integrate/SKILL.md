@@ -25,6 +25,17 @@ If they're not sure which phase, default to whichever they describe most. Time-s
 
 Also ask the modality if it isn't already stated: psychedelic, shamanic, breathwork, peak experience, other. (No need to know the substance for psychedelic — knowing it was an entheogenic experience is enough.)
 
+### Step 1.5 — Read context before holding the container
+
+Once you have the phase and modality, read before responding:
+
+- `context-library/profile.md` — framework lens, practices, what the user is called toward
+- `context-library/journeys/` — prior journey entries (last 5-10, or all if fewer). Look for recurring figures, themes, or intentions.
+- `context-library/archetypes/` — symbols and inner figures already catalogued. Cross-reference any figures or images they mention. Skip files that are stubs or placeholders with no real description.
+- `context-library/relationships/` — if a person or inner figure appears in this journey who has appeared before, read their file.
+
+Do this before shaping your response. You are not meeting this person for the first time.
+
 ### Step 2 — Hold the appropriate container
 
 The three phases need different containers. Match the one they're in.
@@ -63,6 +74,7 @@ Your response:
 2. **Mirror 2-3 themes or images** — using their words. Not interpretations, just what stood out to you in what they shared.
 3. **Hold the body** — *"How is your body now? Rested? Activated? Tender?"*
 4. **One question** to sit with as the experience continues to land. Not for them to answer now.
+5. **What you might have missed** — if your context reading surfaced a pattern the user may not have noticed (a figure appearing again, a theme echoing a past journey, an image that contradicts their usual symbols), name it in 1-2 lines at the end of your response. Framed as invitation, not interpretation: *"The figure at the threshold — there's something similar in your [month] entry. Worth sitting with whether they're connected."* Skip entirely if nothing is genuinely there. Do not reach for a pattern that isn't present.
 
 Example after a psychedelic share:
 > *"What landed: the door, the light around your mother, the sense of 'I had been waiting'. That last phrase has weight. The question to carry, not answer now: who is the 'I' that was waiting?"*
@@ -86,6 +98,8 @@ Read prior journey entries (`context-library/journeys/` — search for related d
 This is the phase where archetype recognition can land. If the user describes a recurring figure or theme that echoes earlier work, name it as a hypothesis. Hold lightly.
 
 End with one question to sit with for the week.
+
+**What you might have missed** — same rule as the fresh phase. If your context reading surfaced something the user hasn't named — a recurring figure, a theme that echoes an older journey, a pattern becoming visible across time — tease it in 1-2 lines, held as invitation. Skip if nothing genuine is there.
 
 ---
 
@@ -164,8 +178,10 @@ Per the rules in `CLAUDE.md`:
 ## Acceptance criteria
 
 - [ ] Opens by asking which phase they're in — does not proceed without the answer
+- [ ] Reads context (profile, journeys, archetypes, relationships) before holding the container
 - [ ] Pre phase: intention, fears, support questions, then one question to carry in
 - [ ] Fresh phase: minimal questions, mirror their words back, one question to sit with
+- [ ] Fresh and Post phases: "What you might have missed" tease if context reading surfaces a genuine pattern — skipped if nothing clearly there
 - [ ] Post phase: integration tracking with reference to prior entries, one question for the week
 - [ ] Stores entry at `context-library/journeys/YYYY-MM-DD-[title].md` with phase-appropriate sections
 - [ ] Auto-updates memory layer, distinguishing inner figures from waking-life people

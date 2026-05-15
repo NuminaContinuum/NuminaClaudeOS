@@ -75,6 +75,8 @@ This walks you through a 4-question onboarding ritual and creates your `context-
 | Maps | `/maps` | Generate or refresh your living maps (universal + framework) |
 | Inner review | `/inner-review` | Weekly reflection across the past 7 days |
 | Compass | `/compass` | Synthesize across everything: what's the blocker, how to work on it, what to share next |
+| Chakras Q1 | `/chakras-q1` | 8-question chakra read — locates which centres are calling for attention right now |
+| Hero's Journey Q1 | `/heros-journey-q1` | 8-question placement on the Hero's Journey arc — rough stage, 3-5 minutes |
 
 Detailed instructions for each skill live in `.claude/skills/<name>/SKILL.md`.
 
@@ -135,12 +137,7 @@ The skill files are intentionally written with trauma-aware language and refusal
 
 ## Acknowledgements
 
-Numina OS is modeled on a pattern pioneered by:
-
-- [Dex](https://github.com/davekilleen/dex) — a personal CRM Claude Code OS by Dave Killeen
-- PM-OS — a product manager OS in the same lineage
-
-The skill structure, CLAUDE.md convention, and "context library" terminology come from that lineage. Numina OS is a new application of the same pattern, focused on inner work.
+Numina OS builds on a pattern established in the Claude Code community: a project-specific CLAUDE.md, a `context-library/` of plain markdown records, and skills invoked as slash commands. The skill structure, CLAUDE.md convention, and "context library" terminology come from that shared lineage. Numina OS applies the pattern to inner work.
 
 ---
 

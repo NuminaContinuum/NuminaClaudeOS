@@ -9,6 +9,26 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.3.0 — 2026-05-14
+
+### New skills
+
+- **`/chakras-q1`** (NUM-106) — 8 forced-choice questions resolving to the top 1-2 chakras calling for attention right now. Entry point into the Chakras map. Confidence label: rough. 3-5 minutes.
+- **`/heros-journey-q1`** (NUM-107) — 8 questions + optional tiebreaker resolving to a rough placement on the 12-stage Hero's Journey arc. Entry point into the Hero's Journey map. Confidence label: rough. 3-5 minutes.
+
+### Skill improvements
+
+- **`/integrate`** (NUM-110) — Now reads context (profile, prior journeys, archetypes, relationships) before holding the container. Fresh and Post phases include a "What you might have missed" tease if the context reading surfaces a pattern the user hasn't named — framed as invitation, skipped if nothing genuine is there.
+- **`/setup`** (NUM-109) — After each answer (including the name), a brief conversational response before moving to the next question. 1-2 sentences, specific to what the user said. Makes the flow feel like a dialogue, not a form.
+- **`/dream`** (NUM-111) — Archetype file check: before using a file from `context-library/archetypes/`, the skill now verifies it has substantive content. Files with only a stub or placeholder are skipped. Prevents phantom archetypes from shaping the reading.
+
+### Housekeeping
+
+- **README** (NUM-108) — Removed references to Dex and PM-OS from the Acknowledgements section. Numina OS stands on its own.
+- CLAUDE.md file structure updated to include `chakras.md` in the maps listing.
+
+---
+
 ## v0.2.4 — 2026-05-07
 
 ### /maps improvements (NUM-104)
