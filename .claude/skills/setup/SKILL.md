@@ -144,6 +144,7 @@ Framework maps — choose any that resonate:
 3. Spiral Dynamics — your center of gravity across value systems, from survival to integral awareness
 4. Integral AQAL — a multi-dimensional model tracking lines, levels, states, and types across all quadrants
 5. Chakras — energy body map highlighting which centres are most active or calling for attention
+6. Wounds — constellation of the 5 primary wounds (Rejection, Abandonment, Humiliation, Betrayal, Injustice) — which are activated, which are quiet, with protective patterns and integrated gifts
 
 Always included (no selection needed):
 - Timeline — a running log of key moments, insights, and turning points
@@ -275,11 +276,36 @@ After confirming the files are saved, offer this:
 
 > *"Your profile is set, [Name]. The maps will get significantly richer the more content Numina OS has to work with — dreams, journals, journeys, meditations.*
 >
-> *If you have existing notes you'd like to bring in, try `/harvest`. It accepts most file types: Word documents, CSV, Excel, Markdown, PDF, and even handwritten notes if they're legible enough to paste or photograph. Drop whatever you have and it'll sort, store, and find the patterns.*
+> *If you have existing notes you'd like to bring in, try `/harvest`. It accepts most file types: Word documents, CSV, Excel, Markdown, PDF, JPG, and PNG. Handwritten notes work too — scan or photograph them, and if the writing is legible, `/harvest` can read them. Drop whatever you have and it'll sort, store, and find the patterns.*
 >
 > *Or if you'd rather start fresh, try `/journal`, `/dream`, or any other skill — they'll all read your profile from here."*
 
 Do not push. One mention is enough. If they want to start with a skill instead, that's the right choice.
+
+---
+
+### Step 7 — Questionnaire proposal
+
+After the /harvest handoff, check which maps the user selected. If any have a first questionnaire available, propose it briefly. One line per map. Not pushy — a quiet nudge.
+
+**Map to questionnaire mapping:**
+
+| Map selected | Questionnaire |
+|---|---|
+| Hero's Journey | `/heros-journey-q1` |
+| Chakras | `/chakras-q1` |
+| Wounds | `/wounds-q1` |
+| Individuation, Spiral Dynamics, Integral AQAL | no Q1 yet |
+
+If one map has a questionnaire:
+
+> *"One more thing: since you've activated the [Map name] map, there's a quick questionnaire that gives it a first rough reading — even before you've added any content. Run `/[skill]` when you're ready. It takes about 3-5 minutes."*
+
+If multiple maps have questionnaires, list them in one short sentence:
+
+> *"Quick questionnaires are available for the maps you chose: Chakras (`/chakras-q1`), Wounds (`/wounds-q1`), Hero's Journey (`/heros-journey-q1`). Each takes 3-5 minutes and sharpens the maps from the start."*
+
+If none of the selected maps have a questionnaire yet, skip this step entirely.
 
 ---
 
@@ -293,7 +319,10 @@ Do not push. One mention is enough. If they want to start with a skill instead, 
 - [ ] Universal maps (timeline, relationships, archetypes) noted as always active
 - [ ] Map selections saved to `profile.md` under `## Active maps`
 - [ ] Voice derived and written to `context-library/voice.md`
+- [ ] /harvest handoff mentions JPG and PNG as supported formats for handwritten/scanned notes
 - [ ] /harvest handoff offered after files are saved — warm, not pushy
+- [ ] Questionnaire proposal (Step 7) offered for each selected map that has a Q1 — skipped silently if none apply
+- [ ] Wounds Map included in the map picker (Step 4) with a one-line description
 - [ ] Re-running `/setup` confirms before overwriting existing profile and voice
 - [ ] Tone throughout: warm, spacious, ritual-feeling — never forms-y
 
