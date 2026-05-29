@@ -50,7 +50,12 @@ If the separator is unambiguous, proceed. If ambiguous, **ask before splitting**
 
 For each split entry, extract:
 
-- **Date** — from the entry itself if present (any reasonable format). If no date, use today's import date plus a sequence number (`YYYY-MM-DD-imported-001.md`) and note this in the entry's frontmatter.
+- **Date** — from the entry itself if present (any reasonable format). If dates are absent or unclear for more than half the entries, pause before continuing and ask:
+
+  > *"I can see these entries but the dates aren't clearly marked. Can you tell me roughly when they were written, or what time period they cover? Even a rough range (e.g. '2020–2024') helps me place them accurately in your timeline."*
+
+  Wait for the answer. Accept any reasonable range and apply best judgement to distribute entries within it. If the user says they don't know, proceed with today's import date as a fallback and note it in each file's frontmatter. Do not use the fallback silently — always make this offer first.
+
 - **Title** — from a heading if present. Otherwise infer two to four words from the first line. If you can't, use a sequence number.
 - **Body** — the full text of the entry, verbatim.
 
@@ -169,6 +174,7 @@ Write synthesis to `outputs/reflections/YYYY-MM-DD-harvest-synthesis.md`, then r
 
 - [ ] Accepts content type flag (`journeys` / `dreams` / `journals`) and file path
 - [ ] Asks before splitting when separators are ambiguous
+- [ ] Asks for date clarification when dates are absent or unclear in the majority of entries — never falls back silently
 - [ ] Parses each entry — extracts date, title, body
 - [ ] Stores each as an individual dated file in the correct subfolder, never overwriting
 - [ ] Uses the same file structure as the equivalent capture skill (`/journal`, `/dream`, `/integrate`)

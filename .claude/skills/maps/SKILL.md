@@ -25,6 +25,7 @@ The detail lives in the individual files. The maps are summaries built from them
 /maps spiral-dynamics     → refresh just spiral-dynamics.md
 /maps integral-aqal       → refresh just integral-aqal.md
 /maps chakras             → refresh just chakras.md
+/maps wounds              → refresh just wounds.md
 ```
 
 ---
@@ -69,10 +70,51 @@ Default `/maps` (no subcommand) refreshes:
 | Depth psychology | individuation.md, heros-journey.md |
 | Mystical traditions | heros-journey.md |
 | Integral theory | integral-aqal.md, spiral-dynamics.md |
+| IFS / somatic / trauma-informed | wounds.md |
 | Mindfulness and Buddhism | (v2 — Finding the Ox, 16 Insight Knowledges; not yet) |
 | All others | (v2) |
 
 If a selection has no v1 framework map yet, mention it briefly: *"Shamanism is in your profile — the matching maps are v2 and need richer journey data. They'll come."*
+
+### Step 2.5 — Compute confidence for framework maps
+
+Before generating each framework map, derive a confidence level to show in the header. Do this for every framework map (not universal maps).
+
+**Confidence logic:**
+
+| Condition | Confidence |
+|---|---|
+| No relevant Q1 completed AND fewer than 5 content entries | Low |
+| Q1 completed OR 5+ relevant content entries | Medium |
+| Q1 completed AND 15+ relevant content entries | High |
+
+**How to detect Q1 completion:** check the map file for a `## Q1 Reading` section. If present, Q1 has been run.
+
+**Content entry count:** count files in `context-library/journals/`, `dreams/`, `journeys/`, and `meditations/` combined (not per-map — all content feeds all maps).
+
+**Questionnaire mapping (for the "Sources" header and end-of-map prompt):**
+
+| Map | Questionnaire |
+|---|---|
+| heros-journey.md | `/heros-journey-q1` |
+| chakras.md | `/chakras-q1` |
+| wounds.md | `/wounds-q1` |
+| individuation.md, spiral-dynamics.md, integral-aqal.md | none yet |
+
+**Header format for all framework maps** (add these two lines below `**Held as:**`):
+
+```
+**Confidence:** Low / Medium / High
+**Sources:** [e.g., "heros-journey-q1 completed 2025-05-10, 18 entries read" — or "no questionnaire yet, 6 entries read"]
+```
+
+**End-of-map prompt:** if the relevant questionnaire has NOT been run (no `## Q1 Reading` in the file), append this line at the very end of the map output:
+
+> *Run `/[questionnaire]` to add a structured self-assessment and increase confidence.*
+
+If the map has no questionnaire yet, omit this prompt.
+
+---
 
 ### Step 3 — Generate each map
 
@@ -283,6 +325,98 @@ The ASCII overview renders immediately on opening the file. It's scannable in tw
 
 ---
 
+**`context-library/maps/wounds.md`** — Primary wounds constellation
+
+The 5 primary wounds: Rejection, Abandonment, Humiliation, Betrayal, Injustice. This map shows which wounds are most activated right now — as dynamic states with intensity, not fixed identity labels. Do not reference source frameworks by name in the output. Frame for audiences drawn to IFS, shadow work, depth psychology, and Jungian work.
+
+**Each wound has 4 layers:**
+- **Protector mask** — the defensive pattern that formed to protect the wound
+- **Emotional pattern** — signature feelings and relational behavior when activated
+- **Shadow expression** — what gets disowned when the wound is unexamined
+- **Integrated gift** — what becomes possible once integrated
+
+**Content reference per wound:**
+
+| Wound | Protector mask | Emotional pattern | Shadow | Gift |
+|---|---|---|---|---|
+| Rejection | Perfectionism, approval-seeking | Shame, fear of exposure, people-pleasing | Contempt, harsh self-judgment | Authentic belonging, self-acceptance |
+| Abandonment | Clinging or premature exit, reassurance-seeking | Anxiety, jealousy, fear of intimacy | Smothering, emotional neediness | Deep loyalty, capacity to stay |
+| Humiliation | Shrinking, self-deprecation, acquiescence | Worthlessness, envy, embarrassment | Arrogance, shaming others | Genuine dignity, earned humility |
+| Betrayal | Control, self-sufficiency, suspicion | Distrust, anger, hypervigilance | Manipulation, paranoia | Discernment, healthy self-reliance |
+| Injustice | Rigidity, perfectionism, resentment | Chronic frustration, bitterness, anger | Cruelty, punitive behavior | Moral clarity, principled action |
+
+**Evidence signals to look for in entries:**
+
+| Wound | Key signals |
+|---|---|
+| Rejection | Shame, invisibility, not belonging, perfectionism, fear of judgment |
+| Abandonment | Anxiety about being left, reassurance-seeking, clinging, loneliness |
+| Humiliation | Worthlessness, self-criticism, "too much," embarrassment, people-pleasing |
+| Betrayal | Distrust, control, "I'll do it myself," feeling let down, broken promises |
+| Injustice | Unfairness, resentment, rigidity, "it's not right," frustration at systems |
+
+**Intensity tiers (derived from evidence in entries):**
+
+- **Dormant (○):** No signal. Node shown faint.
+- **Stirring (◉):** Some signal — mild patterns surfacing.
+- **Active (●):** Clear recurring patterns in recent entries.
+- **Acute (●●):** Strong, repeated signal across multiple entries or a significant recent event.
+
+Be selective. Most wounds are Dormant or Stirring for most people most of the time. Only elevate to Active or Acute when there is clear, repeated evidence across multiple entries.
+
+**Render the map as an ASCII pentagon constellation first**, then add prose below.
+
+Format:
+
+```markdown
+# Wounds Map
+
+**Last updated:** YYYY-MM-DD
+**Held as:** hypothesis, not verdict — a map of activation, not identity
+**Confidence:** Low / Medium / High
+**Sources:** [e.g., wounds-q1 completed YYYY-MM-DD, 14 entries read]
+
+## Constellation overview
+
+                    REJECTION
+                   [◉ stirring]
+
+    BETRAYAL                      ABANDONMENT
+    [○ dormant]                   [● active]
+
+    INJUSTICE            HUMILIATION
+    [◉ stirring]         [○ dormant]
+
+    ●  active    ◉  stirring    ○  dormant
+
+## What's calling for attention
+
+### [Most activated wound] — [intensity]
+
+**Protector mask:** [specific expression in this user's content]
+**Emotional pattern:** [specific patterns from their writing]
+**Shadow expression:** [what's being disowned — hold lightly]
+**Integrated gift:** [what integration could open — frame as potential, not prescription]
+
+*Evidence: [1-2 specific quotes with date references from entries]*
+
+### [Second wound if Active or Stirring] — [intensity]
+
+[Same structure]
+
+## What's quiet
+
+**[Dormant wound]** — Little signal in current content. May be integrated, less present in life right now, or simply less visible in what's been shared.
+
+[One line per dormant wound]
+
+## One question
+
+[One question grounded in what's actually activated — not a generic wound question]
+```
+
+---
+
 ### Step 4 — Handle empty state
 
 If `context-library/` has fewer than 3 entries across all content types:
@@ -308,11 +442,16 @@ Brief summary:
 - [ ] Reads `## Active maps` from `profile.md` as primary source for which framework maps to generate
 - [ ] Falls back to Q3-based inference for profiles without `## Active maps` (pre-v0.2.0 compatibility)
 - [ ] Default `/maps` refreshes universal maps + active framework maps
-- [ ] Subcommands work: `universal`, `frameworks`, or any specific map name including `chakras`
+- [ ] Subcommands work: `universal`, `frameworks`, or any specific map name including `chakras` and `wounds`
 - [ ] Universal maps synthesized from individual record files
 - [ ] Framework map placement framed as hypothesis with evidence quotes
 - [ ] Chakras map generated with ASCII visual overview + prose interpretation
 - [ ] ASCII legend included (● most active / ◉ stirring / ○ quiet)
+- [ ] Each framework map includes `**Confidence:**` and `**Sources:**` in the header
+- [ ] Confidence level derived from entry count + Q1 completion status
+- [ ] End-of-map questionnaire prompt appended when Q1 has not been run (maps with a questionnaire)
+- [ ] Wounds map generated as ASCII pentagon constellation + 4-layer prose for activated wounds
+- [ ] Wounds map intensity assigned based on evidence signals — conservative (most wounds Dormant or Stirring)
 - [ ] Each map file includes "last updated" timestamp
 - [ ] Empty state handled gracefully
 - [ ] Reports clearly what was refreshed and notable findings

@@ -9,6 +9,29 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.4.0 — 2026-05-29
+
+### New skills
+
+- **`/wounds-q1`** (NUM-124) — 7 forced-choice questions resolving to the 1-2 primary wounds most activated right now (Rejection, Abandonment, Humiliation, Betrayal, Injustice). Renders an ASCII pentagon constellation. Entry point into the Wounds Map. Confidence label: rough. 5-8 minutes.
+- **`/undigested`** (NUM-154) — Surfaces insights from journals, journeys, and dreams that were clearly recognized but haven't moved into behavior yet. Uses four detection filters: contradiction, repetition, unfollowed intention, and orphaned insight. Output capped at 5-8 items. Closes with one question.
+
+### New maps
+
+- **Wounds Map** (NUM-120, NUM-122, NUM-123) — Constellation of the 5 primary wounds with intensity tiers (Dormant / Stirring / Active / Acute), derived from evidence signals in entries. Each wound rendered with 4 satellite layers: protector mask, emotional pattern, shadow expression, integrated gift. ASCII pentagon layout. Added to `/maps wounds` and to the `/setup` map picker.
+
+### Skill improvements
+
+- **`/maps`** (NUM-114) — All framework maps now include a `**Confidence:**` header (Low / Medium / High) derived from entry count and questionnaire completion status. `**Sources:**` header lists completed questionnaires and approximate entries read. End-of-map prompt added when the relevant questionnaire hasn't been run yet. New `/maps wounds` subcommand.
+- **`/setup`** (NUM-112) — Wounds Map added to the map picker (option 6). `/harvest` handoff now explicitly lists JPG and PNG as supported formats for handwritten/scanned notes. New Step 7: after setup, proposes the relevant questionnaire for each selected map that has one (`/chakras-q1`, `/heros-journey-q1`, `/wounds-q1`).
+- **`/harvest`** (NUM-113) — Date clarification step added to Step 3: when dates are absent or unclear for the majority of entries, the skill now asks for a time range before falling back to today's date. Never falls back silently.
+
+### Housekeeping
+
+- CLAUDE.md updated: `wounds.md` added to maps file structure, `/wounds-q1` and `/undigested` added to skills table, memory layer note updated.
+
+---
+
 ## v0.3.0 — 2026-05-14
 
 ### New skills
@@ -24,7 +47,6 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ### Housekeeping
 
-- **README** (NUM-108) — Removed references to Dex and PM-OS from the Acknowledgements section. Numina OS stands on its own.
 - CLAUDE.md file structure updated to include `chakras.md` in the maps listing.
 
 ---

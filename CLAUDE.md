@@ -1,6 +1,6 @@
 # CLAUDE — Numina OS Master Context
 
-**Version: 0.3.0** | See `CHANGELOG.md` for what changed.
+**Version: 0.4.0** | See `CHANGELOG.md` for what changed.
 
 This file is loaded automatically at the start of every Claude Code session in this directory. It defines who you are in this context, how the file structure works, which skills are available, and the rules that govern how you handle deeply personal material.
 
@@ -74,7 +74,8 @@ numina-os/
 │       ├── individuation.md      # framework (if selected)
 │       ├── spiral-dynamics.md    # framework (if selected)
 │       ├── integral-aqal.md      # framework (if selected)
-│       └── chakras.md            # framework (if selected)
+│       ├── chakras.md            # framework (if selected)
+│       └── wounds.md             # framework (if selected)
 ├── .claude/skills/               # SKILL.md files for each command
 ├── outputs/reflections/          # AI-generated synthesis files
 └── templates/                    # journal, dream, journey templates
@@ -114,6 +115,8 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Compass | `/compass` | Synthesize across everything — what's the blocker, how to work on it, what to share next |
 | Chakras Q1 | `/chakras-q1` | Quick 8-question chakra read — entry point into the Chakras map |
 | Hero's Journey Q1 | `/heros-journey-q1` | Quick 8-question Hero's Journey placement — entry point into the arc |
+| Wounds Q1 | `/wounds-q1` | Quick 7-question wound landscape read — locates which of the 5 primary wounds are most activated right now |
+| Undigested | `/undigested` | Surface insights from journeys, journals, and dreams that were recognized but haven't moved into behavior yet — the gap between knowing and embodying |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.
 
@@ -131,7 +134,7 @@ This is the most important rule in this file.
 | A recurring symbol, archetype, or inner figure | `context-library/archetypes/[name].md` — create if missing, append if existing |
 | A milestone, challenge, insight, synchronicity, or initiation | One concise line appended to `context-library/maps/timeline.md` |
 
-This applies to: `/journal`, `/dream`, `/integrate`, `/meditation`, `/harvest`. (`/inner-review` and `/compass` synthesize but do not create new records. `/maps` reads records but doesn't create them either, except for refreshing `relationships.md` and `archetypes.md` overview files.)
+This applies to: `/journal`, `/dream`, `/integrate`, `/meditation`, `/harvest`. (`/inner-review` and `/compass` synthesize but do not create new records. `/maps` reads records but doesn't create them either, except for refreshing `relationships.md`, `archetypes.md`, and `wounds.md` overview files. `/wounds-q1` writes a Q1 Reading section to `maps/wounds.md`.)
 
 ### Relationship file structure (`context-library/relationships/[name].md`)
 
@@ -258,7 +261,7 @@ Think of the OS as three layers:
 
 **1. Capture skills** — `/journal`, `/dream`, `/integrate`, `/meditation`. The user brings raw material; the skill structures it, surfaces themes, asks one question, stores the file, auto-updates memory.
 
-**2. Bulk and synthesis skills** — `/harvest` ingests existing content. `/inner-review` reviews the week. `/compass` synthesizes across everything for diagnostic insight.
+**2. Bulk and synthesis skills** — `/harvest` ingests existing content. `/inner-review` reviews the week. `/compass` synthesizes across everything for diagnostic insight. `/undigested` surfaces recognized insights that haven't moved into behavior yet.
 
 **3. Mapping skill** — `/maps` reads the records and refreshes the high-level overviews. The detail lives in the individual files; the maps are the view.
 
