@@ -9,6 +9,15 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## Unreleased
+
+### Skill improvements
+
+- **`/setup`** (NUM-156) — Added an optional **personality lens** step (Step 4), placed before the map picker. Asks whether the user wants a personality test to shape how the companion talks with them, offering Enneagram, MBTI, Big Five (OCEAN), DISC, or a clear "I'm not interested" skip. A light free-text follow-up captures their result (richer per-framework prompts and a "find your type" free-test handoff come in NUM-157). The raw selection is saved to `profile.md` under `## Personality`, and a derived `## Personality lens` is written into `voice.md` — collapsing the framework into communication directives (energy, processing, structure, stress pattern) that bias how suggestions are framed (e.g. extraverts get people-facing recommendations, introverts get solitary ones). Skipping stores nothing and leaves `voice.md` unchanged. Subsequent steps renumbered (map picker → Step 5, write → Step 6, /harvest handoff → Step 7, questionnaire proposal → Step 8).
+- **`/setup`** (NUM-157) — Made the personality-lens type capture concrete. After the user picks a framework, Step 4 now asks for their specific result with a format example matched to that framework (Enneagram `4w5`, MBTI `INFJ`, Big Five trait levels, DISC `DI`), and always offers an explicit "I don't know my type" option. Choosing it surfaces a free online test for that framework (Truity for Enneagram / Big Five / DISC, 16Personalities for MBTI) with two clean exits — take it now and re-run `/setup`, or skip and add it later. Nothing is stored until a real type exists. Test links live in one editable table in the skill.
+
+---
+
 ## v0.4.0 — 2026-05-29
 
 ### New skills

@@ -28,6 +28,12 @@ parts-aware, or body-first.
 ## Cadence
 Spacious, crisp, gentle, lyrical, or declarative.
 
+## Personality lens
+Optional. If you gave a personality test in `/setup` (Enneagram, MBTI, Big Five, DISC),
+a few directives on how suggestions get framed — e.g. an extravert profile biases toward
+people-facing, expressive suggestions; an introvert profile toward solitary, low-stimulation
+ones. Omitted entirely if you skipped it.
+
 ## Drift
 After roughly twenty journal entries, blend with the user's own writing rhythm and
 vocabulary. The voice profile is a seed, not a fixed setting.
