@@ -9,6 +9,22 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.10.0 — 2026-06-02
+
+### Wounds questionnaire completed — all six maps now have the full Q1→Q2→Q3 arc
+
+Built the Wounds questionnaire out to match the other five maps, from new canonical specs (`wounds-questionnaire-1/2/3.md`). The 5 wounds: Rejection, Abandonment, Humiliation, Betrayal, Injustice.
+
+- **`/wounds-questionnaire` Q1** (NUM-170) — aligned to the anti-gaming standard: options now shuffled per question with wound names hidden, scored by content tag instead of a fixed letter→wound mapping (mirrors the chakra fix / App NUM-133).
+- **`/wounds-questionnaire` Q2** (NUM-171) — 14 questions (5 wound-scan + 5 protector/pattern probes + 4 Likert). Resolves an intensity state per wound (acute / active / stirring / dormant / disowned), the protector mask + emotional pattern of the active ones, and flags any **disowned** wound as a gentle question. Pentagon styled by state. Confidence: deeper.
+- **`/wounds-questionnaire` Q3** (NUM-172) — 21 questions (8 open-ended + structured), adaptive Section 4 deep-dive, settled per-wound reading naming protector, shadow, and the **integrated gift** underneath, with a "what your wound said it was protecting" closing quote. Always closes toward the gift. Confidence: settled.
+
+All Q2/Q3 state labels stay hidden (scored by content tag). The Wounds questionnaire carries extra tenderness throughout — it never pushes toward the deeper stages, and treats the disowned-wound read as a question, never a verdict.
+
+**All six framework maps (Chakras, Hero's Journey, Wounds, Individuation, Spiral Dynamics, AQAL) now have the complete Q1→Q2→Q3 arc.**
+
+---
+
 ## v0.9.0 — 2026-06-02
 
 ### New — Q3 (long reading) for five framework questionnaires
