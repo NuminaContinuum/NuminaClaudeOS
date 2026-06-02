@@ -99,7 +99,9 @@ Before generating each framework map, derive a confidence level to show in the h
 | heros-journey.md | `/heros-journey-questionnaire` |
 | chakras.md | `/chakra-questionnaire` |
 | wounds.md | `/wounds-questionnaire` |
-| individuation.md, spiral-dynamics.md, integral-aqal.md | none yet |
+| individuation.md | `/individuation-questionnaire` |
+| spiral-dynamics.md | `/spiral-dynamics-questionnaire` |
+| integral-aqal.md | `/integral-aqal-questionnaire` |
 
 **Header format for all framework maps** (add these two lines below `**Held as:**`):
 

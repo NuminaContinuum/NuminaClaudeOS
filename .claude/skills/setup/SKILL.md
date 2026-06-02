@@ -383,7 +383,9 @@ After the /harvest handoff, check which maps the user selected. If any have a fi
 | Hero's Journey | `/heros-journey-questionnaire` |
 | Chakras | `/chakra-questionnaire` |
 | Wounds | `/wounds-questionnaire` |
-| Individuation, Spiral Dynamics, Integral AQAL | no questionnaire yet |
+| Individuation | `/individuation-questionnaire` |
+| Spiral Dynamics | `/spiral-dynamics-questionnaire` |
+| Integral AQAL | `/integral-aqal-questionnaire` |
 
 Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start.
 
