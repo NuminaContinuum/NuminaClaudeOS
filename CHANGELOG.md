@@ -9,6 +9,22 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.9.0 — 2026-06-02
+
+### New — Q3 (long reading) for five framework questionnaires
+
+Added the final Q3 stage — a 20-30 min long reading that resolves a **settled** profile, woven with the user's own words — to all five questionnaires that have specs. Question copy ported verbatim from the Numina App Q3 specs. Each Q3 mixes open-ended prompts (~40% of the signal) with multiple-choice and Likert, runs one question at a time with options shuffled and state tags hidden, is standalone-capable (its quick-scan section seeds the rest), runs an **adaptive deep-dive** (Section 4 selects 3 prompts from the running profile), opens the result with the user's own closing quote, writes a `## Q3 Reading`, and offers a map refresh.
+
+- **`/chakra-questionnaire` Q3** (NUM-165) — 22 questions; settled state per chakra (balanced / deficient / excessive / mixed) + "Where your work is" practice + "what your body said" quote.
+- **`/heros-journey-questionnaire` Q3** (NUM-166) — 20 questions (structured ~60% / open ~40%); settled stage with a tight single-stage halo + three-part "what this stage holds."
+- **`/individuation-questionnaire` Q3** (NUM-167) — 22 questions; settled stage profile + threshold + "what you fear losing" + "what the Self said" quote.
+- **`/spiral-dynamics-questionnaire` Q3** (NUM-168) — 23 questions; settled level profile + growth threshold + "what your spiral said" quote. Non-hierarchical.
+- **`/integral-aqal-questionnaire` Q3** (NUM-169) — 23 questions; settled quadrant + lines profile + a light states intro (Gross/Subtle/Causal/Non-dual) + integration bridge + "what your life said" quote.
+
+Coverage: Chakras, Hero's Journey, Individuation, Spiral Dynamics, and AQAL now have the full Q1→Q2→Q3 arc. Wounds remains Q1 only (no Q2/Q3 spec yet).
+
+---
+
 ## v0.8.0 — 2026-06-02
 
 ### New — Q2 stages for Individuation, Spiral Dynamics, AQAL
