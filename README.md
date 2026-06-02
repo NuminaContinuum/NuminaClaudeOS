@@ -75,8 +75,9 @@ This walks you through a 4-question onboarding ritual and creates your `context-
 | Maps | `/maps` | Generate or refresh your living maps (universal + framework) |
 | Inner review | `/inner-review` | Weekly reflection across the past 7 days |
 | Compass | `/compass` | Synthesize across everything: what's the blocker, how to work on it, what to share next |
-| Chakras Q1 | `/chakras-q1` | 8-question chakra read — locates which centres are calling for attention right now |
-| Hero's Journey Q1 | `/heros-journey-q1` | 8-question placement on the Hero's Journey arc — rough stage, 3-5 minutes |
+| Chakra questionnaire | `/chakra-questionnaire` | Staged chakra assessment — quick read, then a deeper dive into direction and embodiment. Resumes where you left off |
+| Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — placement on the arc, then a deeper dive into allies, ordeal, and elixir |
+| Wounds questionnaire | `/wounds-questionnaire` | Staged wounds assessment — quick read of which of the 5 primary wounds are most activated right now |
 
 Detailed instructions for each skill live in `.claude/skills/<name>/SKILL.md`.
 

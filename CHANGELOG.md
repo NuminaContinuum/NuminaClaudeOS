@@ -9,6 +9,34 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.6.0 — 2026-06-02
+
+### Breaking — questionnaire consolidation (NUM-119)
+
+- Consolidated the per-questionnaire skills into **one skill per map**, each running its stages (Q1 → Q2 → Q3) in sequence and resuming wherever the user left off:
+  - `/chakras-q1` → **`/chakra-questionnaire`**
+  - `/heros-journey-q1` → **`/heros-journey-questionnaire`**
+  - `/wounds-q1` → **`/wounds-questionnaire`**
+- The old `*-q1` skills were removed. References updated across `/setup`, `/maps`, `CLAUDE.md`, and `README.md`. Existing `## Q1 Reading` sections in map files are still recognised, so completed Q1s carry over.
+
+### New — Q2 stages
+
+- **`/chakra-questionnaire` Q2** (NUM-117) — deeper dive (10-12 min): resolves direction (deficient vs excessive) for each active centre, plus somatic locus and recurring patterns. Raises confidence to medium.
+- **`/heros-journey-questionnaire` Q2** (NUM-118) — deeper dive: mentors and allies, the ordeal, what's being released, early signs of transformation, the emerging elixir. Re-marks the arc if the user has moved. Raises confidence to medium.
+
+### Skill improvements
+
+- **Refresh-after-questionnaire** (NUM-115, NUM-116) — after each stage, the questionnaire skills check whether a fuller map already exists and offer to refresh it, merging the new reading with prior readings and harvested notes to raise confidence.
+- **`/maps`** — confidence logic now treats a completed Q2 as High; wounds section now draws canonical content from the new framework reference instead of an inline table.
+- **`/setup`** (NUM-125) — Wounds questionnaire nudge now explains what the map surfaces (Wounds was already in the map picker and Step 8 proposals as of v0.4.0).
+
+### New content
+
+- **Wounds framework reference** (NUM-121) — canonical 5-wounds × (core fear + protector mask + emotional pattern + shadow + integrated gift) spec, evidence signals, and intensity tiers, at `.claude/skills/wounds-questionnaire/wounds-framework.md`. The Wounds Map and questionnaire both draw from it.
+- **Wounds × Chakra cross-map** (NUM-126, Chakra half) — `/maps wounds` now surfaces a `## Cross-map connections` section when the Chakra map also shows signal in the wound's somatic locus (Rejection→Throat, Abandonment→Root, Humiliation→Sacral, Betrayal→Solar plexus, Injustice→Heart). The Enneagram structural layer is left as a documented TODO until an Enneagram map exists.
+
+---
+
 ## v0.5.0 — 2026-06-02
 
 ### Skill improvements

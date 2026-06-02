@@ -86,9 +86,9 @@ Before generating each framework map, derive a confidence level to show in the h
 |---|---|
 | No relevant Q1 completed AND fewer than 5 content entries | Low |
 | Q1 completed OR 5+ relevant content entries | Medium |
-| Q1 completed AND 15+ relevant content entries | High |
+| (Q1 completed AND 15+ relevant content entries) OR Q2 completed | High |
 
-**How to detect Q1 completion:** check the map file for a `## Q1 Reading` section. If present, Q1 has been run.
+**How to detect questionnaire completion:** check the map file for `## Q1 Reading` and `## Q2 Reading` sections. Q1 present = quick read done; Q2 present = deeper dive done (chakra and hero's-journey maps), which on its own justifies High confidence.
 
 **Content entry count:** count files in `context-library/journals/`, `dreams/`, `journeys/`, and `meditations/` combined (not per-map — all content feeds all maps).
 
@@ -96,16 +96,16 @@ Before generating each framework map, derive a confidence level to show in the h
 
 | Map | Questionnaire |
 |---|---|
-| heros-journey.md | `/heros-journey-q1` |
-| chakras.md | `/chakras-q1` |
-| wounds.md | `/wounds-q1` |
+| heros-journey.md | `/heros-journey-questionnaire` |
+| chakras.md | `/chakra-questionnaire` |
+| wounds.md | `/wounds-questionnaire` |
 | individuation.md, spiral-dynamics.md, integral-aqal.md | none yet |
 
 **Header format for all framework maps** (add these two lines below `**Held as:**`):
 
 ```
 **Confidence:** Low / Medium / High
-**Sources:** [e.g., "heros-journey-q1 completed 2025-05-10, 18 entries read" — or "no questionnaire yet, 6 entries read"]
+**Sources:** [e.g., "heros-journey-questionnaire Q1 completed 2025-05-10, 18 entries read" — or "no questionnaire yet, 6 entries read"]
 ```
 
 **End-of-map prompt:** if the relevant questionnaire has NOT been run (no `## Q1 Reading` in the file), append this line at the very end of the map output:
@@ -335,25 +335,7 @@ The 5 primary wounds: Rejection, Abandonment, Humiliation, Betrayal, Injustice. 
 - **Shadow expression** — what gets disowned when the wound is unexamined
 - **Integrated gift** — what becomes possible once integrated
 
-**Content reference per wound:**
-
-| Wound | Protector mask | Emotional pattern | Shadow | Gift |
-|---|---|---|---|---|
-| Rejection | Perfectionism, approval-seeking | Shame, fear of exposure, people-pleasing | Contempt, harsh self-judgment | Authentic belonging, self-acceptance |
-| Abandonment | Clinging or premature exit, reassurance-seeking | Anxiety, jealousy, fear of intimacy | Smothering, emotional neediness | Deep loyalty, capacity to stay |
-| Humiliation | Shrinking, self-deprecation, acquiescence | Worthlessness, envy, embarrassment | Arrogance, shaming others | Genuine dignity, earned humility |
-| Betrayal | Control, self-sufficiency, suspicion | Distrust, anger, hypervigilance | Manipulation, paranoia | Discernment, healthy self-reliance |
-| Injustice | Rigidity, perfectionism, resentment | Chronic frustration, bitterness, anger | Cruelty, punitive behavior | Moral clarity, principled action |
-
-**Evidence signals to look for in entries:**
-
-| Wound | Key signals |
-|---|---|
-| Rejection | Shame, invisibility, not belonging, perfectionism, fear of judgment |
-| Abandonment | Anxiety about being left, reassurance-seeking, clinging, loneliness |
-| Humiliation | Worthlessness, self-criticism, "too much," embarrassment, people-pleasing |
-| Betrayal | Distrust, control, "I'll do it myself," feeling let down, broken promises |
-| Injustice | Unfairness, resentment, rigidity, "it's not right," frustration at systems |
+**Canonical content reference:** the full 5-wounds × (core fear + 4 layers) spec, the evidence signals per wound, and the wound→chakra somatic locus all live in `.claude/skills/wounds-questionnaire/wounds-framework.md`. Draw from it as reference, not script — match the tone and emphasis to what's actually activated for this user, in their language. Never quote the layers verbatim. Dormant wounds still show all four layers, rendered dimly with a note that no strong signal has been detected yet.
 
 **Intensity tiers (derived from evidence in entries):**
 
@@ -374,7 +356,7 @@ Format:
 **Last updated:** YYYY-MM-DD
 **Held as:** hypothesis, not verdict — a map of activation, not identity
 **Confidence:** Low / Medium / High
-**Sources:** [e.g., wounds-q1 completed YYYY-MM-DD, 14 entries read]
+**Sources:** [e.g., wounds-questionnaire Q1 completed YYYY-MM-DD, 14 entries read]
 
 ## Constellation overview
 
@@ -410,10 +392,26 @@ Format:
 
 [One line per dormant wound]
 
+## Cross-map connections
+
+[Only present when the Chakra map also exists and both maps show signal in corresponding nodes — see cross-map rules below. Omit this whole section otherwise.]
+
 ## One question
 
 [One question grounded in what's actually activated — not a generic wound question]
 ```
+
+**Cross-map connections (NUM-126):**
+
+Surface these only as genuine synthesis, never as noise. The rule: include the `## Cross-map connections` section **only when** `context-library/maps/chakras.md` exists AND the wound that's active here maps (via the somatic locus table in `wounds-framework.md`) to a chakra that is *also* flagged active or stirring in the Chakra map. If there's no overlap of signal, omit the section entirely.
+
+Somatic locus (full table in `wounds-framework.md`): Rejection→Throat, Abandonment→Root, Humiliation→Sacral, Betrayal→Solar plexus, Injustice→Heart.
+
+When the overlap exists, write one or two lines, held lightly:
+
+> *Your abandonment wound and your root chakra are both showing signal this month — the body may be carrying the same theme of safety and belonging that's surfacing in your relationships.*
+
+**Enneagram structural layer — not yet built.** NUM-126 also calls for a structural cross-map with the Enneagram (e.g. "Type 4 patterning tends to activate through the rejection wound"). This requires an Enneagram map, which does not exist yet. Do not generate Enneagram cross-map insights until that map is built. Tracked as a TODO in NUM-126.
 
 ---
 

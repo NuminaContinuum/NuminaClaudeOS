@@ -113,9 +113,9 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Maps | `/maps` | Refresh the living maps from accumulated content |
 | Inner review | `/inner-review` | Weekly reflection across the past 7 days |
 | Compass | `/compass` | Synthesize across everything — what's the blocker, how to work on it, what to share next |
-| Chakras Q1 | `/chakras-q1` | Quick 8-question chakra read — entry point into the Chakras map |
-| Hero's Journey Q1 | `/heros-journey-q1` | Quick 8-question Hero's Journey placement — entry point into the arc |
-| Wounds Q1 | `/wounds-q1` | Quick 7-question wound landscape read — locates which of the 5 primary wounds are most activated right now |
+| Chakra questionnaire | `/chakra-questionnaire` | Staged Chakra assessment — Q1 quick read, then Q2 deeper dive (direction + embodiment). Resumes where you left off; feeds the Chakras map |
+| Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — Q1 placement on the arc, then Q2 (allies, ordeal, elixir). Resumes where you left off; feeds the arc map |
+| Wounds questionnaire | `/wounds-questionnaire` | Staged Wounds assessment — Q1 quick read of which of the 5 primary wounds are most activated. Resumes where you left off; feeds the Wounds map |
 | Undigested | `/undigested` | Surface insights from journeys, journals, and dreams that were recognized but haven't moved into behavior yet — the gap between knowing and embodying |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.
@@ -134,7 +134,7 @@ This is the most important rule in this file.
 | A recurring symbol, archetype, or inner figure | `context-library/archetypes/[name].md` — create if missing, append if existing |
 | A milestone, challenge, insight, synchronicity, or initiation | One concise line appended to `context-library/maps/timeline.md` |
 
-This applies to: `/journal`, `/dream`, `/integrate`, `/meditation`, `/harvest`. (`/inner-review` and `/compass` synthesize but do not create new records. `/maps` reads records but doesn't create them either, except for refreshing `relationships.md`, `archetypes.md`, and `wounds.md` overview files. `/wounds-q1` writes a Q1 Reading section to `maps/wounds.md`.)
+This applies to: `/journal`, `/dream`, `/integrate`, `/meditation`, `/harvest`. (`/inner-review` and `/compass` synthesize but do not create new records. `/maps` reads records but doesn't create them either, except for refreshing `relationships.md`, `archetypes.md`, and `wounds.md` overview files. `/wounds-questionnaire`, `/chakra-questionnaire`, and `/heros-journey-questionnaire` write Q1/Q2 Reading sections to their respective `maps/*.md` files and offer to refresh the map afterward.)
 
 ### Relationship file structure (`context-library/relationships/[name].md`)
 
