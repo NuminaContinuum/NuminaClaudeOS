@@ -380,18 +380,24 @@ After the /harvest handoff, check which maps the user selected. If any have a fi
 
 | Map selected | Questionnaire |
 |---|---|
-| Hero's Journey | `/heros-journey-q1` |
-| Chakras | `/chakras-q1` |
-| Wounds | `/wounds-q1` |
-| Individuation, Spiral Dynamics, Integral AQAL | no Q1 yet |
+| Hero's Journey | `/heros-journey-questionnaire` |
+| Chakras | `/chakra-questionnaire` |
+| Wounds | `/wounds-questionnaire` |
+| Individuation, Spiral Dynamics, Integral AQAL | no questionnaire yet |
+
+Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start.
 
 If one map has a questionnaire:
 
 > *"One more thing: since you've activated the [Map name] map, there's a quick questionnaire that gives it a first rough reading — even before you've added any content. Run `/[skill]` when you're ready. It takes about 3-5 minutes."*
 
+For the **Wounds** map, frame what it surfaces (NUM-125):
+
+> *"Since you've activated the Wounds Map, `/wounds-questionnaire` gives it a starting point. The map tracks which emotional wounds are most active right now and how they're showing up — you can run the quick read, or just share journal entries and I'll start building it from what's already there."*
+
 If multiple maps have questionnaires, list them in one short sentence:
 
-> *"Quick questionnaires are available for the maps you chose: Chakras (`/chakras-q1`), Wounds (`/wounds-q1`), Hero's Journey (`/heros-journey-q1`). Each takes 3-5 minutes and sharpens the maps from the start."*
+> *"Quick questionnaires are available for the maps you chose: Chakras (`/chakra-questionnaire`), Wounds (`/wounds-questionnaire`), Hero's Journey (`/heros-journey-questionnaire`). Each takes 3-5 minutes to start and sharpens the maps from the beginning."*
 
 If none of the selected maps have a questionnaire yet, skip this step entirely.
 
