@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Onboarding ritual — collects the user's name, runs a 4-question profile-building flow, lets them choose their maps, and hands off to /harvest. Creates context-library/profile.md and context-library/voice.md. Run on first launch, or any time the user wants to update their profile. Warm, invitation-style. Not a form, a doorway.
+description: Onboarding ritual — collects the user's name, runs a 4-question profile-building flow, offers an optional personality lens (Enneagram / MBTI / Big Five / DISC) that tunes how the companion frames suggestions, lets them choose their maps, and hands off to /harvest. Creates context-library/profile.md and context-library/voice.md. Run on first launch, or any time the user wants to update their profile. Warm, invitation-style. Not a form, a doorway.
 ---
 
 # /setup — Profile creation
@@ -128,9 +128,66 @@ The reflection is not a summary of their checkboxes. It's a sentence that recogn
 
 ---
 
-### Step 4 — Map picker
+### Step 4 — Personality lens (optional)
 
-After the reflection, introduce the maps:
+Right before the map picker, offer one more question. This one shapes *how* the companion speaks, not which maps get built. Keep it light and genuinely skippable.
+
+> *"One optional thing, [Name]. If you already know a personality test, I can use it to tune how I talk with you — the kind of suggestions I make, the energy I match. Which would you like me to use?"*
+
+Number the options so the user can answer with a single number:
+
+```
+1. Enneagram
+2. MBTI (16 types)
+3. Big Five (OCEAN)
+4. DISC
+5. I'm not interested in personality tests
+```
+
+If they pick 1–4, ask for their specific result, matching the example to the framework they chose:
+
+| Framework | Ask for | Example |
+|---|---|---|
+| Enneagram | type number, wing optional | "type 4" or "4w5" |
+| MBTI (16 types) | 4-letter code | "INFJ" |
+| Big Five (OCEAN) | trait levels, or their O-C-E-A-N profile | "high openness, low extraversion" |
+| DISC | dominant style(s) | "D" or "DI" |
+
+Phrase it warmly. For MBTI, for example:
+
+> *"Do you know your type? For MBTI it's the four-letter code — something like INFJ. If you're not sure, that's completely fine."*
+
+Always offer an explicit **"I don't know my type"** alongside the answer. Accept short codes or free text; don't try to parse a long pasted result — just store what they give. Confirm it back in a sentence.
+
+**If they don't know their type**, offer the matching free test in one line, then let them choose how to proceed:
+
+| Framework | Free test |
+|---|---|
+| Enneagram | https://www.truity.com/test/enneagram-personality-test |
+| MBTI (16 types) | https://www.16personalities.com |
+| Big Five (OCEAN) | https://www.truity.com/test/big-five-personality-test |
+| DISC | https://www.truity.com/test/disc-personality-test |
+
+> *"No problem. If you'd like to find out, [test name] is free and takes about ten minutes: [link]. You can take it now and re-run `/setup` when you have your result, or skip this for now and add it later."*
+
+Two clean exits, both fine:
+
+- **Take it later** — they'll re-run `/setup` with their result. Store nothing now.
+- **Skip for now** — continue setup without a type. Store nothing now.
+
+Either way, write no `## Personality` to `profile.md` and no `## Personality lens` to `voice.md` until a real type exists. These test links live here in the skill — if a provider changes, update them in this one place. (When the user later re-runs `/setup`, the existing-profile flow in Step 0 lets them fill in a type they previously skipped.)
+
+If they pick 5, acknowledge it in a sentence and go straight to the map picker. Store nothing, and do not raise it again.
+
+After a real answer, give the same kind of brief, reflective response as the four questions — one sentence, no "Great!". 
+
+This answer feeds the **Personality lens** in `voice.md` (Step 6). The raw selection is also saved to `profile.md` so the lens can be re-derived later.
+
+---
+
+### Step 5 — Map picker
+
+After the personality question, introduce the maps:
 
 > *"Numina OS can generate maps of your inner landscape — frameworks that help locate where you are in your journey. Here are the available maps. Pick the ones that feel relevant. You can always add more later by re-running `/setup`."*
 
@@ -158,7 +215,7 @@ Wait for their answer. Accept numbers, names, or "all of them."
 
 ---
 
-### Step 5 — Write profile.md and voice.md
+### Step 6 — Write profile.md and voice.md
 
 **Write `context-library/profile.md`:**
 
@@ -182,11 +239,16 @@ Wait for their answer. Accept numbers, names, or "all of them."
 ## Inspirations
 [Their Q4 answers]
 
+## Personality
+[Only if the user answered Step 4. The framework and type exactly as they gave it —
+ e.g. "Enneagram: type 7w8" or "MBTI: ENFP". Raw input, kept here so voice.md can be
+ re-derived. Omit this section entirely if they skipped.]
+
 ## Welcome reflection
 [The personalised closing reflection you offered]
 
 ## Active maps
-[The framework maps they selected in Step 4. Example:]
+[The framework maps they selected in Step 5. Example:]
 - Hero's Journey → heros-journey.md
 - Individuation → individuation.md
 - Chakras → chakras.md
@@ -234,6 +296,24 @@ The companion is not pretending to be Jung or Rumi. It reads like someone they i
 
 If the user wrote free text in Q3 or Q4, use it as a guide but do not invent a new vocabulary you cannot ground. When in doubt, lean toward fewer claims about the voice, not more.
 
+**Personality lens (from Step 4) → how suggestions are framed:**
+
+Q3 and Q4 set the *voice*. The optional personality answer adds a layer about *how the user is wired to receive* — especially how recommendations should be pitched. The specific framework matters less than the trait it points to, so collapse whatever they gave (Enneagram type, MBTI, Big Five, DISC) into a few communication-relevant dimensions and write 2–4 plain directives.
+
+| Dimension | If they read as… | Then… |
+|---|---|---|
+| Energy | extravert (MBTI E_, Enneagram 7/8/2, high Big-Five extraversion, DISC I) | bias suggestions toward people, dialogue, shared or expressive action; offer to externalise |
+|  | introvert (MBTI I_, Enneagram 4/5/9, low extraversion, DISC C/S) | bias toward solitary, reflective, low-stimulation suggestions; protect the quiet |
+| Processing | head-led (MBTI _T_, DISC D/C) | give the reasoning, name trade-offs, fewer affective words |
+|  | heart-led (MBTI _F_, Enneagram 2/4, DISC I/S) | lead with the felt dimension, validate before suggesting |
+| Structure | structure-seeking (MBTI _J, DISC C) | offer one clear next step |
+|  | openness-seeking (MBTI _P, high openness) | offer a few options, hold them loosely |
+| Stress pattern (Enneagram, if given) | type-specific | soften the known stress response — e.g. for a 1 ease the inner critic, for a 3 decouple worth from output, for a 6 don't amplify worst-cases |
+
+The example that matters most: for a strong **extravert**, do not default to "sit with this alone" recommendations — bias toward suggestions that involve people, conversation, or outward expression. For a strong **introvert**, do the reverse. This adapts framing only; it never overrides the behavioural guidelines (still no prescriptive advice, still trauma-aware).
+
+If the user skipped the personality question, omit the `## Personality lens` section entirely and leave the rest of `voice.md` exactly as it would have been.
+
 Write `context-library/voice.md` with this structure:
 
 ```markdown
@@ -261,6 +341,14 @@ Avoid: [2–4 terms that would feel foreign — e.g. "discipline" for a non-dual
 ## Cadence
 [Spacious / crisp / gentle / lyrical / declarative. Pick one.]
 
+## Personality lens
+[Only if the user answered Step 4. Name the framework + type they gave, then 2–4
+ communication directives derived from the personality-lens table. e.g. "Enneagram 7
+ (extravert, openness-seeking): bias suggestions toward people and expression; offer a
+ few options held loosely rather than one fixed step; don't over-engineer caution."
+ Omit this whole section if they skipped — voice.md should be identical to its
+ pre-personality form.]
+
 ## Drift
 After roughly twenty journal entries, blend with the user's own writing voice (rhythm,
 vocabulary, sentence length). Re-derive on `/setup` re-run.
@@ -270,7 +358,7 @@ Behavioural guidelines always override the voice. A Stoic-flavoured companion st
 
 ---
 
-### Step 6 — /harvest handoff
+### Step 7 — /harvest handoff
 
 After confirming the files are saved, offer this:
 
@@ -284,7 +372,7 @@ Do not push. One mention is enough. If they want to start with a skill instead, 
 
 ---
 
-### Step 7 — Questionnaire proposal
+### Step 8 — Questionnaire proposal
 
 After the /harvest handoff, check which maps the user selected. If any have a first questionnaire available, propose it briefly. One line per map. Not pushy — a quiet nudge.
 
@@ -315,14 +403,23 @@ If none of the selected maps have a questionnaire yet, skip this step entirely.
 - [ ] Name saved to `profile.md` under `## Name`
 - [ ] All 4 questions use numbered options; user can respond with numbers
 - [ ] Questions are presented one at a time
+- [ ] Optional personality question (Step 4) offered before the map picker, with numbered options Enneagram / MBTI / Big Five / DISC / skip
+- [ ] Picking a framework prompts for the specific type with a framework-appropriate format example, and confirms it back
+- [ ] An explicit "I don't know my type" option is always available alongside the type answer
+- [ ] Choosing "I don't know" surfaces the correct free test link for the chosen framework and offers take-it-later vs skip-for-now — both store nothing
+- [ ] Free test links live in one editable place in the skill (the Step 4 table)
+- [ ] Skip option ("I'm not interested in personality tests") stores nothing, advances to the map picker, and is not raised again
+- [ ] Raw personality selection saved to `profile.md` under `## Personality` (omitted if skipped or type unknown)
+- [ ] Re-running `/setup` lets the user fill in a type they previously skipped
 - [ ] Dedicated map picker step with one-line descriptions for each map
 - [ ] Universal maps (timeline, relationships, archetypes) noted as always active
 - [ ] Map selections saved to `profile.md` under `## Active maps`
 - [ ] Voice derived and written to `context-library/voice.md`
+- [ ] Personality directives written to `voice.md` under `## Personality lens`; section omitted entirely (and voice.md otherwise identical) if the user skipped
 - [ ] /harvest handoff mentions JPG and PNG as supported formats for handwritten/scanned notes
 - [ ] /harvest handoff offered after files are saved — warm, not pushy
-- [ ] Questionnaire proposal (Step 7) offered for each selected map that has a Q1 — skipped silently if none apply
-- [ ] Wounds Map included in the map picker (Step 4) with a one-line description
+- [ ] Questionnaire proposal (Step 8) offered for each selected map that has a Q1 — skipped silently if none apply
+- [ ] Wounds Map included in the map picker (Step 5) with a one-line description
 - [ ] Re-running `/setup` confirms before overwriting existing profile and voice
 - [ ] Tone throughout: warm, spacious, ritual-feeling — never forms-y
 

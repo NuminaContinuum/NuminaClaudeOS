@@ -23,6 +23,10 @@ Which path or framework I walk. (Determines which framework maps `/maps` generat
 ## Inspirations
 Who has inspired me most on the journey.
 
+## Personality
+Optional. A personality test result I gave (Enneagram, MBTI, Big Five, or DISC), kept
+raw so `/setup` can re-derive the personality lens in `voice.md`. Omitted if I skipped it.
+
 ## Welcome reflection
 A personalised welcome from `/setup`, kept here so future skills can echo the language back.
 ```
