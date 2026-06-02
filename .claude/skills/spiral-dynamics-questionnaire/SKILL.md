@@ -1,6 +1,6 @@
 ---
 name: spiral-dynamics-questionnaire
-description: The Spiral Dynamics map questionnaire. Runs in stages — Q1 (quick 3-5 min read of center of gravity, resolving to a specific vMeme via a branched tiebreaker). Resumes from wherever the user left off and offers to refresh the Spiral Dynamics map afterward. Q2 planned. Question copy is canonical (see NUM-160 / spiral-dynamics-questionnaire-1.md).
+description: The Spiral Dynamics map questionnaire. Runs in stages — Q1 (quick 3-5 min center-of-gravity read, resolving a vMeme via a branched tiebreaker) and Q2 (8-10 min full level profile — trailing, emerging, and shadow levels). Resumes from wherever the user left off and offers to refresh the Spiral Dynamics map after each stage. Question copy is canonical (see NUM-160/163 / spiral-dynamics-questionnaire-1.md and -2.md).
 ---
 
 # /spiral-dynamics-questionnaire — The Spiral Dynamics map questionnaire
@@ -28,7 +28,13 @@ Held as a weighted distribution with a center of gravity. **Never imply higher =
 
 ## Step 0 — Figure out where the user is
 
-Read `context-library/maps/spiral-dynamics.md` if it exists. If a `## Q1 Reading` exists, offer to refresh instead. Otherwise run Q1. Honour an explicit request.
+Read `context-library/maps/spiral-dynamics.md` if it exists and check which stages have run (`## Q1 Reading`, `## Q2 Reading`). Then route:
+
+- **Nothing done** → run Q1.
+- **Q1 done, Q2 not** → offer Q2: *"Q1 found your center of gravity. Ready to go deeper? The next reflection takes about ten minutes and shows the full picture — what's still active underneath, what's emerging, and what you might be pushing away."* If they decline, stop gracefully.
+- **Q1 and Q2 done** → offer to re-run Q1 or refresh the map from everything since.
+
+Honour an explicit request.
 
 ---
 
@@ -183,9 +189,145 @@ If a fuller Spiral Dynamics map already exists, offer to refresh it, merging Q1 
 
 ---
 
-## Q2 — Deeper read (planned)
+## Q2 — Full level profile (8-10 min)
 
-Not built yet. If asked: *"The deeper spiral reflection is coming. For now, Q1 plus `/maps spiral-dynamics` (which reads across your entries) gives a solid picture."*
+**Gate:** Q2 needs Q1. If `spiral-dynamics.md` has no `## Q1 Reading`, run Q1 first. If Q1 exists, open by surfacing it: *"Q1 placed you around [level]. Let's see what else is moving in you."*
+
+Q2 resolves the **full profile**: which level is dominant, which are still active underneath (trailing), which is emerging, which are dormant, and which (if any) is in shadow (actively rejected). 16 questions in three sections. One at a time, no commentary between. **State labels in parentheses are for your scoring only — never show them to the user.** Option order is shuffled.
+
+### Q2 Section 1 — Level scan (8 questions, one per vMeme)
+
+**1. Survival, basic needs, the body's instinctual signals:**
+(a) This is daily. I'm in it *(Beige dominant)*
+(b) I've been here. It's close. I can drop into it *(Beige active)*
+(c) I sense it pulling at me. Something is asking me to come back to basics *(Beige emerging)*
+(d) Not really in play *(Beige dormant)*
+(e) I push against it. I don't want to live there *(Beige shadow)*
+
+**2. Belonging through kinship, ritual, ancestors, magical thinking, your tribe:**
+(a) This is where I live *(Purple dominant)*
+(b) Still close. My family, my tribe, my rituals matter *(Purple active)*
+(c) I'm being pulled toward it. I want to find my people, my ritual, my roots *(Purple emerging)*
+(d) Not in play *(Purple dormant)*
+(e) I push against it. Superstition or clannishness repels me *(Purple shadow)*
+
+**3. Raw power, self-claim, conquest, "I take what's mine":**
+(a) This is where I live. I'm the source of my own authority *(Red dominant)*
+(b) Still operational. I can claim what's mine when I need to *(Red active)*
+(c) I'm being pulled toward it. I need to find my fire *(Red emerging)*
+(d) Not in play *(Red dormant)*
+(e) I push against it. Aggression and dominance scare me, in me or others *(Red shadow)*
+
+**4. Order, discipline, faith or code, sacrifice for the right way:**
+(a) This is where I live. There's one right order and I'm in service to it *(Blue dominant)*
+(b) Still operational. I have a code I live by, even loosely *(Blue active)*
+(c) I'm being pulled toward it. I want structure, discipline, something to commit to *(Blue emerging)*
+(d) Not in play *(Blue dormant)*
+(e) I push against it. Dogma and "one right way" repel me *(Blue shadow)*
+
+**5. Strategic achievement, optimization, building, climbing, results:**
+(a) This is where I live. I build, achieve, optimize *(Orange dominant)*
+(b) Still operational. I use it where it serves me *(Orange active)*
+(c) I'm being pulled toward it. I want to build something measurable *(Orange emerging)*
+(d) Not in play *(Orange dormant)*
+(e) I push against it. Striving and material success repel me *(Orange shadow)*
+
+**6. Community, plurality, ecology, equity, listening across difference:**
+(a) This is where I live. The "we" matters most *(Green dominant)*
+(b) Still operational. I care, I include, I listen *(Green active)*
+(c) I'm being pulled toward it. I want to belong to a larger we *(Green emerging)*
+(d) Not in play *(Green dormant)*
+(e) I push against it. Soft consensus and infinite process exhaust me *(Green shadow)*
+
+**7. Systemic, integrative, flexible, value-each-level, "use what works":**
+(a) This is where I live. I move fluidly between levels and styles *(Yellow dominant)*
+(b) Still operational. I can take a systemic view when I need to *(Yellow active)*
+(c) I'm being pulled toward it. I want a way of being that holds paradox *(Yellow emerging)*
+(d) Not in play yet *(Yellow dormant)*
+(e) I push against it. Detached big-picture thinking feels cold to me *(Yellow shadow)*
+
+**8. Whole-seeing, planetary mind, spiritual coherence, the living spiral itself:**
+(a) This is where I live. I sense the whole as alive *(Turquoise dominant)*
+(b) Still operational. I drop into it in moments of stillness *(Turquoise active)*
+(c) I'm being pulled toward it. I want to feel the larger living whole *(Turquoise emerging)*
+(d) Not in play yet *(Turquoise dormant)*
+(e) I push against it. Cosmic spirituality feels false or escapist to me *(Turquoise shadow)*
+
+### Q2 Section 2 — Context probes (4 questions)
+
+Each adds a +1 nudge to the level it implies, confirming or refining the scan.
+
+**9. Money, for you, is mostly about:**
+(a) Survival. I think about it because I have to *(Beige)*
+(b) Status. It buys respect or position *(Red)*
+(c) Security and right living. I steward it carefully *(Blue)*
+(d) A tool I use to build outcomes I care about *(Orange)*
+(e) Something to share, redistribute, or use ethically *(Green)*
+(f) Energy I move through systems *(Yellow/Turquoise)*
+
+**10. Conflict:**
+(a) I avoid it. It's dangerous *(Beige/Purple)*
+(b) I fight to win, or I invoke the higher authority that settles it *(Red/Blue)*
+(c) I negotiate for the best outcome *(Orange)*
+(d) I want everyone heard. Process matters *(Green)*
+(e) I shift styles depending on what the situation actually needs *(Yellow)*
+
+**11. When you feel most alive, it's usually:**
+(a) In immediate bodily experience *(Beige)*
+(b) In ritual, kinship, belonging *(Purple)*
+(c) When I'm claiming my fire *(Red)*
+(d) When I'm in right alignment with my code *(Blue)*
+(e) When I'm building or achieving *(Orange)*
+(f) In deep mutual presence with others *(Green)*
+(g) When I see the whole pattern clearly *(Yellow)*
+(h) When I dissolve into something larger *(Turquoise)*
+
+**12. What you're most tired of in yourself:**
+(a) Reacting from old fear *(Beige/Purple shadow)*
+(b) Pushing too hard, or shrinking too small *(Red shadow)*
+(c) Following rules I no longer believe *(Blue shadow)*
+(d) Optimizing things that don't matter *(Orange shadow)*
+(e) Hiding behind consensus, refusing to act *(Green shadow)*
+(f) Watching from the meta-level instead of getting in *(Yellow shadow)*
+(g) Spiritually bypassing real life *(Turquoise shadow)*
+
+### Q2 Section 3 — Cross-cutting Likert (4 items, 1-5)
+
+Ask each as "1 = not at all true, 5 = very true."
+
+**13.** *I notice old ways of operating still running underneath me.* (high → multi-level trailing; low → single-level dominance)
+**14.** *Something larger than my current way of being is pulling at me.* (high → emerging signal; locate via Section 1)
+**15.** *There's a level on the spiral I actively reject.* (high → confirms shadow)
+**16.** *Different situations bring out different parts of me, operating from different levels.* (high → Yellow tendency or broad active profile)
+
+### Q2 Step 5 — Resolve and render
+
+- From Section 1, assign each of the 8 levels one state: dominant / active / emerging / dormant / shadow. Typical shape: 1 dominant, 1-2 active, 0-1 emerging, 0-1 shadow.
+- Section 2 probes add +1 nudges; where they agree with the scan, mark confidence HIGH, else MEDIUM (scan wins). Likert items validate shape.
+- Render the ASCII spiral with all 8 levels styled by state, e.g.:
+
+```
+   Turquoise  ·  dormant
+   Yellow     ◌  emerging
+   Green      ●  dominant
+   Orange     ◌  active
+   Blue       ·  shadow
+   Red        ·  dormant
+   Purple     ·  dormant
+   Beige      ·  dormant
+
+   ●  dominant   ◌  active / emerging   ·  dormant / shadow (shadow noted in prose)
+```
+
+- Give a 1-2 sentence reading per active level, then a summary line naming the dominant, the trailing, the emerging, any shadow, and the growth threshold (e.g. "the Green-to-Yellow threshold"). Non-hierarchical. Confidence label: **deeper**.
+
+### Q2 Step 6 — Write the Q2 reading
+
+Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `spiral-dynamics.md` with: **Confidence: deeper**, the state per level, the summary line, and a short bullet list of the per-active-level readings.
+
+### Q2 Step 7 — Offer to refresh the map
+
+If a fuller Spiral Dynamics map exists, offer to refresh it, merging Q2 with Q1 and harvested notes; the merged map should raise the confidence in its header.
 
 ---
 
@@ -197,6 +339,9 @@ Not built yet. If asked: *"The deeper spiral reflection is coming. For now, Q1 p
 - [ ] Branched tiebreaker resolves the band to a specific vMeme (Achievement/Community resolve directly); two-band tie → fire both, user picks
 - [ ] ASCII spiral/ladder + halo on adjacent levels + 2-3 sentence reading grounded in answers; non-hierarchical, "center of gravity around X" framing; confidence "rough"
 - [ ] `## Q1 Reading` written to `spiral-dynamics.md`; offer to refresh an existing map
+- [ ] Q2 gated on Q1; 16 questions (8 scan + 4 probes + 4 Likert) one at a time; options shuffled, state labels hidden
+- [ ] Q2 resolves a state per level (dominant/active/emerging/dormant/shadow) with probe + Likert confirmation; ASCII spiral styled by state + per-active-level reading + summary line naming the growth threshold; non-hierarchical; confidence "deeper"
+- [ ] `## Q2 Reading` written to `spiral-dynamics.md`; offer to refresh the map
 
 ---
 

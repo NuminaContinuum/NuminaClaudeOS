@@ -9,6 +9,20 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.8.0 — 2026-06-02
+
+### New — Q2 stages for Individuation, Spiral Dynamics, AQAL
+
+Added the deeper (8-10 min) Q2 stage to all three framework questionnaires built in v0.7.0. Each resolves a **full profile** rather than a single placement, raising confidence to "deeper." Question copy is canonical, ported from the Numina App specs. Each Q2 is gated on its Q1, presents questions one at a time with options shuffled and state labels hidden (scored by content tag), writes a `## Q2 Reading`, and offers a map refresh.
+
+- **`/individuation-questionnaire` Q2** (NUM-162) — 14 questions (6 stage scan + 4 archetypal probes + 4 Likert). Resolves a state per stage (primary / active / emerging / dormant / shadow). ASCII arc styled by state + per-active-stage reading + summary line.
+- **`/spiral-dynamics-questionnaire` Q2** (NUM-163) — 16 questions (8 level scan + 4 context probes + 4 Likert). Resolves a state per vMeme; summary names the growth threshold (e.g. Green→Yellow). Non-hierarchical.
+- **`/integral-aqal-questionnaire` Q2** (NUM-164) — 14 questions (4 quadrant scan + 6 lines scan + 4 Likert). Resolves a state per quadrant plus a 6-line intelligence profile (Cognitive, Emotional, Somatic, Interpersonal, Moral, Spiritual). ASCII 2×2 grid + line bars.
+
+A completed Q2 now drives the map to High confidence via the existing `/maps` logic.
+
+---
+
 ## v0.7.0 — 2026-06-02
 
 ### New questionnaires — full framework-map coverage

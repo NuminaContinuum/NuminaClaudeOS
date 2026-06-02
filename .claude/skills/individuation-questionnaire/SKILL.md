@@ -1,6 +1,6 @@
 ---
 name: individuation-questionnaire
-description: The Jung Individuation map questionnaire. Runs in stages — Q1 (quick 3-5 min placement of the primary stage on the individuation arc). Resumes from wherever the user left off and offers to refresh the Individuation map afterward. Q2/Q3 planned. Question copy is canonical (see NUM-159 / jung-individuation-questionnaire-1.md).
+description: The Jung Individuation map questionnaire. Runs in stages — Q1 (quick 3-5 min primary-stage placement) and Q2 (8-10 min full stage profile — trailing, emerging, and shadow stages). Resumes from wherever the user left off and offers to refresh the Individuation map after each stage. Q3 planned. Question copy is canonical (see NUM-159/162 / jung-individuation-questionnaire-1.md and -2.md).
 ---
 
 # /individuation-questionnaire — The Individuation map questionnaire
@@ -21,7 +21,13 @@ Unconscious Wholeness → Persona → Shadow Work → Anima/Animus Work → Wise
 
 ## Step 0 — Figure out where the user is
 
-Read `context-library/maps/individuation.md` if it exists. If a `## Q1 Reading` exists, offer to refresh the map instead of re-running. Otherwise run Q1. Honour an explicit stage request.
+Read `context-library/maps/individuation.md` if it exists and check which stages have run (`## Q1 Reading`, `## Q2 Reading`). Then route:
+
+- **Nothing done** → run Q1.
+- **Q1 done, Q2 not** → offer Q2: *"Q1 placed your primary stage. Ready to go deeper? The next reflection takes about ten minutes and shows the full picture — what's still active from earlier stages, what's emerging, and what you might be pushing away."* If they decline, stop gracefully.
+- **Q1 and Q2 done** → offer to re-run Q1 for a fresh snapshot or refresh the map from everything since.
+
+Honour an explicit stage request.
 
 ---
 
@@ -158,9 +164,128 @@ If a fuller Individuation map already exists, offer to refresh it, merging Q1 wi
 
 ---
 
-## Q2 / Q3 — Deeper readings (planned)
+## Q2 — Full stage profile (8-10 min)
 
-Not built yet. If asked: *"The deeper individuation reflections are coming. For now, Q1 plus `/maps individuation` (which reads across your journals and dreams) gives a solid picture."*
+**Gate:** Q2 needs Q1. If `individuation.md` has no `## Q1 Reading`, run Q1 first. If Q1 exists, open by surfacing it: *"Q1 placed you in [stage]. Let's see what else is moving in you and what's emerging."*
+
+Q2 resolves the **full profile**: which stage is primary, which earlier stages are still active (trailing), which is emerging, which is dormant, and which (if any) is in shadow (actively avoided). 14 questions in three sections. Present one at a time, no commentary between. **State labels in parentheses are for your scoring only — never show them to the user.** Option order is shuffled.
+
+### Q2 Section 1 — Stage scan (6 questions, one per stage)
+
+**1. Unconscious Wholeness — the pre-individuation state, before the work of becoming yourself begins:**
+(a) This is where I live. I haven't really felt the call to deeper inquiry *(primary)*
+(b) Active. I can return to a felt sense of simple wholeness when I rest *(active)*
+(c) Pulling at me. I'm being asked to return to a simpler state under all the work *(emerging)*
+(d) Not in play. The work has moved past it *(dormant)*
+(e) I avoid it. I distrust any felt sense of "just being." It feels like denial *(shadow)*
+
+**2. Persona — building and living the social self:**
+(a) Active. I tend my role in the world, but it doesn't define me anymore *(active)*
+(b) I avoid it. Performing or fitting myself to a role feels false *(shadow)*
+(c) This is where I live. My work, my role, my reputation are the centre of my life *(primary)*
+(d) Pulling at me. I'm being asked to build something visible in the world *(emerging)*
+(e) Dormant. I've moved beyond identifying with role *(dormant)*
+
+**3. Shadow Work — meeting and owning what you've disowned:**
+(a) Pulling at me. I'm just starting to glimpse what I've been avoiding *(emerging)*
+(b) Dormant. Not on my plate right now *(dormant)*
+(c) I avoid it. Going there feels too dark, too destabilising *(shadow)*
+(d) This is where I live. I'm in the middle of meeting parts of me I'd refused to see *(primary)*
+(e) Active. I've done some of this work and I return to it when something surfaces *(active)*
+
+**4. Anima/Animus — engaging the qualities you usually project onto an idealised other:**
+(a) I avoid it. The "inner partner" feels woo or off-limits to me *(shadow)*
+(b) This is where I live. I'm integrating qualities I've spent years projecting outward *(primary)*
+(c) Active. I've done some of this. The inner partner is no longer fully outside me *(active)*
+(d) Dormant. Not in play right now *(dormant)*
+(e) Pulling at me. I'm noticing a longing for qualities I see in others but lack in myself *(emerging)*
+
+**5. Wise Elder — listening to the inner sage:**
+(a) Dormant. No inner elder is asking for my attention *(dormant)*
+(b) Pulling at me. I'm starting to sense an inner voice of wisdom *(emerging)*
+(c) Active. I have moments of contact with an inner guide *(active)*
+(d) I avoid it. I distrust any "wise voice within." It sounds inflated to me *(shadow)*
+(e) This is where I live. An inner wisdom is teaching me. I'm careful not to identify with it *(primary)*
+
+**6. The Self — the lived realisation of wholeness:**
+(a) Active. I touch wholeness in moments. It's not yet constant *(active)*
+(b) Dormant. I don't think about this *(dormant)*
+(c) Pulling at me. I sense a wholeness on the horizon, asking me toward it *(emerging)*
+(d) This is where I live. Wholeness is the ground I orient to, even when I lose it *(primary)*
+(e) I avoid it. "Wholeness" sounds like spiritual bypass or self-deception *(shadow)*
+
+### Q2 Section 2 — Archetypal probes (4 questions)
+
+Each adds a +1 nudge to the stage it implies, confirming or refining the scan.
+
+**7. Dreams or recurring inner imagery, lately:**
+(a) Performing, succeeding, failing in a role. Public scrutiny *(Persona)*
+(b) Dark figures, chase scenes, monsters, criminals, despised people *(Shadow Work)*
+(c) A compelling figure of the other sex / opposite energy. An inner beloved or tormentor *(Anima/Animus)*
+(d) A wise old man or woman, a teacher, an elder figure *(Wise Elder)*
+(e) Mandalas, circles, sacred geometry, the union of opposites *(The Self)*
+(f) Open landscapes, paradise, simple peaceful scenes *(Unconscious Wholeness)*
+(g) No memorable inner imagery right now *(no nudge)*
+
+**8. What triggers your strongest emotional reactions in others?**
+(a) Their flaws. I have a list of people I judge harshly *(Shadow Work)*
+(b) Their qualities I lack. Their fire, depth, beauty, freedom *(Anima/Animus)*
+(c) Their wisdom. I'm hungry for elders, teachers, guides *(Wise Elder)*
+(d) Their authenticity. The ones who seem fully themselves *(The Self)*
+(e) Their success. The ones who've built what I haven't *(Persona)*
+(f) Honestly, not much. Other people are mostly fine to me *(Unconscious Wholeness)*
+
+**9. Where you are in the developmental arc, on a felt level:**
+(a) Early adulthood. Building, becoming, claiming territory *(Persona)*
+(b) The midlife crossing. The structures I built no longer fit. Something is asking to be undone *(Shadow Work / Anima-Animus)*
+(c) Later adulthood. The work is integration, depth, harvest *(Wise Elder / The Self)*
+(d) Before any of this. I haven't felt the call *(Unconscious Wholeness)*
+
+**10. The inner figure who's most present in moments of stillness:**
+(a) None in particular *(Unconscious Wholeness)*
+(b) An idealised version of me. Who I want to be in the world *(Persona)*
+(c) A figure I'd rather not meet. Something I've been turning from *(Shadow Work)*
+(d) An inner beloved, an inner partner, a figure who fascinates me *(Anima/Animus)*
+(e) An inner elder, a wise voice *(Wise Elder)*
+(f) A spacious, holding presence that is also me *(The Self)*
+
+### Q2 Section 3 — Cross-cutting Likert (4 items, 1-5)
+
+Ask each as "1 = not at all true, 5 = very true." These validate the profile shape.
+
+**11.** *I notice my projections in real time and can sometimes take them back.* (high → Shadow Work or beyond; low → Unconscious Wholeness or Persona)
+**12.** *The figures in my dreams or imagination feel like teachers, not just dreams.* (high → Wise Elder or Self active; low → earlier stages)
+**13.** *I'm being asked to grow into qualities I've avoided or only admired in others.* (high → Anima/Animus or Shadow Work emerging/active)
+**14.** *There is a wholeness in me that isn't dependent on circumstance.* (high → The Self active; low → earlier stages)
+
+### Q2 Step 4 — Resolve and render
+
+- From Section 1, assign each of the 6 stages one state: primary / active / emerging / dormant / shadow. Typical shape: 1 primary, 1-2 active, 0-1 emerging, 0-1 shadow.
+- Section 2 probes add +1 nudges; where they agree with the scan, mark that state's confidence HIGH, otherwise MEDIUM (scan wins). Likert items confirm overall shape.
+- Render the ASCII arc with all 6 stages, each styled by state, e.g.:
+
+```
+  Unconscious  →  Persona  →  Shadow  →  Anima/Animus  →  Wise Elder  →  The Self
+   Wholeness        ◌(active)   ●(primary)  ◌(emerging)    ·(shadow)      ·(dormant)
+
+   ●  primary   ◌  active / emerging   ·  dormant / shadow (shadow noted in prose)
+```
+
+- Give a 1-2 sentence reading per active stage, then a summary line naming the primary, the trailing, the emerging, and any shadow, plus the present work. Confidence label: **deeper**. Use the softened lexicon and keep jargon light.
+
+### Q2 Step 5 — Write the Q2 reading
+
+Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `individuation.md` with: **Confidence: deeper**, the state per stage, the summary line, and a short bullet list of the per-active-stage readings.
+
+### Q2 Step 6 — Offer to refresh the map
+
+If a fuller Individuation map exists, offer to refresh it, merging Q2 with Q1 and harvested notes; the merged map should raise the confidence in its header.
+
+---
+
+## Q3 — Long reflection (planned)
+
+Not built yet. If asked: *"The long individuation reading — open-ended, with active-imagination prompts — is coming. For now, Q1 and Q2 give the map a solid foundation."*
 
 ---
 
@@ -172,7 +297,10 @@ Not built yet. If asked: *"The deeper individuation reflections are coming. For 
 - [ ] Tie handling: adjacent → later stage; non-adjacent → present both readings
 - [ ] ASCII arc + halo on adjacent stage(s) + 2-3 sentence reading grounded in answers; confidence "rough"; "appears to be" framing
 - [ ] `## Q1 Reading` written to `individuation.md`; offer to refresh an existing map
-- [ ] Q2/Q3 acknowledged as not-yet-built if asked
+- [ ] Q2 gated on Q1; 14 questions (6 scan + 4 probes + 4 Likert) one at a time; options shuffled, state labels hidden
+- [ ] Q2 resolves a state per stage (primary/active/emerging/dormant/shadow) with probe + Likert confirmation; ASCII arc styled by state + per-active-stage reading + summary line; confidence "deeper"
+- [ ] `## Q2 Reading` written to `individuation.md`; offer to refresh the map
+- [ ] Q3 acknowledged as not-yet-built if asked
 
 ---
 

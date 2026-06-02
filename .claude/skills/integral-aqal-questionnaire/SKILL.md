@@ -1,6 +1,6 @@
 ---
 name: integral-aqal-questionnaire
-description: The Integral AQAL map questionnaire. Runs in stages — Q1 (quick 3-5 min read of the home quadrant the user most naturally inhabits). Resumes from wherever the user left off and offers to refresh the Integral AQAL map afterward. Q2/Q3 planned. Question copy is canonical (see NUM-161 / integral-aqal-questionnaire-1.md).
+description: The Integral AQAL map questionnaire. Runs in stages — Q1 (quick 3-5 min home-quadrant read) and Q2 (8-10 min full quadrant profile + a lines scan across 6 developmental intelligences). Resumes from wherever the user left off and offers to refresh the Integral AQAL map after each stage. Q3 planned. Question copy is canonical (see NUM-161/164 / integral-aqal-questionnaire-1.md and -2.md).
 ---
 
 # /integral-aqal-questionnaire — The Integral AQAL map questionnaire
@@ -28,7 +28,13 @@ No quadrant is "better" — each has gifts and shadows. The work isn't to leave 
 
 ## Step 0 — Figure out where the user is
 
-Read `context-library/maps/integral-aqal.md` if it exists. If a `## Q1 Reading` exists, offer to refresh instead. Otherwise run Q1. Honour an explicit request.
+Read `context-library/maps/integral-aqal.md` if it exists and check which stages have run (`## Q1 Reading`, `## Q2 Reading`). Then route:
+
+- **Nothing done** → run Q1.
+- **Q1 done, Q2 not** → offer Q2: *"Q1 found your home quadrant. Ready to go deeper? The next reflection takes about ten minutes — it reads how all four quadrants are doing, including the one you tend to avoid, plus your six lines of intelligence (mind, body, heart, relating, ethics, soul)."* If they decline, stop gracefully.
+- **Q1 and Q2 done** → offer to re-run Q1 or refresh the map from everything since.
+
+Honour an explicit request.
 
 ---
 
@@ -155,9 +161,129 @@ If a fuller Integral AQAL map already exists, offer to refresh it, merging Q1 wi
 
 ---
 
-## Q2 / Q3 — Deeper readings (planned)
+## Q2 — Full quadrant profile + lines scan (8-10 min)
 
-Not built yet. If asked: *"The full quadrant profile (including the quadrant in shadow) and the lines scan are coming in Q2. For now, Q1 plus `/maps integral-aqal` gives a first orientation."*
+**Gate:** Q2 needs Q1. If `integral-aqal.md` has no `## Q1 Reading`, run Q1 first. If Q1 exists, open by surfacing it: *"Q1 placed you in the [quadrant]. Let's see how the other three are doing, and how your different intelligences compare."*
+
+Q2 resolves a **state for each of the 4 quadrants** and adds a **lines scan** across 6 developmental intelligences. 14 questions in three sections. One at a time, no commentary between. **State labels in parentheses are for your scoring only — never show them to the user.** Option order is shuffled. Plain English, no jargon.
+
+### Q2 Section 1 — Quadrant state scan (4 questions, one per quadrant)
+
+**1. The Upper Left — your inner life. Thoughts, feelings, inner experience:**
+(a) Where I live. My inner world is my home *(dominant)*
+(b) Active. I check in with myself regularly *(active)*
+(c) Underdeveloped. I don't really know what's going on in there *(underdeveloped)*
+(d) I avoid it. Going inside feels indulgent, dangerous, or just irrelevant *(shadow)*
+
+**2. The Upper Right — your body, behaviour, observable action:**
+(a) Active. I take care of my body and pay attention to what I do *(active)*
+(b) I avoid it. The body and the doing feel disconnected from what matters *(shadow)*
+(c) Where I live. My body and my actions are how I know I'm alive *(dominant)*
+(d) Underdeveloped. I forget I have a body *(underdeveloped)*
+
+**3. The Lower Left — your relationships, culture, shared meaning:**
+(a) Underdeveloped. I don't have a strong "we" *(underdeveloped)*
+(b) Where I live. My people and my culture are where I'm most myself *(dominant)*
+(c) I avoid it. Other people are mostly noise or obstacle *(shadow)*
+(d) Active. I tend my relationships and pay attention to the field *(active)*
+
+**4. The Lower Right — the systems, structures, environments you're inside:**
+(a) I avoid it. Systems and structures bore me or feel inhuman *(shadow)*
+(b) Underdeveloped. I don't really see them, even though I'm inside them *(underdeveloped)*
+(c) Active. I notice the systems I'm in and shape them when I can *(active)*
+(d) Where I live. Structure is how I make sense of things *(dominant)*
+
+### Q2 Section 2 — Lines scan (6 questions, one per developmental line)
+
+**5. Cognitive line — thinking, perspective-taking, complexity:**
+(a) Strong. I take multiple perspectives, hold complexity, think clearly *(strong)*
+(b) Active. I think well enough for what I need *(active)*
+(c) Underdeveloped. Careful thinking isn't my strength *(underdeveloped)*
+(d) Avoided. I distrust thinking. I lean on other ways of knowing *(shadow)*
+
+**6. Emotional line — feelings, affect, emotional intelligence:**
+(a) Active. I can name and feel what's moving in me *(active)*
+(b) Avoided. Feelings overwhelm me or feel false. I steer around them *(shadow)*
+(c) Strong. I'm at home in emotional terrain, mine and others' *(strong)*
+(d) Underdeveloped. I struggle to know what I feel *(underdeveloped)*
+
+**7. Somatic line — body awareness, movement, the felt sense:**
+(a) Underdeveloped. I live in my head; my body is dim to me *(underdeveloped)*
+(b) Strong. I read my body well. Movement is one of my languages *(strong)*
+(c) Avoided. The body feels dangerous, alien, or shameful *(shadow)*
+(d) Active. I take care of my body and listen to it *(active)*
+
+**8. Interpersonal line — intimacy, relating, the capacity to meet others:**
+(a) Avoided. Real intimacy is too much for me. I keep distance *(shadow)*
+(b) Underdeveloped. I struggle to read or meet other people *(underdeveloped)*
+(c) Active. I can meet people, hold the relational field *(active)*
+(d) Strong. Deep relating is one of my gifts *(strong)*
+
+**9. Moral line — discernment, integrity, values in action:**
+(a) Underdeveloped. I don't think much about right and wrong *(underdeveloped)*
+(b) Strong. I take ethics seriously. I live by what I believe *(strong)*
+(c) Avoided. "Right and wrong" feels naive or oppressive to me *(shadow)*
+(d) Active. I act with reasonable integrity most of the time *(active)*
+
+**10. Spiritual line — ultimate concern, transcendence, contact with the sacred:**
+(a) Active. I have a practice, a relationship with something larger *(active)*
+(b) Underdeveloped. I'm new to this terrain *(underdeveloped)*
+(c) Strong. The sacred is a daily reality for me *(strong)*
+(d) Avoided. Spirituality feels like delusion or bypass to me *(shadow)*
+
+### Q2 Section 3 — Cross-cutting Likert (4 items, 1-5)
+
+Ask each as "1 = not at all true, 5 = very true."
+
+**11.** *I move easily between my inner world and my outer life.* (low → UL/UR or UL/LR split)
+**12.** *I move easily between my individual concerns and the collective I'm part of.* (low → upper/lower split)
+**13.** *There's a quadrant I actively avoid or dismiss.* (high → confirms shadow quadrant)
+**14.** *My different intelligences (mind, body, heart, relating, ethics, soul) feel roughly balanced.* (low → confirms uneven lines)
+
+### Q2 Step 4 — Resolve and render
+
+- Section 1 → a state per quadrant (dominant / active / underdeveloped / shadow). Typical: 1 dominant, 1-2 active, 0-1 underdeveloped, 0-1 shadow.
+- Section 2 → a state per line (strong / active / underdeveloped / shadow). Typical: 1-2 strong, 2-3 active, 1-2 underdeveloped, 0-1 shadow.
+- Section 3 Likert confirms shape (HIGH if confirmed, else MEDIUM).
+- Render the ASCII 2×2 grid with each quadrant styled by state, plus a 6-line bar profile, e.g.:
+
+```
+            INDIVIDUAL
+        ┌──────────┬──────────┐
+        │  UL "I"  │ UR "It"  │
+        │ ● domin. │ · under. │
+        ├──────────┼──────────┤
+        │ LL "We"  │ LR "Its" │
+        │ ◌ active │ × shadow │
+        └──────────┴──────────┘
+            COLLECTIVE
+
+   Lines:
+   Cognitive     ████████  strong
+   Emotional     ██████    active
+   Somatic       ██        underdeveloped
+   Interpersonal ██████    active
+   Moral         ██████    active
+   Spiritual     ████████  strong
+
+   ●  dominant   ◌  active   ·  underdeveloped   ×  shadow
+```
+
+- Give a 1-2 sentence reading per active quadrant and per notable line (strongest, most underdeveloped, any shadow), then a summary line naming home quadrant, shadow quadrant, strongest line, most underdeveloped line, and the present work. Plain English. Confidence label: **deeper**.
+
+### Q2 Step 5 — Write the Q2 reading
+
+Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `integral-aqal.md` with: **Confidence: deeper**, the state per quadrant, the state per line, and the summary line.
+
+### Q2 Step 6 — Offer to refresh the map
+
+If a fuller Integral AQAL map exists, offer to refresh it, merging Q2 with Q1 and harvested notes; the merged map should raise the confidence in its header.
+
+---
+
+## Q3 — Long reflection + states (planned)
+
+Not built yet. If asked: *"The long AQAL reading — open-ended depth plus a states scan — is coming. For now, Q1 and Q2 give the map a solid foundation."*
 
 ---
 
@@ -170,6 +296,10 @@ Not built yet. If asked: *"The full quadrant profile (including the quadrant in 
 - [ ] Tie handling: two quadrants tie → present both, user picks
 - [ ] ASCII 2×2 grid + halo on adjacent quadrants + 2-3 sentence reading grounded in answers; plain English, no jargon; confidence "rough"
 - [ ] `## Q1 Reading` written to `integral-aqal.md`; offer to refresh an existing map
+- [ ] Q2 gated on Q1; 14 questions (4 quadrant scan + 6 lines scan + 4 Likert) one at a time; options shuffled, state labels hidden
+- [ ] Q2 resolves a state per quadrant + per line; ASCII 2×2 grid styled by state + 6 line bars + readings + summary line; plain English; confidence "deeper"
+- [ ] `## Q2 Reading` written to `integral-aqal.md`; offer to refresh the map
+- [ ] Q3 acknowledged as not-yet-built if asked
 
 ---
 
