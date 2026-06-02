@@ -78,6 +78,9 @@ This walks you through a 4-question onboarding ritual and creates your `context-
 | Chakra questionnaire | `/chakra-questionnaire` | Staged chakra assessment — quick read, then a deeper dive into direction and embodiment. Resumes where you left off |
 | Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — placement on the arc, then a deeper dive into allies, ordeal, and elixir |
 | Wounds questionnaire | `/wounds-questionnaire` | Staged wounds assessment — quick read of which of the 5 primary wounds are most activated right now |
+| Individuation questionnaire | `/individuation-questionnaire` | Jung individuation — places your primary stage on the arc (Persona, Shadow, Anima/Animus, Wise Elder, Self) |
+| Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Finds your center of gravity on the spiral (vMeme), resolved via a short tiebreaker |
+| Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Finds your home quadrant — the perspective you most naturally inhabit (I / It / We / Its) |
 
 Detailed instructions for each skill live in `.claude/skills/<name>/SKILL.md`.
 

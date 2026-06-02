@@ -116,6 +116,9 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Chakra questionnaire | `/chakra-questionnaire` | Staged Chakra assessment — Q1 quick read, then Q2 deeper dive (direction + embodiment). Resumes where you left off; feeds the Chakras map |
 | Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — Q1 placement on the arc, then Q2 (allies, ordeal, elixir). Resumes where you left off; feeds the arc map |
 | Wounds questionnaire | `/wounds-questionnaire` | Staged Wounds assessment — Q1 quick read of which of the 5 primary wounds are most activated. Resumes where you left off; feeds the Wounds map |
+| Individuation questionnaire | `/individuation-questionnaire` | Staged Jung Individuation assessment — Q1 places your primary stage on the arc (Persona / Shadow / Anima-Animus / Wise Elder / Self). Feeds the Individuation map |
+| Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Staged Spiral Dynamics assessment — Q1 finds your center of gravity (vMeme) via a branched tiebreaker. Feeds the Spiral Dynamics map |
+| Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Staged Integral AQAL assessment — Q1 finds your home quadrant (I / It / We / Its). Feeds the Integral AQAL map |
 | Undigested | `/undigested` | Surface insights from journeys, journals, and dreams that were recognized but haven't moved into behavior yet — the gap between knowing and embodying |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.

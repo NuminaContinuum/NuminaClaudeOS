@@ -48,99 +48,91 @@ Present this intro, then begin immediately. No preamble beyond this.
 
 Present each question one at a time. Wait for the user's answer before showing the next. Accept the letter only. **No commentary between questions.** Preserve the meditative quality of the sequence.
 
+Option order is shuffled per question and the chakra names are hidden, so a user who knows the chakra system can't game the result by picking a position. **The parenthetical tag after each option is for your scoring only — never show it to the user.** Present just the description.
+
 **Q1. The most accurate description of your everyday baseline:**
 
-(a) Anxious about money, safety, or basic survival
-(b) Emotionally numb, or emotionally flooded
-(c) Drained, or pushing too hard
-(d) Lonely, or losing myself in others
-(e) Unspoken truths sitting in my throat
-(f) Foggy, can't see clearly ahead
-(g) Disconnected from anything larger
+(a) Unspoken truths sitting in my throat *(Throat)*
+(b) Foggy, can't see clearly ahead *(Third Eye)*
+(c) Disconnected from anything larger *(Crown)*
+(d) Anxious about money, safety, or basic survival *(Root)*
+(e) Emotionally numb, or emotionally flooded *(Sacral)*
+(f) Drained, or pushing too hard *(Solar Plexus)*
+(g) Lonely, or losing myself in others *(Heart)*
 
 **Q2. The body part that's been speaking to you most:**
 
-(a) Lower back, legs, feet
-(b) Hips, lower belly, sexual organs
-(c) Stomach, gut, solar plexus
-(d) Chest, shoulders, upper back
-(e) Throat, jaw, neck
-(f) Head, eyes, brow
-(g) Crown of the head, or "outside" the body
+(a) Hips, lower belly, sexual organs *(Sacral)*
+(b) Stomach, gut, solar plexus *(Solar Plexus)*
+(c) Chest, shoulders, upper back *(Heart)*
+(d) Throat, jaw, neck *(Throat)*
+(e) Head, eyes, brow *(Third Eye)*
+(f) Crown of the head, or "outside" the body *(Crown)*
+(g) Lower back, legs, feet *(Root)*
 
 **Q3. What's hardest in relationships right now:**
 
-(a) Trusting people enough to feel safe
-(b) Letting myself feel pleasure or intimacy
-(c) Asserting myself without dominating
-(d) Letting love in, or out, without losing myself
-(e) Saying what I actually mean
-(f) Seeing the other person clearly, not my projection
-(g) Feeling part of something larger together
+(a) Letting love in, or out, without losing myself *(Heart)*
+(b) Saying what I actually mean *(Throat)*
+(c) Seeing the other person clearly, not my projection *(Third Eye)*
+(d) Feeling part of something larger together *(Crown)*
+(e) Trusting people enough to feel safe *(Root)*
+(f) Letting myself feel pleasure or intimacy *(Sacral)*
+(g) Asserting myself without dominating *(Solar Plexus)*
 
-**Q4. The kind of work my inner life is asking for:**
+**Q4. The kind of work your inner life is asking for:**
 
-(a) Stability, grounding, settling somewhere
-(b) Reclaiming pleasure, creativity, or feeling
-(c) Stepping into my power without aggression
-(d) Healing my heart, or opening it again
-(e) Speaking what I've kept silent
-(f) Trusting my intuition and inner sight
-(g) Reconnecting to meaning beyond the daily
+(a) Trusting my intuition and inner sight *(Third Eye)*
+(b) Reconnecting to meaning beyond the daily *(Crown)*
+(c) Stability, grounding, settling somewhere *(Root)*
+(d) Reclaiming pleasure, creativity, or feeling *(Sacral)*
+(e) Stepping into my power without aggression *(Solar Plexus)*
+(f) Healing my heart, or opening it again *(Heart)*
+(g) Speaking what I've kept silent *(Throat)*
 
-**Q5. The thing I most often run from:**
+**Q5. The thing you most often run from:**
 
-(a) Insecurity. Will I be okay?
-(b) Feelings. They overwhelm me, or escape me
-(c) Conflict. I either fight or fold
-(d) Vulnerability. Loving or being loved
-(e) Saying no, or saying too much
-(f) Quiet knowing. I doubt what I sense
-(g) Awe, or surrender to mystery
+(a) Awe, or surrender to mystery *(Crown)*
+(b) Insecurity. Will I be okay? *(Root)*
+(c) Feelings. They overwhelm me, or escape me *(Sacral)*
+(d) Conflict. I either fight or fold *(Solar Plexus)*
+(e) Vulnerability. Loving or being loved *(Heart)*
+(f) Saying no, or saying too much *(Throat)*
+(g) Quiet knowing. I doubt what I sense *(Third Eye)*
 
 **Q6. The dream or daydream that keeps recurring:**
 
-(a) A safe home, secure footing
-(b) Wild creativity, sensual freedom
-(c) Standing tall, being seen for who I am
-(d) Deep love, reconciliation, forgiveness
-(e) Speaking publicly, being heard, singing
-(f) Visions, symbols, prescient dreams
-(g) Dissolving into something larger
+(a) Standing tall, being seen for who I am *(Solar Plexus)*
+(b) Deep love, reconciliation, forgiveness *(Heart)*
+(c) Speaking publicly, being heard, singing *(Throat)*
+(d) Visions, symbols, prescient dreams *(Third Eye)*
+(e) Dissolving into something larger *(Crown)*
+(f) A safe home, secure footing *(Root)*
+(g) Wild creativity, sensual freedom *(Sacral)*
 
 **Q7. Which feels furthest out of reach right now:**
 
-(a) A sense that I am safe
-(b) Joy and aliveness in my body
-(c) Trust in my own agency
-(d) Feeling truly loved, or truly loving
-(e) My own voice
-(f) Clarity about what's true
-(g) A sense of meaning
+(a) Clarity about what's true *(Third Eye)*
+(b) A sense that I am safe *(Root)*
+(c) Joy and aliveness in my body *(Sacral)*
+(d) A sense of meaning *(Crown)*
+(e) Trust in my own agency *(Solar Plexus)*
+(f) Feeling truly loved, or truly loving *(Heart)*
+(g) My own voice *(Throat)*
 
-**Q8. If a wise friend listened to my life right now, they'd probably say:**
+**Q8. If a wise friend listened to your life right now, they'd probably say:**
 
-(a) "You need to find your ground."
-(b) "Let yourself feel."
-(c) "Take your power back."
-(d) "Open your heart again, gently."
-(e) "Speak what you've been holding."
-(f) "Trust what you already know."
-(g) "Look up. Remember the larger story."
+(a) "Let yourself feel." *(Sacral)*
+(b) "Look up. Remember the larger story." *(Crown)*
+(c) "Take your power back." *(Solar Plexus)*
+(d) "Speak what you've been holding." *(Throat)*
+(e) "You need to find your ground." *(Root)*
+(f) "Trust what you already know." *(Third Eye)*
+(g) "Open your heart again, gently." *(Heart)*
 
 ### Q1 Step 3 — Score inline
 
-After Q8, tally chakra mentions across all 8 answers:
-
-| Letter | Chakra |
-|--------|--------|
-| (a) | Root (Muladhara) |
-| (b) | Sacral (Svadhisthana) |
-| (c) | Solar Plexus (Manipura) |
-| (d) | Heart (Anahata) |
-| (e) | Throat (Vishuddha) |
-| (f) | Third Eye (Ajna) |
-| (g) | Crown (Sahasrara) |
+After Q8, tally **chakra content tags** (not letter positions) across the 8 answers. The option letters do not map to a fixed chakra, so score by the parenthetical tag on each chosen option.
 
 - Chakra with the most mentions = **primary focus**
 - Any chakra within 1-2 votes of the leader = **secondary focus** (include it)
@@ -274,6 +266,7 @@ Not built yet. If the user asks, say: *"The third chakra reflection — a longer
 
 - [ ] Single skill handles Q1 → Q2 (→ Q3 later); detects completed stages from `chakras.md` and resumes
 - [ ] Q1: intro once, 8 questions one at a time, no commentary between, letter-only answers
+- [ ] Q1 options shuffled per question with chakra names hidden; scored by content tag, not letter position (not gameable)
 - [ ] Q1 tally → primary (most) + secondary (within 1-2); direction deferred to Q2
 - [ ] Q1 ASCII overview + 2-3 sentence reading grounded in the user's answers; confidence "rough"
 - [ ] Q1 reading written to `chakras.md`; offer to refresh an existing map afterward

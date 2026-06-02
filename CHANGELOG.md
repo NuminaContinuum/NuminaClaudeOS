@@ -9,6 +9,24 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.7.0 — 2026-06-02
+
+### New questionnaires — full framework-map coverage
+
+All six selectable framework maps now have a Q1 questionnaire. Three new consolidated skills (NUM-119 pattern: resume from last stage, write `## Q1 Reading`, offer map refresh, registered in `/setup` Step 8 + `/maps`). Question copy is canonical, ported from the Numina App specs.
+
+- **`/individuation-questionnaire`** (NUM-159) — Jung individuation Q1. 8 questions → primary stage across the 6-stage arc (Unconscious Wholeness, Persona, Shadow, Anima/Animus, Wise Elder, Self). Tie logic: adjacent → later stage, non-adjacent → present both. ASCII arc. App counterpart: NUM-134.
+- **`/spiral-dynamics-questionnaire`** (NUM-160) — Spiral Dynamics Q1. 8 questions → center-of-gravity band, then a branched tiebreaker resolves the specific vMeme (Beige–Turquoise). Non-hierarchical framing. ASCII spiral. App counterpart: NUM-131.
+- **`/integral-aqal-questionnaire`** (NUM-161) — Integral AQAL Q1. 8 questions → home quadrant (I / It / We / Its). Lines/states/altitude deferred to Q2. ASCII 2×2 grid. App counterpart: NUM-132.
+
+All three shuffle option order and hide the framework labels, scoring by content tag rather than letter position, so a knowledgeable user can't game the result.
+
+### Fixes
+
+- **`/chakra-questionnaire` Q1** — applied the same anti-gaming treatment (mirrors the App's NUM-133): options are now shuffled per question with chakra names hidden, scored by content tag instead of a fixed letter→chakra mapping.
+
+---
+
 ## v0.6.0 — 2026-06-02
 
 ### Breaking — questionnaire consolidation (NUM-119)
