@@ -9,6 +9,43 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.11.0 — 2026-06-03
+
+### New — Memory layer (NUM-173, NUM-174)
+
+Added a Claude Code memory layer that turns the context library from a folder you forget to update into an auditable brain with in-loop schema enforcement and session-end consolidation.
+
+**Infrastructure**
+- `context-library/source/` — immutable verbatim copies of raw entries (the audit anchor)
+- `context-library/ingestion/` — synthesis layer, tagged by type (dreams, journals, journeys, meditations, adhoc)
+- `context-library/patterns/` — recurring inner patterns with evidence, user-confirmed (`_SCHEMA.md`, `INDEX.md`)
+- `context-library/commitments/` — adopted practices and values-affirmed intentions (`_SCHEMA.md`, `INDEX.md`)
+- `context-library/maintenance/` — `/sweep` reports
+- `context-library/PROVENANCE.md` — the 7-tag inner work provenance vocabulary (lived-experience, dream, somatic, reflection, pattern, teacher-text, intuition)
+- `context-library/.memory-root` and `.memory-config.md` — memory root marker and promotion map
+
+**Hooks**
+- `validate_memory_file.py` (PostToolUse) — blocks untagged evidence rows in `patterns/` and `commitments/` at write time. Soft warning only for `archetypes/` and `relationships/`. No enforcement on raw capture files — never interrupts a session.
+- `session_consolidate.py` (Stop) — nudges consolidation before the session closes, in warm inner work language.
+
+**New commands**
+- `/capture` — routes raw material that doesn't fit the main skills (voice memos, book passages, teacher notes, bulk imports)
+- `/recall` — read-only cited retrieval across the brain, with knowledge-type labels on every citation
+- `/pre-session` — briefing before a therapy session, ceremony, retreat, or teacher 1:1
+- `/sweep` — monthly/seasonal maintenance: six checks (stale patterns, integration, symbol evolution, relationship arcs, knowledge compression, log review)
+
+**New skill**
+- `/how-it-works` — plain-language explanation of the memory layer, two modes: full loop for new users (with a framework-specific example from profile.md), shorter contextual answer for returning users. Writes nothing.
+
+**Updated skills**
+- `/setup` — added Step 8b: memory layer orientation at the end of onboarding, in the user's own framework language. Non-technical. Mentions `/how-it-works`.
+
+**CLAUDE.md**
+- Added `## Memory layer` section with full pipeline rules, provenance enum, enforcement tiers, promotion bar, and escalation rules.
+- Version bumped to `0.11.0`.
+
+---
+
 ## v0.10.0 — 2026-06-02
 
 ### Wounds questionnaire completed — all six maps now have the full Q1→Q2→Q3 arc
