@@ -372,6 +372,24 @@ Do not push. One mention is enough. If they want to start with a skill instead, 
 
 ---
 
+### Step 8b — Memory layer orientation
+
+After the questionnaire proposal (or after the /harvest handoff if no questionnaires apply), offer a brief explanation of how logging works. This should feel like a quiet orientation, not a feature tour. Keep it to two short paragraphs at most.
+
+Adapt the language to the user's framework from their answers. A Jungian user gets a dream example. A somatic practitioner gets a body-felt-sense example. A meditator gets a sit example. Use their name.
+
+Suggested shape:
+
+> *"One more thing, [Name], before you go. As you log dreams, journals, journeys, and sits, Numina OS holds them exactly as you wrote them — nothing is interpreted without you. Over time, if something starts showing up across different types of entries, I'll ask whether you want to name it as a pattern. You decide. A pattern is just a recurring theme you've confirmed, in your own words.*
+>
+> *If you ever want a reminder of how any of this works, type `/how-it-works`. Does that make sense, or is there any part you'd like me to explain differently?"*
+
+Adjust the wording to match their voice profile. Do not use the words pipeline, hook, provenance, or ingestion. Do not explain the technical layer — only what the user experiences.
+
+Wait for their response. If they ask a question, answer it simply. If they say "makes sense" or similar, move on.
+
+---
+
 ### Step 8 — Questionnaire proposal
 
 After the /harvest handoff, check which maps the user selected. If any have a first questionnaire available, propose it briefly. One line per map. Not pushy — a quiet nudge.

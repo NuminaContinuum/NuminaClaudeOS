@@ -1,6 +1,6 @@
 # CLAUDE — Numina OS Master Context
 
-**Version: 0.4.0** | See `CHANGELOG.md` for what changed.
+**Version: 0.11.0** | See `CHANGELOG.md` for what changed.
 
 This file is loaded automatically at the start of every Claude Code session in this directory. It defines who you are in this context, how the file structure works, which skills are available, and the rules that govern how you handle deeply personal material.
 
@@ -302,3 +302,100 @@ Ask the user. One clear question beats five assumptions.
 If you are about to write something to memory and you are not sure it belongs there, name the uncertainty out loud: *"I'm noticing X — should I add this to your timeline, or leave it as just this entry?"*
 
 The user is building a long memory. You are helping them shape it. Move slowly when it matters.
+
+---
+
+## Memory layer
+
+Memory root: `context-library/` — marked by `context-library/.memory-root`.
+Promotion map: `context-library/.memory-config.md`.
+Provenance vocabulary: `context-library/PROVENANCE.md`.
+
+### The cognition pipeline
+
+Evidence flows one direction. Nothing skips a stage.
+
+```
+context-library/source/       (immutable verbatim copy of the raw entry — never edited)
+        ↓
+context-library/ingestion/    (synthesis — themes, figures, emotional arc, knowledge-type tags)
+        ↓  promote only what crosses the bar, always with consent
+context-library/patterns/     (recurring inner patterns, user-confirmed, with evidence)
+context-library/commitments/  (adopted practices and values-affirmed intentions)
+        +
+context-library/archetypes/   (recurring symbols and figures)
+context-library/relationships/ (people and inner figures across all modalities)
+context-library/maps/         (timeline, framework maps)
+```
+
+### Capture is ambient — hard rule
+
+Do not wait for `/capture`. Whenever the user brings a dream, journal entry, journey, or reflection into the session, capture it as part of responding: copy the raw content to `source/`, write the synthesis to `ingestion/`, surface any promotion candidates (always asking first). `/capture` exists for material that arrives outside the main skills.
+
+### Pre-task load, post-task update — hard rule
+
+Before any task, load the relevant area files. After any task, update them. The session-end Stop hook nudges consolidation before the session closes.
+
+### Provenance — every evidence row wears a tag
+
+See `context-library/PROVENANCE.md` for the full enum. The PostToolUse hook rejects untagged evidence rows in `patterns/` and `commitments/` at write time. Tags in use:
+
+| Tag | Means |
+|---|---|
+| `[ingestion/<path>](<relative-path>)` | Went through synthesis |
+| `[source/<path>](<relative-path>)` | Direct citation to raw entry |
+| `(lived-experience, YYYY-MM-DD)` | Directly described in an entry |
+| `(dream, YYYY-MM-DD)` | From dream content — symbolic, not literal |
+| `(somatic, YYYY-MM-DD)` | Body-felt sense noted in an entry |
+| `(reflection, YYYY-MM-DD)` | Interpreted or inferred in journaling |
+| `(pattern, N-occurrences)` | Observed across 3+ modalities |
+| `(teacher-text, source-name)` | Teaching, book, or guide conversation |
+| `(intuition, YYYY-MM-DD)` | Felt sense, no external anchor |
+
+### Hook enforcement tiers
+
+- **Hard block:** untagged evidence rows in `patterns/` and `commitments/` only.
+- **Soft warning:** provenance nudges for `archetypes/` and `relationships/`.
+- **No enforcement:** `journals/`, `dreams/`, `meditations/`, `journeys/` — never interrupt a session.
+
+### Knowledge hygiene
+
+Tag content type when synthesising:
+- **observation** — directly described in an entry (something that happened)
+- **symbolic** — image or figure in dream or vision (not literal)
+- **interpretive** — inference about meaning (label clearly, hold lightly)
+- **felt-sense** — somatic or intuitive knowing without external anchor
+- **commitment** — adopted practice or stated intention
+
+### Evidence hierarchy
+
+Lived experience + somatic > pattern (3+ modalities) > reflective interpretation > teacher/text > intuition alone.
+
+**Recency is a weak signal.** A childhood pattern resurfacing today is highly relevant. Do not auto-decay old material by age.
+
+### Promotion bar — judgment-gated, consent-based
+
+Raw `ingestion/` is not durable knowledge. It promotes into `patterns/` or `commitments/` only if:
+- It appears across **3+ independent entries across different modalities**, OR
+- The user explicitly flags it as significant ("this feels important")
+
+**Always ask before promoting.** Never auto-promote. The companion proposes; the user decides.
+
+Dreams are symbolic: a single dream adds evidence to a pattern but does not promote one alone.
+
+### Escalation — act vs ask
+
+**Act autonomously:** routing, cross-linking, drafting (pattern files, relationship updates, archetype updates), synthesis, stale-note cleanup, promotion candidates surfaced with a question.
+
+**Ask before:** promoting to `patterns/` or `commitments/`, resolving a tension, rewriting relationship motivations, deleting historical material, making a pattern `integrated` or `dormant`.
+
+### INDEX maintenance — hard rule
+
+When creating or changing a file under `patterns/` or `commitments/`, update that area's `INDEX.md` in the same turn.
+
+### The four memory commands
+
+- **`/capture`** — route raw material that doesn't fit the main skills
+- **`/recall`** — read-only cited retrieval across the brain
+- **`/pre-session`** — briefing before a therapy, ceremony, or teacher session
+- **`/sweep`** — monthly/seasonal maintenance (six checks)
