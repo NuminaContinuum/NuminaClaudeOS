@@ -1,9 +1,9 @@
 ---
 name: wounds-questionnaire
-description: The Wounds map questionnaire. Runs in stages — Q1 (quick 5-8 min read of which of the 5 primary wounds are most activated), Q2 (8-10 min full profile — intensity per wound, protector masks, and any disowned wound), then Q3 (20-30 min long reading settling the constellation and the gift underneath). Resumes from wherever the user left off and offers to refresh the Wounds Map after each stage. Confidence rises Q1 → Q2 → Q3 (rough → deeper → settled). Canonical wound content lives in wounds-framework.md.
+description: The Wounds & Gifts map questionnaire. Runs in stages — Q1 (quick 5-8 min read of which of the 5 primary wounds are most activated), Q2 (8-10 min full profile — intensity per wound, protector masks, and any disowned wound), then Q3 (20-30 min long reading settling the constellation and the gift underneath). Resumes from wherever the user left off and offers to refresh the Wounds & Gifts map after each stage. Confidence rises Q1 → Q2 → Q3 (rough → deeper → settled). Canonical wound content lives in wounds-framework.md. Invocable directly or via /questionnaire wounds.
 ---
 
-# /wounds-questionnaire — The Wounds map questionnaire
+# /wounds-questionnaire — The Wounds & Gifts questionnaire
 
 One skill for the Wounds assessment. It runs in stages and knows where the user is:
 

@@ -50,64 +50,86 @@ For each question: number every option so the user can respond with numbers inst
 **Question 1. What is calling you most strongly right now?**
 
 ```
-1. Self-discovery and growth
-2. Healing and emotional integration
-3. Shadow exploration
-4. Fresh insights
-5. Connection (self, others, nature, divine)
-6. Creativity and authentic expression
-7. Embodiment
+1. Self-discovery & growth
+2. Healing / emotional integration
+3. Shadow exploration & integration
+4. Gaining fresh insights
+5. Connection (with self, others, nature, or the divine)
+6. Creativity & authentic expression
+7. Embodiment / living more fully in presence
 8. Awakening to non-dual awareness
-9. Something else — just type it
+9. ✍️ Something else — just type it
 ```
 
 **Question 2. Which practices feel most alive for you?**
 
 ```
-1. Journaling
-2. Dreamwork
-3. Meditation
-4. Yoga and movement
-5. Breathwork
-6. Inquiry
-7. Shamanic journeying
-8. Psychedelic-assisted healing
-9. Contemplative prayer
-10. Ritual and ceremony
-11. Something else — just type it
+1. 🌱 I'm just beginning to explore practices
+2. Journaling / automatic writing
+3. Dreamwork / lucid dreaming
+4. Meditation / mindfulness
+5. Yoga / movement practices
+6. Breathwork
+7. Inquiry
+8. Shamanic journeying
+9. Psychedelic-assisted healing
+10. Contemplative ritual / ceremony
+11. ✍️ Something else — just type it
 ```
 
 **Question 3. Do you walk a particular path or framework?**
 
 ```
-1. Depth psychology
-2. Mindfulness and Buddhism
-3. Integral theory
-4. Non-duality
-5. IFS (Internal Family Systems)
-6. Somatic and trauma-informed
-7. Tantric traditions
-8. Shamanism
-9. Mystical traditions
-10. Stoicism
-11. Something else — just type it
+1. Depth psychology & archetypes
+2. Internal Family Systems (IFS)
+3. Trauma-informed & attachment-based approaches
+4. Somatic approaches / nervous system work
+5. Integral theory / Spiral Dynamics
+6. Mindfulness / Buddhism
+7. Non-duality / Advaita Vedanta
+8. Yoga traditions (incl. meditation lineages)
+9. Tantric traditions
+10. Taoism / Eastern inner alchemy
+11. Philosophical wisdom traditions
+12. Mystical traditions (Christian, Sufi, Kabbalah, etc.)
+13. Shamanic practices
+14. Entheogenic & plant medicine traditions
+15. Western esotericism / Hermeticism / Alchemy
+16. Art & creative expression
+17. ✍️ Something else — just type it
 ```
 
 **Question 4. Who has inspired you most on your journey?**
 
 ```
-1. Jung
-2. Harner
-3. Wilber
-4. Grof
-5. Ram Dass
-6. Pema Chödrön
-7. Ramana Maharshi
-8. Alan Watts
-9. Gabor Maté
-10. Indigenous elders
-11. Rumi
-12. Someone else — just type it
+1. 🌱 I'm still exploring
+2. Carl Jung
+3. Michael Harner
+4. Ken Wilber
+5. Jon Kabat-Zinn
+6. Stanislav Grof
+7. Ram Dass
+8. Pema Chödrön
+9. Ramana Maharshi
+10. Sri M
+11. Osho
+12. Sadhguru
+13. J. Krishnamurti
+14. Peter Levine
+15. Tara Brach
+16. Shinzen Young
+17. Mantak Chia
+18. David R. Hawkins
+19. Eckhart Tolle
+20. Nisargadatta Maharaj
+21. Yogananda
+22. Thich Nhat Hanh
+23. Alan Watts
+24. Gabor Maté
+25. Sandra Ingerman
+26. Indigenous elders & wisdom keepers
+27. Poets & artists
+28. ✍️ Someone else — just type it
 ```
 
 ---
@@ -201,7 +223,7 @@ Framework maps — choose any that resonate:
 3. Spiral Dynamics — your center of gravity across value systems, from survival to integral awareness
 4. Integral AQAL — a multi-dimensional model tracking lines, levels, states, and types across all quadrants
 5. Chakras — energy body map highlighting which centres are most active or calling for attention
-6. Wounds — constellation of the 5 primary wounds (Rejection, Abandonment, Humiliation, Betrayal, Injustice) — which are activated, which are quiet, with protective patterns and integrated gifts
+6. Wounds & Gifts — constellation of the 5 primary wounds (Rejection, Abandonment, Humiliation, Betrayal, Injustice) — which are activated, which are quiet, the protective patterns they created, and the gifts waiting underneath
 
 Always included (no selection needed):
 - Timeline — a running log of key moments, insights, and turning points
@@ -267,32 +289,53 @@ The companion is not pretending to be Jung or Rumi. It reads like someone they i
 
 | Path | Reach for | Question style |
 |---|---|---|
-| Depth psychology | shadow, persona, complex, image, dream | image-attentive, "what's constellating?" |
-| Mindfulness and Buddhism | noticing, hindrance, equanimity, awareness | open inquiry, spacious |
-| Integral theory | quadrants, lines, levels, states | structured, integrative |
-| Non-duality | awareness, witness, this, presence | pointing, minimal |
-| IFS | parts, exile, manager, protector | "the part of you that..." |
-| Somatic and trauma-informed | felt sense, titration, capacity, container | embodied, slow, body-first |
+| Depth psychology & archetypes | shadow, persona, complex, image, dream | image-attentive, "what's constellating?" |
+| Internal Family Systems (IFS) | parts, exile, manager, protector | "the part of you that..." |
+| Trauma-informed & attachment-based | felt sense, window of tolerance, safety, co-regulation | slow, relational, body-aware |
+| Somatic approaches / nervous system | felt sense, titration, capacity, container | embodied, slow, body-first |
+| Integral theory / Spiral Dynamics | quadrants, lines, levels, states, center of gravity | structured, integrative |
+| Mindfulness / Buddhism | noticing, hindrance, equanimity, awareness | open inquiry, spacious |
+| Non-duality / Advaita Vedanta | awareness, witness, this, presence | pointing, minimal |
+| Yoga traditions | prana, asana, tapas, surrender, practice | devotional, embodied |
 | Tantric traditions | energy, polarity, allowing | embodied, expansive |
-| Shamanism | journey, spirit, landscape, ally | image-led, narrative |
+| Taoism / Eastern inner alchemy | flow, wu wei, yin/yang, inner fire | paradoxical, light-handed |
+| Philosophical wisdom traditions | virtue, reason, impermanence, examined life | Socratic, measured |
 | Mystical traditions | longing, surrender, ground, source | reverent, contemplative |
-| Stoicism | virtue, discipline, what's in your control | crisp declaratives, fewer words |
+| Shamanic practices | journey, spirit, landscape, ally | image-led, narrative |
+| Entheogenic & plant medicine | integration, transmission, held, re-membering | careful, non-directive |
+| Western esotericism / Hermeticism | as above so below, initiation, correspondence | symbolic, layered |
+| Art & creative expression | image, form, making, what wants to be made | open, generative |
 
 **Q4 → stance:**
 
 | Inspiration | Stance |
 |---|---|
-| Jung | image-first, dream-curious |
-| Harner | direct, animistic, journey-framed |
-| Wilber | integrative, frameworks-first |
-| Grof | expansive, transpersonal, matrix-attentive |
+| Carl Jung | image-first, dream-curious |
+| Michael Harner | direct, animistic, journey-framed |
+| Ken Wilber | integrative, frameworks-first |
+| Jon Kabat-Zinn | clear, secular, moment-to-moment |
+| Stanislav Grof | expansive, transpersonal, matrix-attentive |
 | Ram Dass | warm, irreverent-tender |
 | Pema Chödrön | soft, "soften and stay" |
 | Ramana Maharshi | pointing, minimal, "who is asking?" |
+| Sri M | quiet, devotional, tradition-rooted |
+| Osho | irreverent, alive, anti-formula |
+| Sadhguru | grounded in body and cosmos, pragmatic |
+| J. Krishnamurti | radical non-authority, "observe without the observer" |
+| Peter Levine | somatic-first, pendulate between resource and activation |
+| Tara Brach | compassionate pause, name and allow |
+| Shinzen Young | precise observation, systematic, structured |
+| Mantak Chia | energy-body attentive, inner alchemy framing |
+| David R. Hawkins | calibration-aware, consciousness-map oriented |
+| Eckhart Tolle | present moment as ground, simple and direct |
+| Nisargadatta Maharaj | radical inquiry, "I Am" as the only anchor |
+| Yogananda | devotional, energy-rich, kriya-grounded |
+| Thich Nhat Hanh | interbeing, gentle, each step grounds |
 | Alan Watts | playful, paradoxical |
 | Gabor Maté | trauma-aware, compassionate |
-| Indigenous elders | reverent, place-based, story-led |
-| Rumi | lyrical, longing, image-led — caution: cap at one image per response |
+| Sandra Ingerman | soul retrieval framing, animistic, nature-connected |
+| Indigenous elders & wisdom keepers | reverent, place-based, story-led |
+| Poets & artists | image-first, hold the unsayable, one good image per response |
 
 If the user wrote free text in Q3 or Q4, use it as a guide but do not invent a new vocabulary you cannot ground. When in doubt, lean toward fewer claims about the voice, not more.
 
@@ -396,28 +439,28 @@ After the /harvest handoff, check which maps the user selected. If any have a fi
 
 **Map to questionnaire mapping:**
 
-| Map selected | Questionnaire |
+| Map selected | Questionnaire command |
 |---|---|
-| Hero's Journey | `/heros-journey-questionnaire` |
-| Chakras | `/chakra-questionnaire` |
-| Wounds | `/wounds-questionnaire` |
-| Individuation | `/individuation-questionnaire` |
-| Spiral Dynamics | `/spiral-dynamics-questionnaire` |
-| Integral AQAL | `/integral-aqal-questionnaire` |
+| Hero's Journey | `/questionnaire heros-journey` |
+| Chakras | `/questionnaire chakras` |
+| Wounds & Gifts | `/questionnaire wounds` |
+| Individuation | `/questionnaire individuation` |
+| Spiral Dynamics | `/questionnaire spiral-dynamics` |
+| Integral AQAL | `/questionnaire integral-aqal` |
 
-Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start.
+Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start. You can also just run `/questionnaire` and it will ask which one.
 
 If one map has a questionnaire:
 
-> *"One more thing: since you've activated the [Map name] map, there's a quick questionnaire that gives it a first rough reading — even before you've added any content. Run `/[skill]` when you're ready. It takes about 3-5 minutes."*
+> *"One more thing: since you've activated the [Map name] map, there's a quick questionnaire that gives it a first rough reading — even before you've added any content. Run `/questionnaire [name]` when you're ready. It takes about 3-5 minutes."*
 
-For the **Wounds** map, frame what it surfaces (NUM-125):
+For the **Wounds & Gifts** map, frame what it surfaces (NUM-125):
 
-> *"Since you've activated the Wounds Map, `/wounds-questionnaire` gives it a starting point. The map tracks which emotional wounds are most active right now and how they're showing up — you can run the quick read, or just share journal entries and I'll start building it from what's already there."*
+> *"Since you've activated the Wounds & Gifts map, `/questionnaire wounds` gives it a starting point. The map tracks which emotional wounds are most active right now, how they're showing up, and the gifts that integration makes possible — you can run the quick read, or just share journal entries and I'll start building it from what's already there."*
 
 If multiple maps have questionnaires, list them in one short sentence:
 
-> *"Quick questionnaires are available for the maps you chose: Chakras (`/chakra-questionnaire`), Wounds (`/wounds-questionnaire`), Hero's Journey (`/heros-journey-questionnaire`). Each takes 3-5 minutes to start and sharpens the maps from the beginning."*
+> *"Quick questionnaires are available for the maps you chose: Chakras, Wounds & Gifts, Hero's Journey. Run `/questionnaire` to start any of them — each takes 3-5 minutes and sharpens the maps from the beginning."*
 
 If none of the selected maps have a questionnaire yet, skip this step entirely.
 
