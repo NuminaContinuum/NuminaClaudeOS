@@ -327,9 +327,9 @@ The ASCII overview renders immediately on opening the file. It's scannable in tw
 
 ---
 
-**`context-library/maps/wounds.md`** — Primary wounds constellation
+**`context-library/maps/wounds.md`** — Wounds & Gifts constellation
 
-The 5 primary wounds: Rejection, Abandonment, Humiliation, Betrayal, Injustice. This map shows which wounds are most activated right now — as dynamic states with intensity, not fixed identity labels. Do not reference source frameworks by name in the output. Frame for audiences drawn to IFS, shadow work, depth psychology, and Jungian work.
+The 5 primary wounds: Rejection, Abandonment, Humiliation, Betrayal, Injustice. This map shows which wounds are most activated right now — as dynamic states with intensity, not fixed identity labels. It also surfaces the integrated gift waiting underneath each wound. Do not reference source frameworks by name in the output. Frame for audiences drawn to IFS, shadow work, depth psychology, and Jungian work.
 
 **Each wound has 4 layers:**
 - **Protector mask** — the defensive pattern that formed to protect the wound
@@ -353,7 +353,7 @@ Be selective. Most wounds are Dormant or Stirring for most people most of the ti
 Format:
 
 ```markdown
-# Wounds Map
+# Wounds & Gifts
 
 **Last updated:** YYYY-MM-DD
 **Held as:** hypothesis, not verdict — a map of activation, not identity

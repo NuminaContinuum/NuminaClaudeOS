@@ -43,6 +43,38 @@ This is the most useful follow-up question. It feeds the relationships map direc
 
 Only ask about the setting or atmosphere as a secondary follow-up if it would meaningfully change the interpretation. Do not ask more than one follow-up question.
 
+### Step 3b — Person clarification
+
+For **each named person** identified in Step 3 (or already present in the narrative), run this clarification sequence before interpreting. Skip it only if the person's file in `context-library/relationships/` already contains a relationship, a recent association note, and the context clearly matches.
+
+**1. Name check (always first)**
+
+Check `context-library/relationships/` for a file matching the name.
+
+- If a match exists: *"Is this the same [Name] — [brief descriptor from the file, e.g. 'your brother' or 'the guide from the retreat']?"*
+  - If yes: continue to step 2 below.
+  - If no: *"Who is this [Name]? And what's the relationship?"* Then create a new file.
+- If no match: ask the relationship (step 2 below) and create a file.
+
+**2. Relationship (if not in file)**
+
+If the file exists but has no `**Role:**` or the role is "unclear":
+
+> *"What's your relationship with [Name]?"*
+
+One short answer is enough. Record it in the file.
+
+**3. Association question**
+
+After the name and relationship are clear, ask one of these — choose based on what's already in memory:
+
+- **First time asking:** *"What's the first thing that comes to mind when you think of [Name]? Don't think — just share what comes first."*
+- **If you've asked this before** (there is already an association note in the file): *"How has your relationship with [Name] evolved? Share what comes first. Don't think."*
+
+Record their answer in the `## How the relationship has evolved` or a `## Dream associations` section of the person's file.
+
+**Pacing:** do not front-load all three questions at once. Ask them conversationally, one at a time, in the flow of the session. If the dream has multiple named people, interleave the clarification naturally rather than interrogating them in sequence. Keep the tone warm, not clinical.
+
 ### Step 4 — Read context
 
 1. Read `context-library/profile.md` to know which framework lens to use:
@@ -170,6 +202,10 @@ If the same figure appears in waking life (e.g. you have a `relationships/anna.m
 - [ ] Asks when the dream happened if not mentioned by the user
 - [ ] Falls back to today's date if unknown, noted in the file
 - [ ] Asks about people and inner figures as the primary follow-up (not "feeling on waking")
+- [ ] For each named person, runs the Step 3b clarification flow before interpreting
+- [ ] Name check: confirms same person if a relationships/ file exists; asks relationship if context differs
+- [ ] Association question: uses first-time or evolved-relationship framing based on what's already in memory
+- [ ] Clarification questions are conversational and spaced naturally — not front-loaded
 - [ ] Reads `profile.md` and uses the matching framework lens (or stays neutral if none)
 - [ ] Skims recent dreams and archetypes for recurring patterns
 - [ ] Surfaces 2-3 symbols or figures with brief framework-aware readings

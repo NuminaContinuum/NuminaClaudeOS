@@ -1,11 +1,11 @@
 ---
 name: how-it-works
-description: Plain-language explanation of how the Numina OS memory layer works — logging, ingestion, patterns, commitments, and the four commands. Two modes: full explanation for new users, shorter contextual answer for returning users. Writes nothing. Conversational only.
+description: Plain-language explanation of how Numina OS works — the main skills (/dream, /journal, /maps, /questionnaire) and the memory layer (logging, patterns, commitments, the four commands). Two modes: full explanation for new users, shorter contextual answer for returning users. Writes nothing. Conversational only.
 ---
 
 # /how-it-works
 
-A reference skill the user can call at any time. Not a tutorial — a plain-language explanation of the memory layer that meets the user where they are. No technical terms. No jargon. Just what they experience.
+A reference skill the user can call at any time. Not a tutorial — a plain-language explanation of how the OS works, starting with the skills they'll use most, then the memory layer underneath. No technical terms. No jargon. Just what they experience.
 
 ---
 
@@ -28,7 +28,7 @@ If they want to proceed without setup, give the general explanation from Step 2.
 ### Step 2 — Choose mode
 
 **Mode A — first call (no patterns or commitments yet):**
-Give the full loop in plain language, with a concrete example drawn from their practice.
+Give the full explanation: start with the main skills, then the memory layer underneath, with a concrete example drawn from their practice.
 
 **Mode B — returning user (patterns or commitments exist):**
 Shorter. Acknowledge what's already in the brain. Offer a menu for what they want explained.
@@ -37,7 +37,37 @@ Shorter. Acknowledge what's already in the brain. Offer a menu for what they wan
 
 ### Mode A — Full explanation
 
-Use their framework to make the explanation concrete. Pick the example that matches their primary practice.
+Start with the skills they'll actually use, then explain the memory layer that sits beneath them.
+
+#### Part 1 — The main skills
+
+Explain the four core skills in plain language. Adapt the wording to their practice from `profile.md`, but the structure is always the same:
+
+**`/dream`**
+
+> *"When you have a dream you want to work with, type `/dream` and share it. The OS logs the full narrative, surfaces a few symbols through whatever lens you're working with — Jungian, shamanic, Buddhist, or your own — and asks one deepening question. It also notes who appeared in the dream, which builds the relationship and archetype maps over time."*
+
+**`/journal`**
+
+> *"For a journal entry — a reflection, a difficult moment, something you're processing — type `/journal`. The OS receives it, surfaces the recurring themes it notices, and asks one question. Over time, it tracks what keeps coming back across your entries."*
+
+**`/maps`**
+
+> *"Maps are the synthesis layer. After you've logged enough — dreams, journals, journeys, meditations — type `/maps` to generate a living picture of where you are. There are universal maps (a timeline, a relationship overview, an archetype overview) and framework maps based on what you selected in setup (Hero's Journey, Individuation, Chakras, Wounds & Gifts, etc.).*
+>
+> *Maps go stale and need to be refreshed. The detail lives in the individual entries. The maps are the view."*
+
+**`/questionnaire`**
+
+> *"Each framework map can be enriched with a questionnaire. Type `/questionnaire` and it'll ask which one you want — or you can go directly with `/questionnaire wounds`, `/questionnaire chakras`, etc. Each questionnaire runs in stages: a quick first read (3-5 minutes), then a deeper dive, then a long settled reading if you want it. You can redo any stage at any time and in any order."*
+
+After explaining these four, say:
+
+> *"There are other skills too — `/integrate` for journeys or ceremonies, `/meditation` for sits, `/inner-review` for a weekly reflection, `/compass` for a deeper synthesis, `/harvest` to bring in a large batch of existing notes. But `/dream`, `/journal`, `/maps`, and `/questionnaire` are the core loop."*
+
+---
+
+#### Part 2 — The memory layer
 
 **Structure:**
 
@@ -84,13 +114,14 @@ Use the meditator example above, or keep it completely plain:
 Acknowledge the brain briefly. Then offer a menu.
 
 > *"You have [N] active pattern(s) and [N] commitment(s) in the brain. What would you like me to explain?*
-> *1. How logging works*
-> *2. What patterns are and how they form*
-> *3. What commitments are*
-> *4. The four commands (/capture, /recall, /pre-session, /sweep)*
-> *5. Something specific"*
+> *1. The main skills — /dream, /journal, /maps, /questionnaire*
+> *2. How logging works*
+> *3. What patterns are and how they form*
+> *4. What commitments are*
+> *5. The four commands (/capture, /recall, /pre-session, /sweep)*
+> *6. Something specific"*
 
-Answer only what they ask. If they pick 5, wait for their question.
+Answer only what they ask. If they pick 6, wait for their question.
 
 ---
 
@@ -98,12 +129,14 @@ Answer only what they ask. If they pick 5, wait for their question.
 
 - [ ] Reads `profile.md` and `voice.md` before responding
 - [ ] Checks patterns/ and commitments/ INDEX to choose mode
-- [ ] Mode A uses a concrete example drawn from the user's primary practice
-- [ ] Mode A covers logging, patterns, commitments, and the four commands
-- [ ] Mode B acknowledges what's already in the brain and offers a menu
+- [ ] Mode A Part 1 explains /dream, /journal, /maps, and /questionnaire in plain language — no setup required
+- [ ] Mode A Part 1 uses the user's practice from `profile.md` to make the examples concrete
+- [ ] Mode A Part 2 covers logging, patterns, commitments, and the four commands
+- [ ] Mode B offers a menu that includes the main skills as option 1
 - [ ] No technical terms: no "pipeline", "hook", "provenance", "ingestion", "schema"
 - [ ] Writes nothing to the context library — conversational only
 - [ ] Tone matches the OS: warm, grounded, unhurried
+- [ ] Works for users who haven't run `/setup` yet — degrades gracefully to a generic explanation
 
 ---
 

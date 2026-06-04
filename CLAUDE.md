@@ -113,12 +113,13 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Maps | `/maps` | Refresh the living maps from accumulated content |
 | Inner review | `/inner-review` | Weekly reflection across the past 7 days |
 | Compass | `/compass` | Synthesize across everything — what's the blocker, how to work on it, what to share next |
-| Chakra questionnaire | `/chakra-questionnaire` | Staged Chakra assessment — Q1 quick read, then Q2 deeper dive (direction + embodiment). Resumes where you left off; feeds the Chakras map |
-| Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — Q1 placement on the arc, then Q2 (allies, ordeal, elixir). Resumes where you left off; feeds the arc map |
-| Wounds questionnaire | `/wounds-questionnaire` | Staged Wounds assessment — Q1 quick read of which of the 5 primary wounds are most activated. Resumes where you left off; feeds the Wounds map |
-| Individuation questionnaire | `/individuation-questionnaire` | Staged Jung Individuation assessment — Q1 places your primary stage on the arc (Persona / Shadow / Anima-Animus / Wise Elder / Self). Feeds the Individuation map |
-| Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Staged Spiral Dynamics assessment — Q1 finds your center of gravity (vMeme) via a branched tiebreaker. Feeds the Spiral Dynamics map |
-| Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Staged Integral AQAL assessment — Q1 finds your home quadrant (I / It / We / Its). Feeds the Integral AQAL map |
+| Questionnaire | `/questionnaire` | Unified entry point for all questionnaires. Asks which type and auto-detects stage. Works like `/maps` — targeted by name (e.g. `/questionnaire wounds`) and optional stage number (e.g. `/questionnaire chakras 2`). Any questionnaire can be redone at any time in any order |
+| Chakra questionnaire | `/chakra-questionnaire` | Staged Chakra assessment — Q1 quick read, then Q2 deeper dive, then Q3 settled reading. Resumes where you left off. Also invocable via `/questionnaire chakras` |
+| Hero's Journey questionnaire | `/heros-journey-questionnaire` | Staged Hero's Journey assessment — Q1 placement on the arc, then Q2 (allies, ordeal, elixir), then Q3 settled reading. Resumes where you left off. Also invocable via `/questionnaire heros-journey` |
+| Wounds & Gifts questionnaire | `/wounds-questionnaire` | Staged Wounds & Gifts assessment — Q1 quick read, Q2 full profile, Q3 long reading with gifts. Resumes where you left off. Also invocable via `/questionnaire wounds` |
+| Individuation questionnaire | `/individuation-questionnaire` | Staged Jung Individuation assessment — Q1, Q2, Q3. Also invocable via `/questionnaire individuation` |
+| Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Staged Spiral Dynamics assessment — Q1, Q2, Q3. Also invocable via `/questionnaire spiral-dynamics` |
+| Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Staged Integral AQAL assessment — Q1, Q2, Q3. Also invocable via `/questionnaire integral-aqal` |
 | Undigested | `/undigested` | Surface insights from journeys, journals, and dreams that were recognized but haven't moved into behavior yet — the gap between knowing and embodying |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.
@@ -205,6 +206,19 @@ Be selective. Not every entry produces a timeline event. Only add when something
 - Use the same canonical name across files. If the user calls them "my mother" once and "Anna" the next, ask which they want as the canonical name (or default to the first name used) and record the alias in the file.
 - Do not create relationship files for fleeting references with no emotional weight. ("I bumped into the postman" is not a relationship.)
 - Do not create archetype files for one-off images with no resonance. Wait for a second appearance, or for the user to flag it as significant.
+
+### Person disambiguation — hard rule
+
+When a name appears in a new entry **and** a file already exists in `context-library/relationships/` for that name, check whether the context matches before proceeding:
+
+- If the role or relationship is clearly the same (same person, same life context), proceed and append normally.
+- If the context is different or ambiguous — for example, "Adam" appears in a dream after appearing in a waking-life journal, or two different roles seem possible — **ask the user before writing**:
+
+  > *"Is this the same [Name] — [brief descriptor from the file, e.g. 'your colleague from the retreat']?"*
+
+  If yes, append to the existing file. If no, ask for the relationship and create a new file, distinguishing them (e.g. `adam-colleague.md` vs `adam-dream-figure.md`).
+
+This rule applies to all content-processing skills: `/journal`, `/dream`, `/integrate`, `/meditation`, `/harvest`. When in doubt across contexts, ask once. Do not assume.
 
 ---
 
