@@ -9,6 +9,31 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.12.0 — 2026-06-12
+
+### New — Yin & Yang (Neidan) map + questionnaire (NUM-183, NUM-184, NUM-185, NUM-186)
+
+Added the **Yin & Yang (Neidan)** framework map: the 5-stage Taoist inner-alchemy path (refining essence → energy → spirit → void, until yin and yang reconcile into the Dao), grouped into three phases — Foundation → Refinement → Return. The map reads where a practitioner's practice and energy are *right now*, a current position on a path of transformation, not a fixed identity.
+
+**New skill**
+- `/yin-yang-questionnaire` — runs in three stages, resuming wherever the user left off:
+  - **Q1** (3-5 min) — quick placement on the 5 stages. Direct placement (no bands); ties resolve to the earlier, more conservative stage.
+  - **Q2** (10-12 min) — full state-per-stage profile with **over-rating detection**: somatic checks (felt microcosmic orbit, breath-cessation / embryonic breathing) downgrade inflated placements gently.
+  - **Q3** (20-30 min) — long open-ended reading; depth × lineage caps the maximum-plausible stage; settles the transition the user is at.
+  - Invocable directly or via `/questionnaire yin-yang`.
+- `yin-yang-questionnaire/yin-yang-framework.md` — canonical 5-stage content (essence, yin/yang qualities, lived markers, gift, pitfall, evidence signals, over-rating diagnostics). Shared by the questionnaire and `/maps yin-yang`.
+
+**Updated skills**
+- `/maps` — added `/maps yin-yang`; new vertical-ascent map generation section (taiji transforming up the path); fallback mapping for Taoism / inner alchemy / energy work; questionnaire + confidence wiring.
+- `/questionnaire` — registered `yin-yang` in routing, usage, and the map→questionnaire references.
+- `/setup` — Yin & Yang added to the map picker and the Step 8 questionnaire proposals.
+
+**Design notes**
+- Questions stay in plain experiential language; classical Chinese terms (with pinyin + translation, translated name primary) appear only on result screens and in maps.
+- "Where you are, not who you are" carried throughout — a deeply held Foundation is a real stage with its own gift, never a lesser self. The later stages are the easiest in the system to over-claim; calibration is framed as a service, never a demotion.
+
+---
+
 ## v0.11.0 — 2026-06-03
 
 ### New — Memory layer (NUM-173, NUM-174)
