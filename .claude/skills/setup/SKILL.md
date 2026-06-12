@@ -224,6 +224,7 @@ Framework maps — choose any that resonate:
 4. Integral AQAL — a multi-dimensional model tracking lines, levels, states, and types across all quadrants
 5. Chakras — energy body map highlighting which centres are most active or calling for attention
 6. Wounds & Gifts — constellation of the 5 primary wounds (Rejection, Abandonment, Humiliation, Betrayal, Injustice) — which are activated, which are quiet, the protective patterns they created, and the gifts waiting underneath
+7. Yin & Yang (Neidan) — the 5-stage Taoist inner-alchemy path: refining essence into energy into spirit into emptiness, until yin and yang reconcile into the Dao. Reads where your practice and energy are now (for energy work, breathwork, qigong, and contemplative practice)
 
 Always included (no selection needed):
 - Timeline — a running log of key moments, insights, and turning points
@@ -447,6 +448,7 @@ After the /harvest handoff, check which maps the user selected. If any have a fi
 | Individuation | `/questionnaire individuation` |
 | Spiral Dynamics | `/questionnaire spiral-dynamics` |
 | Integral AQAL | `/questionnaire integral-aqal` |
+| Yin & Yang (Neidan) | `/questionnaire yin-yang` |
 
 Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start. You can also just run `/questionnaire` and it will ask which one.
 
@@ -457,6 +459,10 @@ If one map has a questionnaire:
 For the **Wounds & Gifts** map, frame what it surfaces (NUM-125):
 
 > *"Since you've activated the Wounds & Gifts map, `/questionnaire wounds` gives it a starting point. The map tracks which emotional wounds are most active right now, how they're showing up, and the gifts that integration makes possible — you can run the quick read, or just share journal entries and I'll start building it from what's already there."*
+
+For the **Yin & Yang (Neidan)** map, frame what it surfaces (NUM-183):
+
+> *"Since you've activated the Yin & Yang map, `/questionnaire yin-yang` gives it a starting point. The map reads where your practice is on the inner-alchemy path — from laying the foundation, through working with energy, into deep stillness and beyond. It places where you are now, not who you are, and it's honest about how easy the later stages are to over-claim. Run the quick read, or just share entries and I'll start building it from what's there."*
 
 If multiple maps have questionnaires, list them in one short sentence:
 
@@ -489,6 +495,7 @@ If none of the selected maps have a questionnaire yet, skip this step entirely.
 - [ ] /harvest handoff offered after files are saved — warm, not pushy
 - [ ] Questionnaire proposal (Step 8) offered for each selected map that has a Q1 — skipped silently if none apply
 - [ ] Wounds Map included in the map picker (Step 5) with a one-line description
+- [ ] Yin & Yang (Neidan) Map included in the map picker (Step 5) with a one-line description, and its questionnaire proposed in Step 8 when selected
 - [ ] Re-running `/setup` confirms before overwriting existing profile and voice
 - [ ] Tone throughout: warm, spacious, ritual-feeling — never forms-y
 

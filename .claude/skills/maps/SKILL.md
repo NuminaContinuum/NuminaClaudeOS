@@ -1,6 +1,6 @@
 ---
 name: maps
-description: Generate or refresh the living maps from accumulated context. Universal maps (timeline, relationships, archetypes) for everyone. Framework maps (Hero's Journey, Individuation, Spiral Dynamics, Integral AQAL, Chakras) based on the active maps selected in /setup. Maps use ASCII visualizations where spatial layouts help. Subcommands for granular refresh.
+description: Generate or refresh the living maps from accumulated context. Universal maps (timeline, relationships, archetypes) for everyone. Framework maps (Hero's Journey, Individuation, Spiral Dynamics, Integral AQAL, Chakras, Wounds & Gifts, Yin & Yang) based on the active maps selected in /setup. Maps use ASCII visualizations where spatial layouts help. Subcommands for granular refresh.
 ---
 
 # /maps — Cartography
@@ -26,6 +26,7 @@ The detail lives in the individual files. The maps are summaries built from them
 /maps integral-aqal       → refresh just integral-aqal.md
 /maps chakras             → refresh just chakras.md
 /maps wounds              → refresh just wounds.md
+/maps yin-yang            → refresh just yin-yang.md
 ```
 
 ---
@@ -71,6 +72,7 @@ Default `/maps` (no subcommand) refreshes:
 | Mystical traditions | heros-journey.md |
 | Integral theory | integral-aqal.md, spiral-dynamics.md |
 | IFS / somatic / trauma-informed | wounds.md |
+| Taoism / inner alchemy / energy work / qigong | yin-yang.md |
 | Mindfulness and Buddhism | (v2 — Finding the Ox, 16 Insight Knowledges; not yet) |
 | All others | (v2) |
 
@@ -102,6 +104,7 @@ Before generating each framework map, derive a confidence level to show in the h
 | individuation.md | `/individuation-questionnaire` |
 | spiral-dynamics.md | `/spiral-dynamics-questionnaire` |
 | integral-aqal.md | `/integral-aqal-questionnaire` |
+| yin-yang.md | `/yin-yang-questionnaire` |
 
 **Header format for all framework maps** (add these two lines below `**Held as:**`):
 
@@ -417,6 +420,75 @@ When the overlap exists, write one or two lines, held lightly:
 
 ---
 
+**`context-library/maps/yin-yang.md`** — Yin & Yang (Neidan) inner-alchemy path
+
+The 5-stage Taoist inner-alchemy path: refining essence → energy → spirit → void, until yin and yang reconcile into the undivided Dao. This map reads where the user's practice and energy appear to be *right now* — a current position on a path of transformation, not a fixed identity. Frame for audiences drawn to energy work, breathwork, inner alchemy, and contemplative practice.
+
+**Core principle — where you are, not who you are.** A practitioner can be deeply, rightly in Foundation after years of practice. That is not a failure state. Render presence and aliveness at the current stage, never a race to the summit.
+
+**The 5 stages, grouped into 3 phases** (Foundation → Refinement → Return):
+
+1. **Laying the Foundation** — 築基 *Zhújī*. Regulate body, breath, mind; seal what leaks.
+2. **Refining Essence into Energy** — 煉精化氣 *Liàn Jīng Huà Qì* (first gate). Feel and circulate energy; open the microcosmic orbit.
+3. **Refining Energy into Spirit** — 煉氣化神 *Liàn Qì Huà Shén* (middle gate). Energy settles into spirit; breath nearly ceases.
+4. **Refining Spirit, Returning to Emptiness** — 煉神還虛 *Liàn Shén Huán Xū* (upper gate). The self thins into spaciousness; the yang-spirit emerges.
+5. **Merging with the Dao** — 煉虛合道 *Liàn Xū Hé Dào*. Yin and yang reconciled into the One.
+
+**Canonical content reference:** the full 5-stage spec (essence, yin/yang qualities, lived markers, gift, pitfall), the evidence signals per stage, and the over-rating diagnostics all live in `.claude/skills/yin-yang-questionnaire/yin-yang-framework.md`. Draw from it as reference, not script — match the tone to where this user actually is, in their language. Never quote the layers verbatim. Keep the Chinese terms out of running prose except as a translated gloss on the stage name (translated name primary).
+
+**Placement (derived from evidence in entries):** read across all content for the keyword and theme signals in the framework file. Place the user at one **current stage** with the adjacent **edge** stage (the next gate beginning to open) noted faintly. Be conservative — most committed practitioners live for years in Foundation and the first gate.
+
+**Over-rating is the central reading risk.** The later stages are vivid and well-documented, easy to imagine from reading. Weight the *somatic* markers above any self-description: a felt, repeatable microcosmic orbit (小周天) is the threshold of Stage 2; embryonic breathing (胎息, the breath nearly ceasing) is the threshold of Stage 3. If the entries describe these as ideas rather than felt experience, place earlier. Calibration is a service — name the more honest stage gently.
+
+**Render the map as an ASCII vertical ascent first** (the taiji transforming up the path — turbulent at the base, harmonising through the middle, an empty circle at the summit), then prose below.
+
+Format:
+
+```markdown
+# Yin & Yang
+
+**Last updated:** YYYY-MM-DD
+**Held as:** hypothesis, not verdict — a map of where your practice is now, not who you are
+**Confidence:** Low / Medium / High
+**Sources:** [e.g., yin-yang-questionnaire Q1 completed YYYY-MM-DD, 9 entries read]
+
+## The path
+
+    ⊙  Merging with the Dao              (wújí — empty circle)
+    ◐  Refining Spirit → Emptiness   上關
+    ●  Refining Energy → Spirit      中關   ← you
+    ◌  Refining Essence → Energy     初關   ← edge (next gate opening)
+    ·  Laying the Foundation         築基
+
+    ●  current    ◌  edge    Return ▸ Refinement ▸ Foundation
+
+## Where you appear to be
+
+**[Stage name] ([Chinese gloss], [pinyin])** — [one paragraph: what signals in the entries point here, with 1-2 specific quotes or date references. The lived markers, in the user's language. Held lightly.]
+
+**The edge:** [the adjacent stage beginning to open, if there's signal — one or two lines]
+
+## What's behind you
+
+[The phase(s) and stage(s) already worked, one example each — framed as ground held, not levels cleared]
+
+## What may be ahead
+
+[The next stage, framed as possibility — what it tends to look like, the somatic marker that would signal genuine arrival]
+
+## A note on honest placement
+
+[Only if the evidence is thin or conceptual for a later-stage claim: one gentle line that the somatic markers (felt circulation, breath nearly ceasing) are what distinguish a felt stage from a read-about one, and that a deeply held earlier stage is a real accomplishment. Omit if placement is well-evidenced.]
+
+## One question
+
+[One question grounded in the current stage and the transition — not a generic practice question]
+```
+
+The ASCII ascent renders immediately on opening the file. The prose gives the rationale. Keep the over-rating humility throughout: this map's later stages are the easiest in the whole system to over-claim, and an honest Foundation is worth more than a flattered Stage 4.
+
+---
+
 ### Step 4 — Handle empty state
 
 If `context-library/` has fewer than 3 entries across all content types:
@@ -452,6 +524,8 @@ Brief summary:
 - [ ] End-of-map questionnaire prompt appended when Q1 has not been run (maps with a questionnaire)
 - [ ] Wounds map generated as ASCII pentagon constellation + 4-layer prose for activated wounds
 - [ ] Wounds map intensity assigned based on evidence signals — conservative (most wounds Dormant or Stirring)
+- [ ] Yin & Yang map generated as ASCII vertical ascent + prose; current stage + edge placed conservatively, weighting somatic markers (felt orbit, breath cessation) over self-description
+- [ ] Yin & Yang map uses "where you are, not who you are" framing; an honest earlier stage is never framed as a lesser self
 - [ ] Each map file includes "last updated" timestamp
 - [ ] Empty state handled gracefully
 - [ ] Reports clearly what was refreshed and notable findings

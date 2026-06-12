@@ -1,6 +1,6 @@
 ---
 name: questionnaire
-description: Unified entry point for all Numina OS questionnaires. Asks which questionnaire and which stage if not specified. Detects progress automatically and prompts the next stage. Allows redoing any questionnaire at any time and in any order. Types: wounds, heros-journey, chakras, individuation, spiral-dynamics, integral-aqal.
+description: Unified entry point for all Numina OS questionnaires. Asks which questionnaire and which stage if not specified. Detects progress automatically and prompts the next stage. Allows redoing any questionnaire at any time and in any order. Types: wounds, heros-journey, chakras, individuation, spiral-dynamics, integral-aqal, yin-yang.
 ---
 
 # /questionnaire
@@ -19,6 +19,7 @@ Single entry point for all Numina OS questionnaires. Works like `/maps` — one 
 /questionnaire individuation            → Individuation questionnaire (auto-detects stage)
 /questionnaire spiral-dynamics          → Spiral Dynamics questionnaire (auto-detects stage)
 /questionnaire integral-aqal            → Integral AQAL questionnaire (auto-detects stage)
+/questionnaire yin-yang                 → Yin & Yang (Neidan) questionnaire (auto-detects stage)
 /questionnaire wounds 1                 → Wounds Q1 specifically
 /questionnaire wounds 2                 → Wounds Q2 specifically
 /questionnaire wounds 3                 → Wounds Q3 specifically
@@ -91,6 +92,7 @@ Load the full content from the corresponding individual skill file and execute t
 | individuation | `.claude/skills/individuation-questionnaire/SKILL.md` | `context-library/maps/individuation.md` |
 | spiral-dynamics | `.claude/skills/spiral-dynamics-questionnaire/SKILL.md` | `context-library/maps/spiral-dynamics.md` |
 | integral-aqal | `.claude/skills/integral-aqal-questionnaire/SKILL.md` | `context-library/maps/integral-aqal.md` |
+| yin-yang | `.claude/skills/yin-yang-questionnaire/SKILL.md` | `context-library/maps/yin-yang.md` |
 
 Read the full SKILL.md for the chosen type, locate the Q1/Q2/Q3 section that matches the requested stage, and execute it exactly as specified there — including the opening, question sequence, scoring, rendering, and file-write steps.
 
@@ -116,6 +118,7 @@ If yes, run the stage. The new reading is prepended to the map file with today's
 | Individuation | `individuation` | Q1 (3-5 min), Q2 (8-10 min), Q3 (20-30 min) |
 | Spiral Dynamics | `spiral-dynamics` | Q1 (3-5 min), Q2 (8-10 min), Q3 (20-30 min) |
 | Integral AQAL | `integral-aqal` | Q1 (3-5 min), Q2 (8-10 min), Q3 (20-30 min) |
+| Yin & Yang (Neidan) | `yin-yang` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
 
 ---
 
