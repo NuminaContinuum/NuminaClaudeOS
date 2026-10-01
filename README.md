@@ -47,8 +47,8 @@ If you'd rather a polished UI, the Numina app at [numinacontinuum.org](https://n
 ## Install
 
 ```bash
-git clone https://github.com/numinacontinuum/numina-os.git
-cd numina-os
+git clone https://github.com/NuminaContinuum/NuminaClaudeOS.git
+cd NuminaClaudeOS
 claude
 ```
 

@@ -31,6 +31,12 @@ None, or a scope to run one check:
 
 ---
 
+## Check 0 — the health check
+
+Run `python3 bin/brain_lint.py` first and start the report from its numbers. The `raw` check lists entries with no ingestion note (check 6 below), `staleness` lists quiet patterns, people and symbols (checks 1, 2, 4), `tensions` and `open` list what's already waiting. Don't re-derive by hand what the script already counts.
+
+Then read `context-library/OPEN.md`. Anything already there is not a new finding. Note how long it has been waiting instead of asking it again.
+
 ## The six checks
 
 **1. Stale patterns**
@@ -58,6 +64,9 @@ Entries in `journals/`, `dreams/`, `meditations/`, `journeys/` that were capture
 - Write the dated report → `context-library/maintenance/YYYY-MM-DD-sweep.md`
 - **Edit directly** where confidence is high: update last-mentioned dates, compress duplicate ingestion entries, flag dormant patterns.
 - **Draft, don't commit** what needs judgment: pattern promotions, commitment reviews, archetype re-reads, log synthesis.
+- **Pattern candidates** that cross the bar become `patterns/<slug>.md` with `Status: emerging` in the same pass, listed in INDEX.md.
+- **Every decision the report raises** goes into `context-library/OPEN.md` as a `- [ ]` line. The report explains. OPEN.md is where it gets answered.
+- **Drift** goes into the pattern or commitment file as a `> [!TENSION]` block, not only into the report.
 
 ## Surfacing drift
 

@@ -91,8 +91,19 @@ Per the rules in `CLAUDE.md`:
 
 ---
 
+### Pipeline — source and ingestion
+
+This is the memory layer's own record, separate from the entry file above. Do it every time, in the same turn as storing the entry. A single entry counts. Skip it and entries pile up with no synthesis, invisible to the health check.
+
+1. **Source copy.** Copy the user's raw text, unedited, to `context-library/source/meditations/YYYY-MM-DD-<slug>.md` (for a pasted batch, one file: `YYYY-MM-DD-<kind>-batch-<first-date>-to-<last-date>.md`, dated today). Never edit it afterwards.
+2. **Ingestion note.** Write `context-library/ingestion/meditations/YYYY-MM-DD-<slug>.md` with a `**Source:**` link and an `**Individual files:**` line naming the entry dates it covers (the health check reads those two lines). Body: themes across the entries, figures, knowledge-type tags, and promotion notes. Short for a single entry is fine.
+3. **Questions left open.** Anything you asked that the user didn't answer (who a person is, whether to promote something) goes into `context-library/OPEN.md` as a `- [ ]` line.
+
+---
+
 ## Acceptance criteria
 
+- [ ] Writes the `source/` copy and an `ingestion/` note in the same turn, and records unanswered questions in `OPEN.md`
 - [ ] Prompts for technique, duration, quality/depth, and phenomenological notes (one at a time)
 - [ ] Captures phenomenological notes verbatim — no paraphrase, no interpretation imposed
 - [ ] If 3+ sits exist, surfaces one brief pattern note after logging

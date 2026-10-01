@@ -170,8 +170,19 @@ Write synthesis to `outputs/reflections/YYYY-MM-DD-harvest-synthesis.md`, then r
 
 ---
 
+### Pipeline — source and ingestion
+
+This is the memory layer's own record, separate from the entry file above. Do it every time, in the same turn as storing the entry. A single entry counts. Skip it and entries pile up with no synthesis, invisible to the health check.
+
+1. **Source copy.** Copy the user's raw text, unedited, to `context-library/source/<kind>/YYYY-MM-DD-<slug>.md` (for a pasted batch, one file: `YYYY-MM-DD-<kind>-batch-<first-date>-to-<last-date>.md`, dated today). Never edit it afterwards.
+2. **Ingestion note.** Write `context-library/ingestion/<kind>/YYYY-MM-DD-<slug>.md` with a `**Source:**` link and an `**Individual files:**` line naming the entry dates it covers (the health check reads those two lines). Body: themes across the entries, figures, knowledge-type tags, and promotion notes. Short for a single entry is fine.
+3. **Questions left open.** Anything you asked that the user didn't answer (who a person is, whether to promote something) goes into `context-library/OPEN.md` as a `- [ ]` line.
+
+---
+
 ## Acceptance criteria
 
+- [ ] Writes the `source/` copy and an `ingestion/` note in the same turn, and records unanswered questions in `OPEN.md`
 - [ ] Accepts content type flag (`journeys` / `dreams` / `journals`) and file path
 - [ ] Asks before splitting when separators are ambiguous
 - [ ] Asks for date clarification when dates are absent or unclear in the majority of entries — never falls back silently

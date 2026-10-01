@@ -9,6 +9,30 @@ Format: `v[major].[minor].[patch]` — [date]
 
 ---
 
+## v0.13.0 — 2026-10-01
+
+### Memory layer — questions get one home, capture stops leaking
+
+The memory layer from v0.11.0 left two gaps: proposals and questions lived only in chat, so they got lost between sessions, and only CLAUDE.md asked for the `source/` → `ingestion/` pipeline, so entries piled up unsynthesised. This release closes both and adds a health check at the start of every session.
+
+**New**
+- **`context-library/OPEN.md`** — one list of every question the companion has asked and you haven't answered yet. Added in the same turn a question is asked, ticked when answered. The companion points to it instead of asking again.
+- **`bin/brain_lint.py`** — read-only health check that runs at SessionStart. Counts broken links, INDEX gaps, quiet patterns and people, entries with no ingestion note, open tensions, and lines waiting in OPEN.md. Warns when the last `/sweep` is more than 35 days old. Never blocks a session.
+- **`> [!TENSION]` blocks** (format in `PROVENANCE.md`) mark where a new entry cuts against a pattern or commitment, inside that file, left open for you to resolve.
+- **`.claude/settings.json`** — the hooks (SessionStart lint, PostToolUse validation, Stop consolidation) are now tracked and on by default. Before, they had to be configured by hand.
+
+**Updated**
+- **Capture skills write the pipeline.** `/journal`, `/dream`, `/meditation`, `/integrate` and `/harvest` now write the `source/` copy and an `ingestion/` note every time, and put unanswered questions in OPEN.md.
+- **Pattern candidates are drafted as `Status: emerging`** in the same turn they cross the promotion bar, listed in INDEX.md, and queued in OPEN.md. Emerging means proposed, not confirmed. Only you move one to `active`.
+- **`/sweep`** gains Check 0 (the health check) and writes its decisions into OPEN.md and its drift into `[!TENSION]` blocks. The Stop-hook checklist matches.
+- **`.memory-config.md`** has an optional `Installed:` date. The health check only expects ingestion notes for entries from that day on, so a bulk import of old journals doesn't show up as backlog.
+
+**Fixed**
+- README install command pointed at a repo that doesn't exist. It now clones `NuminaContinuum/NuminaClaudeOS`.
+- `CLAUDE.md` version line had fallen behind the changelog (said 0.11.0 during 0.12.0).
+
+---
+
 ## v0.12.0 — 2026-06-12
 
 ### New — Yin & Yang (Neidan) map + questionnaire (NUM-183, NUM-184, NUM-185, NUM-186)

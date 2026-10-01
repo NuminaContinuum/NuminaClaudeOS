@@ -1,6 +1,6 @@
 # CLAUDE — Numina OS Master Context
 
-**Version: 0.11.0** | See `CHANGELOG.md` for what changed.
+**Version: 0.13.0** | See `CHANGELOG.md` for what changed.
 
 This file is loaded automatically at the start of every Claude Code session in this directory. It defines who you are in this context, how the file structure works, which skills are available, and the rules that govern how you handle deeply personal material.
 
@@ -395,13 +395,27 @@ Raw `ingestion/` is not durable knowledge. It promotes into `patterns/` or `comm
 
 **Always ask before promoting.** Never auto-promote. The companion proposes; the user decides.
 
+**Proposals live in files, not in chat.** When a candidate crosses the bar, draft it in that same turn as `patterns/<slug>.md` with `Status: emerging`, list it in `patterns/INDEX.md`, and add the question to `context-library/OPEN.md`. `emerging` means proposed, not confirmed. Only the user moves it to `active`, and declining it means deleting the file. This exists because asking only in chat let proposals pile up across sessions and sweeps with no single place to answer them.
+
 Dreams are symbolic: a single dream adds evidence to a pattern but does not promote one alone.
 
 ### Escalation — act vs ask
 
 **Act autonomously:** routing, cross-linking, drafting (pattern files, relationship updates, archetype updates), synthesis, stale-note cleanup, promotion candidates surfaced with a question.
 
-**Ask before:** promoting to `patterns/` or `commitments/`, resolving a tension, rewriting relationship motivations, deleting historical material, making a pattern `integrated` or `dormant`.
+**Ask before:** confirming a pattern (`emerging` → `active`), naming a commitment, resolving a tension, rewriting relationship motivations, deleting historical material, making a pattern `integrated` or `dormant`.
+
+### OPEN.md — the one list of what's waiting — hard rule
+
+`context-library/OPEN.md` holds every question asked of the user that hasn't been answered yet: promotions, commitments, descriptor changes, who a person is, housekeeping. Add a `- [ ]` line in the same turn you ask. When the user answers, write the answer into the file it concerns and tick or delete the line. Don't repeat a question in chat if it's already in OPEN.md. Point to it instead.
+
+### Tensions — mark them where the claim is
+
+When a new entry cuts against a pattern or commitment, add a `> [!TENSION]` block in that file, both sides tagged, `Status: open` (format in `PROVENANCE.md`). Don't resolve it. A sweep report is read once. The pattern file is where the user will meet it again.
+
+### Health check at session start
+
+`bin/brain_lint.py --summary` runs as a SessionStart hook (configured in `.claude/settings.json`). It counts links, INDEX coverage, quiet patterns and people, entries with no ingestion note, open tensions, and lines waiting in OPEN.md, and it warns when the last `/sweep` is more than 35 days old. Read its line when the session starts. It never blocks.
 
 ### INDEX maintenance — hard rule
 
@@ -412,4 +426,4 @@ When creating or changing a file under `patterns/` or `commitments/`, update tha
 - **`/capture`** — route raw material that doesn't fit the main skills
 - **`/recall`** — read-only cited retrieval across the brain
 - **`/pre-session`** — briefing before a therapy, ceremony, or teacher session
-- **`/sweep`** — monthly/seasonal maintenance (six checks)
+- **`/sweep`** — monthly/seasonal maintenance. Check 0 is `bin/brain_lint.py`, then the six judgment checks. Its decisions go into `OPEN.md`.

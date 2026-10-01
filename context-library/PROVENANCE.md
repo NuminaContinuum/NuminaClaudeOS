@@ -37,3 +37,25 @@ A single dream does not promote a pattern. It adds evidence.
 The unit the hook audits is the logical list item under an `## Evidence for`, `## Evidence against`, or `## Evidence` section. A provenance tag may sit anywhere in that item — on the bullet line, a wrapped continuation, or a child bullet — so a multi-line sourced claim is never a false orphan.
 
 The hook audits list rows, not free prose. Claims written as bare paragraphs under `## Evidence` are not scanned. Write claims as bullets so each one wears its source.
+
+## `[!TENSION]` — when a new entry cuts against a pattern or commitment
+
+A provenance tag says where a claim came from. It doesn't say whether the claim still matches your life. When a new entry contradicts a pattern or a commitment, both entries are real. What has moved is the *claim*.
+
+Mark it in the durable file, at the point the claim sits:
+
+```markdown
+> [!TENSION] <one line naming what pulls against what>
+> **A:** <the claim as it stands>  <provenance-tag>
+> **B:** <the newer signal that cuts against it>  <provenance-tag>
+> **What this does not settle:** <the question still open>
+> **Status:** open | resolved YYYY-MM-DD — <how>
+```
+
+1. **Both sides wear their tags.**
+2. **The entry stays valid.** Never retract an entry to resolve what it means.
+3. **Leave it open.** The companion surfaces tensions. Only you resolve them.
+
+It lives in the pattern file rather than in a sweep report because a report is read once, and the next person to open the pattern (usually you, months later) should meet the tension where the claim is. `bin/brain_lint.py` counts open tensions at the start of each session.
+
+Not every caveat is a tension. A thin sample or an open question belongs under `## Open observations`. A tension needs two signals that genuinely pull in different directions.

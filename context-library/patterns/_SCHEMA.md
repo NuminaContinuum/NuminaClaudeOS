@@ -62,6 +62,7 @@ Append notes over time rather than overwriting.]
 ## Rules
 
 - Patterns are always user-confirmed. The companion proposes; you decide.
+- **`emerging` means proposed, not confirmed.** When a candidate crosses the promotion bar, the companion drafts the file with `Status: emerging` in that same turn, lists it in INDEX.md, and adds the question to `../OPEN.md`. Only you move it to `active`. Declining it means deleting the file, or moving it to `dormant` if you want to keep the record. This keeps proposals in one findable place instead of scattered across chat and sweep reports.
 - When a pattern is `promoted`, update this file's status and link to a `commitments/` file if a practice follows.
 - Status `integrated` means the pattern is understood and no longer driving unconsciously — keep the file as a record.
 - Status `dormant` means it hasn't appeared in 60+ days — flag for `/sweep`, don't delete.
