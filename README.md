@@ -81,6 +81,13 @@ This walks you through a 4-question onboarding ritual and creates your `context-
 | Individuation questionnaire | `/individuation-questionnaire` | Jung individuation — places your primary stage on the arc (Persona, Shadow, Anima/Animus, Wise Elder, Self) |
 | Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Finds your center of gravity on the spiral (vMeme), resolved via a short tiebreaker |
 | Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Finds your home quadrant — the perspective you most naturally inhabit (I / It / We / Its) |
+| Yin & Yang questionnaire | `/yin-yang-questionnaire` | Staged Yin & Yang (Neidan) assessment — places you on the 5-stage inner-alchemy path, then a full stage profile with over-rating detection, then a long reading. Resumes where you left off |
+| Hawkins questionnaire | `/hawkins-questionnaire` | Staged Hawkins map of consciousness — places your current level (Shame to Enlightenment) relative to the 200 threshold, then reads every register, the crossing you're at, and any bypass. Resumes where you left off |
+| 16 Ñāṇas questionnaire | `/sixteen-nanas-questionnaire` | Places you on the 16 stages of insight (Progress of Insight) — a cycle, not a ladder. Quick placement, then live, familiar and pushed-against territory, then a long reading with the crossing you're at |
+| Ox-Herding questionnaire | `/ox-herding-questionnaire` | Staged Ten Ox-Herding Pictures assessment — places you among Kakuan's ten pictures, then a full band profile and a long reading placed by the picture your body recognises. Resumes where you left off |
+| Nine Śamatha questionnaire | `/samatha-questionnaire` | Staged concentration assessment — places you on the nine stages of śamatha, then checks the stage you'd name against how long you actually sit, pliancy, and a detailed account of one recent sitting. Resumes where you left off |
+| Guṇasthānas questionnaire | `/gunasthanas-questionnaire` | Staged Jain-ladder assessment — places where your conduct is on the seven reportable rungs, then applies an honest vow, renunciation and vigilance ceiling. Resumes where you left off |
+| Sufi Maqamat questionnaire | `/sufi-maqamat-questionnaire` | The stations of the Sufi path — places your current station, then reads whether it's held as a stable station (maqam) or touched as a passing state (hal). Resumes where you left off |
 
 Detailed instructions for each skill live in `.claude/skills/<name>/SKILL.md`.
 

@@ -225,6 +225,12 @@ Framework maps — choose any that resonate:
 5. Chakras — energy body map highlighting which centres are most active or calling for attention
 6. Wounds & Gifts — constellation of the 5 primary wounds (Rejection, Abandonment, Humiliation, Betrayal, Injustice) — which are activated, which are quiet, the protective patterns they created, and the gifts waiting underneath
 7. Yin & Yang (Neidan) — the 5-stage Taoist inner-alchemy path: refining essence into energy into spirit into emptiness, until yin and yang reconcile into the Dao. Reads where your practice and energy are now (for energy work, breathwork, qigong, and contemplative practice)
+8. Hawkins Consciousness — David Hawkins' map of consciousness: 17 levels from Shame to Enlightenment in 7 bands, with the threshold at 200 where force turns into power. Reads the emotional register you're living in now, not a score (for emotional work, contemplative practice, and anyone who knows Letting Go or Power vs. Force)
+9. 16 Ñāṇas (Progress of Insight) — the 16 insight knowledges of the Theravada path: from distinguishing mind and body, through the vivid Arising & Passing and the difficult Dark Night, into Equanimity and the threshold. A cycle, not a ladder. Reads where your practice is in it now (for vipassana, noting, and insight meditation)
+10. Ten Ox-Herding Pictures — Kakuan's ten Zen pictures, from searching for the ox through taming the mind, the empty circle, and back into ordinary life with open hands. Reads which picture you're in now (for Zen, Buddhist meditation, and contemplative practice)
+11. Nine Śamatha Stages — the nine stages of concentration from the Tibetan calm-abiding tradition: from first placing attention on an object, through returning and refining, to effortless equipoise. Reads where your sitting practice is now (for meditators working on sustained attention)
+12. Guṇasthānas (Jain) — the Jain ladder of fourteen stages, from living on reaction through right seeing and kept vows toward liberation. Places where your conduct is now, on the seven rungs anyone can honestly report on (for ethical practice, vows, renunciation, and contemplative discipline)
+13. Sufi Maqamat — the ten stations of the Sufi path, from turning and letting go through trial, trust and devotion into knowing. Reads which station your heart is at now, and whether it's held as a stable station or touched as a passing state (for devotional, contemplative and mystical practice)
 
 Always included (no selection needed):
 - Timeline — a running log of key moments, insights, and turning points
@@ -449,6 +455,12 @@ After the /harvest handoff, check which maps the user selected. If any have a fi
 | Spiral Dynamics | `/questionnaire spiral-dynamics` |
 | Integral AQAL | `/questionnaire integral-aqal` |
 | Yin & Yang (Neidan) | `/questionnaire yin-yang` |
+| Hawkins Consciousness | `/questionnaire hawkins` |
+| 16 Ñāṇas | `/questionnaire nanas` |
+| Ten Ox-Herding Pictures | `/questionnaire ox-herding` |
+| Nine Śamatha Stages | `/questionnaire samatha` |
+| Guṇasthānas (Jain) | `/questionnaire gunasthanas` |
+| Sufi Maqamat | `/questionnaire sufi` |
 
 Each questionnaire runs in stages (a quick read first, then deeper reflections) and resumes wherever the user left off — so the nudge just points them to the start. You can also just run `/questionnaire` and it will ask which one.
 
@@ -463,6 +475,30 @@ For the **Wounds & Gifts** map, frame what it surfaces (NUM-125):
 For the **Yin & Yang (Neidan)** map, frame what it surfaces (NUM-183):
 
 > *"Since you've activated the Yin & Yang map, `/questionnaire yin-yang` gives it a starting point. The map reads where your practice is on the inner-alchemy path — from laying the foundation, through working with energy, into deep stillness and beyond. It places where you are now, not who you are, and it's honest about how easy the later stages are to over-claim. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **Hawkins Consciousness** map, frame what it surfaces (NUM-299):
+
+> *"Since you've activated the Hawkins map, `/questionnaire hawkins` gives it a starting point. The map reads the register your inner life is running in right now, from heaviness and reactivity, across the threshold of courage, into trust, clarity, warmth and stillness. It places where you are, not who you are, the numbers are a way of talking rather than a measurement, and it's honest about how easy the upper levels are to claim from a distance. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **16 Ñāṇas** map, frame what it surfaces (NUM-300):
+
+> *"Since you've activated the 16 Ñāṇas map, `/questionnaire nanas` gives it a starting point. The map reads where your practice is on the arc of insight — from the first clear seeing, through the bright Arising & Passing and the difficult Dark Night, into Equanimity and beyond. It's a cycle, not a ladder: it places where you are now, not who you are, and it never reads a path moment off a single experience. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **Ten Ox-Herding Pictures** map, frame what it surfaces (NUM-301):
+
+> *"Since you've activated the Ox-Herding map, `/questionnaire ox-herding` gives it a starting point. The map reads which of Kakuan's ten pictures you're in right now, from searching for the ox, through the long work of taming it, into ease and the empty circle, and back into ordinary life with open hands. It places where you are, not who you are, and the path ends in the marketplace, not in emptiness. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **Nine Śamatha Stages** map, frame what it surfaces (NUM-302):
+
+> *"Since you've activated the Śamatha map, `/questionnaire samatha` gives it a starting point. The map reads where your sitting practice is on the nine stages of concentration, from first placing attention on an object to effortless balance. It tracks one skill, sustained attention, and places where you are now, not who you are. It's honest about how easy the later stages are to over-claim, so what you actually sit through counts for more than the stage you'd name. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **Guṇasthānas** map, frame what it surfaces (NUM-303):
+
+> *"Since you've activated the Guṇasthānas map, `/questionnaire gunasthanas` gives it a starting point. The map is the Jain ladder of fourteen stages, and it reads where your conduct is now, not what you believe or how long you've practised. It only ever places you on the first seven rungs, the ones anyone can honestly report on, and the first rung is where the path begins, not a failing grade. Run the quick read, or just share entries and I'll start building it from what's there."*
+
+For the **Sufi Maqamat** map, frame what it surfaces (NUM-304):
+
+> *"Since you've activated the Sufi Maqamat map, `/questionnaire sufi` gives it a starting point. The map reads which station of the Sufi path your heart is at now, from turning and letting go, through trial and trust, into devotion and knowing. It places where you are, not who you are, and it's careful to tell a station you live in from a state that's visiting. Run the quick read, or just share entries and I'll start building it from what's there."*
 
 If multiple maps have questionnaires, list them in one short sentence:
 
@@ -496,6 +532,7 @@ If none of the selected maps have a questionnaire yet, skip this step entirely.
 - [ ] Questionnaire proposal (Step 8) offered for each selected map that has a Q1 — skipped silently if none apply
 - [ ] Wounds Map included in the map picker (Step 5) with a one-line description
 - [ ] Yin & Yang (Neidan) Map included in the map picker (Step 5) with a one-line description, and its questionnaire proposed in Step 8 when selected
+- [ ] Hawkins, 16 Ñāṇas, Ox-Herding, Nine Śamatha, Guṇasthānas and Sufi Maqamat maps included in the map picker (Step 5), each with a one-line description, and their questionnaires proposed in Step 8 when selected
 - [ ] Re-running `/setup` confirms before overwriting existing profile and voice
 - [ ] Tone throughout: warm, spacious, ritual-feeling — never forms-y
 

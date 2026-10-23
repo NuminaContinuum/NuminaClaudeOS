@@ -1,6 +1,6 @@
 ---
 name: questionnaire
-description: Unified entry point for all Numina OS questionnaires. Asks which questionnaire and which stage if not specified. Detects progress automatically and prompts the next stage. Allows redoing any questionnaire at any time and in any order. Types: wounds, heros-journey, chakras, individuation, spiral-dynamics, integral-aqal, yin-yang.
+description: Unified entry point for all Numina OS questionnaires. Asks which questionnaire and which stage if not specified. Detects progress automatically and prompts the next stage. Allows redoing any questionnaire at any time and in any order. Types: wounds, heros-journey, chakras, individuation, spiral-dynamics, integral-aqal, yin-yang, hawkins, nanas, ox-herding, samatha, gunasthanas, sufi, spiral-dynamics, integral-aqal, yin-yang.
 ---
 
 # /questionnaire
@@ -20,6 +20,12 @@ Single entry point for all Numina OS questionnaires. Works like `/maps` — one 
 /questionnaire spiral-dynamics          → Spiral Dynamics questionnaire (auto-detects stage)
 /questionnaire integral-aqal            → Integral AQAL questionnaire (auto-detects stage)
 /questionnaire yin-yang                 → Yin & Yang (Neidan) questionnaire (auto-detects stage)
+/questionnaire hawkins                  → Hawkins Consciousness questionnaire (auto-detects stage)
+/questionnaire nanas                    → 16 Ñāṇas questionnaire (auto-detects stage)
+/questionnaire ox-herding               → Ten Ox-Herding Pictures questionnaire (auto-detects stage)
+/questionnaire samatha                  → Nine Śamatha Stages questionnaire (auto-detects stage)
+/questionnaire gunasthanas              → Guṇasthānas (Jain ladder) questionnaire (auto-detects stage)
+/questionnaire sufi                     → Sufi Maqamat questionnaire (auto-detects stage)
 /questionnaire wounds 1                 → Wounds Q1 specifically
 /questionnaire wounds 2                 → Wounds Q2 specifically
 /questionnaire wounds 3                 → Wounds Q3 specifically
@@ -93,6 +99,12 @@ Load the full content from the corresponding individual skill file and execute t
 | spiral-dynamics | `.claude/skills/spiral-dynamics-questionnaire/SKILL.md` | `context-library/maps/spiral-dynamics.md` |
 | integral-aqal | `.claude/skills/integral-aqal-questionnaire/SKILL.md` | `context-library/maps/integral-aqal.md` |
 | yin-yang | `.claude/skills/yin-yang-questionnaire/SKILL.md` | `context-library/maps/yin-yang.md` |
+| hawkins | `.claude/skills/hawkins-questionnaire/SKILL.md` | `context-library/maps/hawkins.md` |
+| nanas | `.claude/skills/sixteen-nanas-questionnaire/SKILL.md` | `context-library/maps/sixteen-nanas.md` |
+| ox-herding | `.claude/skills/ox-herding-questionnaire/SKILL.md` | `context-library/maps/ox-herding.md` |
+| samatha | `.claude/skills/samatha-questionnaire/SKILL.md` | `context-library/maps/samatha.md` |
+| gunasthanas | `.claude/skills/gunasthanas-questionnaire/SKILL.md` | `context-library/maps/gunasthanas.md` |
+| sufi | `.claude/skills/sufi-maqamat-questionnaire/SKILL.md` | `context-library/maps/sufi-maqamat.md` |
 
 Read the full SKILL.md for the chosen type, locate the Q1/Q2/Q3 section that matches the requested stage, and execute it exactly as specified there — including the opening, question sequence, scoring, rendering, and file-write steps.
 
@@ -119,6 +131,12 @@ If yes, run the stage. The new reading is prepended to the map file with today's
 | Spiral Dynamics | `spiral-dynamics` | Q1 (3-5 min), Q2 (8-10 min), Q3 (20-30 min) |
 | Integral AQAL | `integral-aqal` | Q1 (3-5 min), Q2 (8-10 min), Q3 (20-30 min) |
 | Yin & Yang (Neidan) | `yin-yang` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| Hawkins Consciousness | `hawkins` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| 16 Ñāṇas | `nanas` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| Ten Ox-Herding Pictures | `ox-herding` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| Nine Śamatha Stages | `samatha` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| Guṇasthānas (Jain ladder) | `gunasthanas` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
+| Sufi Maqamat | `sufi` | Q1 (3-5 min), Q2 (10-12 min), Q3 (20-30 min) |
 
 ---
 

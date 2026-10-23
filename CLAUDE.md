@@ -1,6 +1,6 @@
 # CLAUDE — Numina OS Master Context
 
-**Version: 0.13.0** | See `CHANGELOG.md` for what changed.
+**Version: 0.14.0** | See `CHANGELOG.md` for what changed.
 
 This file is loaded automatically at the start of every Claude Code session in this directory. It defines who you are in this context, how the file structure works, which skills are available, and the rules that govern how you handle deeply personal material.
 
@@ -120,6 +120,13 @@ All skills are SKILL.md files in `.claude/skills/<name>/`. The user invokes them
 | Individuation questionnaire | `/individuation-questionnaire` | Staged Jung Individuation assessment — Q1, Q2, Q3. Also invocable via `/questionnaire individuation` |
 | Spiral Dynamics questionnaire | `/spiral-dynamics-questionnaire` | Staged Spiral Dynamics assessment — Q1, Q2, Q3. Also invocable via `/questionnaire spiral-dynamics` |
 | Integral AQAL questionnaire | `/integral-aqal-questionnaire` | Staged Integral AQAL assessment — Q1, Q2, Q3. Also invocable via `/questionnaire integral-aqal` |
+| Yin & Yang questionnaire | `/yin-yang-questionnaire` | Staged Yin & Yang assessment — Q1, Q2, Q3. Also invocable via `/questionnaire yin-yang` |
+| Hawkins Consciousness questionnaire | `/hawkins-questionnaire` | Staged Hawkins Consciousness assessment — Q1, Q2, Q3. Also invocable via `/questionnaire hawkins` |
+| 16 Ñāṇas questionnaire | `/sixteen-nanas-questionnaire` | Staged 16 Ñāṇas assessment — Q1, Q2, Q3. Also invocable via `/questionnaire nanas` |
+| Ten Ox-Herding Pictures questionnaire | `/ox-herding-questionnaire` | Staged Ten Ox-Herding Pictures assessment — Q1, Q2, Q3. Also invocable via `/questionnaire ox-herding` |
+| Nine Śamatha questionnaire | `/samatha-questionnaire` | Staged Nine Śamatha assessment — Q1, Q2, Q3. Also invocable via `/questionnaire samatha` |
+| Guṇasthānas questionnaire | `/gunasthanas-questionnaire` | Staged Guṇasthānas assessment — Q1, Q2, Q3. Also invocable via `/questionnaire gunasthanas` |
+| Sufi Maqamat questionnaire | `/sufi-maqamat-questionnaire` | Staged Sufi Maqamat assessment — Q1, Q2, Q3. Also invocable via `/questionnaire sufi` |
 | Undigested | `/undigested` | Surface insights from journeys, journals, and dreams that were recognized but haven't moved into behavior yet — the gap between knowing and embodying |
 
 `/setup` runs first. Every other skill assumes `context-library/profile.md` exists. If a skill is invoked before setup, gently invite the user to run `/setup` first. Do not refuse — they may have edited the profile by hand and that's fine.
