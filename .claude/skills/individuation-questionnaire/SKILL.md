@@ -288,28 +288,63 @@ If a fuller Individuation map exists, offer to refresh it, merging Q2 with Q1 an
 
 ## Q3 — Long reading (20-30 min)
 
-The longest read: a settled full stage profile woven with the user's own words. 22 questions across seven sections — open-ended (~40% of the signal), multiple-choice, and Likert (1-5). One at a time, no commentary between. **State/stage tags are for your scoring only — never show them.** Shuffle multiple-choice option order. If Q1/Q2 exist, open by surfacing the latest reading; standalone-capable otherwise (Section 2 is the baseline). Softened lexicon; describe the lived experience before naming the stage; sidestep gender-binary framing of the inner partner.
+The longest read: a settled full stage profile woven with the user's own words. 22 questions across seven sections — open-ended (~40% of the signal), multiple-choice, and Likert (1-5). One at a time, no commentary between. **State/stage tags are for your scoring only — never show them.** Shuffle multiple-choice option order. If Q1/Q2 exist, open by surfacing the latest reading; standalone-capable otherwise (Section 2 is the baseline). **No Q3 question repeats a Q1 or Q2 question**: Q3 reaches the same stages through different situations, so ask Q3 exactly as written here. Softened lexicon; describe the lived experience before naming the stage; sidestep gender-binary framing of the inner partner.
 
 ### Q3 Section 1 — Settling in (2 open-ended)
 
 **1.** *Take a breath. In your own words: when you look at the work of your own becoming, what's most alive right now? What's been asking for you?*
-**2.** *If you had to describe the version of you that is "real" right now, in plain language, what would you say?*
+**2.** *Describe a part of you that almost nobody sees. What is it like, and why does it stay out of sight?*
 
-### Q3 Section 2 — Quick stage scan (6 multiple-choice)
+### Q3 Section 2 — Stage scan through lived situations (6 multiple-choice)
 
-For each, options map to *(primary)* / *(active)* / *(emerging)* / *(dormant)* / *(shadow)* — shuffle, hide tags.
+Q2 asked how present each stage is. Q3 asks the same thing through a concrete situation, so nothing repeats: each option still maps to *(primary)* / *(active)* / *(emerging)* / *(dormant)* / *(shadow)*. Shuffle, hide tags.
 
-**3. The pre-conscious wholeness, before the work of becoming yourself begins:** Where I live, the work hasn't started *(primary)* / Active, I can return to simple wholeness when I rest *(active)* / Pulling at me, I'm being asked back to a simpler state *(emerging)* / Not in play *(dormant)* / I distrust it, it feels like denial *(shadow)*
-**4. The social mask — building and living your role in the world:** Active, I tend my role but it doesn't define me *(active)* / I avoid it, performing a role feels false *(shadow)* / Where I live, my work/role/reputation are the centre *(primary)* / Pulling at me, I want to build something visible *(emerging)* / Dormant, I've moved beyond it *(dormant)*
-**5. Meeting and owning what you've disowned:** Pulling at me, I'm starting to glimpse what I've avoided *(emerging)* / Dormant *(dormant)* / I avoid it, too dark, too destabilising *(shadow)* / Where I live, I'm in the middle of it *(primary)* / Active, I return to it when something surfaces *(active)*
-**6. Engaging the inner partner — qualities you project onto an idealised other:** I avoid it, the "inner partner" feels off-limits *(shadow)* / Where I live, I'm integrating qualities I've projected for years *(primary)* / Active, the inner partner is no longer fully outside me *(active)* / Dormant *(dormant)* / Pulling at me, I'm noticing longing for qualities I lack *(emerging)*
-**7. The inner elder — listening to a wisdom larger than the ego:** Dormant, no inner elder asking for my attention *(dormant)* / Pulling at me, I'm sensing an inner voice of wisdom *(emerging)* / Active, I have moments of contact with an inner guide *(active)* / I distrust it, "inner wisdom" sounds inflated *(shadow)* / Where I live, an inner wisdom is teaching me *(primary)*
-**8. The lived realisation of wholeness:** Active, I touch wholeness in moments *(active)* / Dormant, I don't think about this *(dormant)* / Pulling at me, I sense a wholeness on the horizon *(emerging)* / Where I live, wholeness is the ground I orient to *(primary)* / I distrust it, sounds like spiritual bypass *(shadow)*
+**3. A free afternoon, with nothing to do and nobody needing you:** *(Unconscious Wholeness)*
+- It's lovely, and that's all. I don't go looking for anything deeper in it *(primary)*
+- I drop into an easy, whole feeling, the way I could as a child *(active)*
+- I keep wishing I could simply be in it, without the inner work getting in the way *(emerging)*
+- It's a pleasant gap. It doesn't touch my inner life much *(dormant)*
+- I get uneasy. Simple contentment feels like hiding from something *(shadow)*
+
+**4. When your work, role or standing is questioned, or taken away for a while:** *(Persona)*
+- It stings and I tend to it, but I'm still myself underneath *(active)*
+- I keep clear of roles and titles, so there's nothing there to lose *(shadow)*
+- It shakes me badly. Without it I hardly know who I am *(primary)*
+- There isn't much to take yet. I want a place in the world I can build and stand in *(emerging)*
+- It barely registers. My role sits lightly on me now *(dormant)*
+
+**5. When someone tells you something unflattering about yourself, and it turns out to be true:** *(Shadow Work)*
+- I'm starting to suspect there's more of this than I've let myself see *(emerging)*
+- It doesn't come up much, and I'm not looking for it *(dormant)*
+- I find a reason it isn't really true, and move on fast *(shadow)*
+- That's most of my inner life right now. I keep meeting things like this and taking them in *(primary)*
+- It still lands hard, but I know how to sit with it and own it *(active)*
+
+**6. When you fall for someone, or for someone's way of being, what happens to it over time:** *(Anima/Animus)*
+- I'd rather not look at it. Talk of an "inner partner" puts me off *(shadow)*
+- I'm learning to find in myself what I fell for in them. That's the work right now *(primary)*
+- I can usually tell when I've put something of mine on them, and take it back *(active)*
+- It isn't a live question for me at the moment *(dormant)*
+- I'm starting to notice I keep falling for the same quality, the one I don't have *(emerging)*
+
+**7. When you face a choice you can't think your way through:** *(Wise Elder)*
+- I reason it out as best I can. Nothing else seems to speak *(dormant)*
+- I'm beginning to feel there's a deeper knowing in me I could learn to hear *(emerging)*
+- Now and then I can drop below thinking and hear a quieter guidance *(active)*
+- I don't trust "inner knowing". It is usually the ego in a robe *(shadow)*
+- I wait, and something wiser than my reasoning usually answers. I try not to take credit for it *(primary)*
+
+**8. On a hard day, when things go badly and you can't fix them:** *(The Self)*
+- Some days I can feel a ground that isn't shaken. Other days it's gone *(active)*
+- I just get through it. I don't think in terms of anything underneath *(dormant)*
+- I sense there could be a steadiness under all of it, and I want to find it *(emerging)*
+- Something steady holds underneath, even when I lose sight of it for a while *(primary)*
+- Talk of an unshakeable centre sounds like a way of not feeling the day *(shadow)*
 
 ### Q3 Section 3 — Archetypal landscape (2 MC + 1 open-ended)
 
-**9. The figure who appears most often in your dreams or inner imagery now:** A version of me performing or being judged *(Persona)* / A dark, threatening, or despised figure *(Shadow)* / A compelling figure of the other sex or opposite energy *(Anima/Animus)* / An elder, teacher, wise figure *(Wise Elder)* / Mandalas, circles, the union of opposites *(The Self)* / Peaceful landscapes, paradise *(Unconscious Wholeness)* / No memorable inner imagery *(none)*
-**10. The person in waking life who triggers your strongest reaction:** Someone whose flaws I can't stop judging *(Shadow projection)* / Someone whose qualities I lack and find irresistible *(Anima/Animus projection)* / Someone whose wisdom I'm hungry for *(Wise Elder projection)* / Someone whose authenticity I admire *(Self projection)* / Someone whose success I envy *(Persona projection)* / No one strongly *(low projection)*
+**9. The kind of story, film or book that gets under your skin most these days:** Someone rising or falling in public. Success, reputation, scrutiny *(Persona)* / A villain, or a character who does what I'd never let myself do *(Shadow)* / A love story where someone is changed by the person they fall for *(Anima/Animus)* / A mentor and a student. Wisdom being handed on *(Wise Elder)* / Opposites reconciled. A whole that finally holds every part *(The Self)* / Gentle stories where nothing much goes wrong *(Unconscious Wholeness)* / Nothing gets to me like that lately *(none)*
+**10. The argument you keep having in your head with someone:** About what they did wrong, and why they're wrong *(Shadow)* / Trying to reach someone I can't stop thinking about *(Anima/Animus)* / Asking someone wiser than me what I should do *(Wise Elder)* / Mostly with myself, and I can listen to both sides *(The Self)* / Defending my record, my competence, my reputation *(Persona)* / I don't really have one *(none)*
 **11.** *Open-ended: Describe a recent moment when you saw yourself clearly — not the mask, not the projection, but the actual texture of who you are. What did you see?*
 
 ### Q3 Section 4 — Adaptive deep-dive (3 open-ended)
@@ -325,13 +360,13 @@ From the running profile select 3 prompts: **1 on the primary stage**, **1 on th
 
 ### Q3 Section 5 — Projection and integration (2 MC + 1 Likert)
 
-**15. What you most often catch yourself doing when someone strongly affects you:** Judging them, building a case *(shadow projection, unintegrated)* / Idealising them, wishing I were more like them *(anima/animus projection, unintegrated)* / Asking what they're showing me about me *(integration active)* / Taking the projection back over time *(integration deepening)* / I don't really notice this *(early stage)*
+**15. A day or two after a strong reaction to someone has passed:** I'm still building the case against them *(shadow projection, unintegrated)* / I'm still thinking about them, wishing I were more like them *(anima/animus projection, unintegrated)* / I'm asking what the reaction showed me about me *(integration active)* / I can usually see what was mine in it, and own it *(integration deepening)* / It's gone. I don't think about it again *(early stage)*
 **16. The threshold you're being asked to cross now:** From simply living, to looking inward at all *(Wholeness → Persona/Shadow)* / From living through the mask, to meeting what's underneath *(Persona → Shadow)* / From meeting the disowned, to welcoming it home *(Shadow encounter → integration)* / From projecting the inner partner, to integrating those qualities *(Shadow → Anima/Animus)* / From integrating the inner partner, to listening to a deeper wisdom *(Anima/Animus → Wise Elder)* / From listening to wisdom, to living from wholeness *(Wise Elder → The Self)* / Not in a clear transition *(none)*
-**17. Likert (1-5):** *I can let the figures in my dreams or projections be teachers rather than just experiences.*
+**17. Likert (1-5):** *When a dream or a strong reaction unsettles me, I go back to it to ask what it wants from me.* (high → Wise Elder or Self active)
 
 ### Q3 Section 6 — The Self and longing (2 Likert + 1 open-ended)
 
-**18. Likert (1-5):** *There is a wholeness in me that isn't dependent on circumstance.* (high → Self active)
+**18. Likert (1-5):** *I can feel part of something larger than me without losing myself in it.* (high → Self active)
 **19. Likert (1-5):** *I can hold opposites in me — light and dark, ego and shadow — without needing to resolve them.* (high → integration deepening)
 **20.** *Open-ended: What do you long for that you don't yet have words for?* (longing language reveals the stage most asking to emerge)
 

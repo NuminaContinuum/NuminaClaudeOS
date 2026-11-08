@@ -339,25 +339,26 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `hawk
 **1.** *Describe the emotional weather of your life over the last few months. Not the events — the register underneath them, the thing that is there when you wake up.* (3-4 min)
 **2.** *What brought you here today? Say the honest version, including if it is curiosity or a bad week rather than anything larger.* (2 min)
 
-### Q3 Section 2 — Band scan (7 multiple-choice)
+### Q3 Section 2 — Band scan through ordinary situations (7 multiple-choice)
 
-Same seven bands and state mapping as Q2 Section 1, shuffled, tags hidden. A few labels differ slightly from Q2; use these:
+Same seven bands and five states as Q2 Section 1, but nothing here repeats Q2: each band is asked through an ordinary situation, and each answer carries the state in brackets. Shuffle, hide tags, and ask exactly these:
 
-**3.** *Flatness, shame, or a grief that has not moved:* That is most days for me right now *(dominant)* / I know it well. It is not where I am *(familiar)* / Something is sinking toward it *(emerging)* / I refuse to be someone who lives there *(shadow)* / Not in play for me *(dormant)*
-**4.** *Fear, wanting, anger, or the pride that defends:* That is the register most days run in *(dominant)* / Familiar. It surfaces and passes *(familiar)* / It is starting to build again *(emerging)* / I will not admit that lives in me *(shadow)* / Not in play for me *(dormant)*
-**5.** *Doing the thing anyway, because it is yours to do:* That is where I live right now *(dominant)* / I have had it. It comes and goes *(familiar)* / Something is turning toward it *(emerging)* / I distrust it. It reads as bravado to me *(shadow)* / Not in play for me *(dormant)*
-**6.** *Being willing, without needing it to go a particular way:* That is where I live *(dominant)* / Familiar ground *(familiar)* / It is beginning to be possible *(emerging)* / That reads as passivity to me and I refuse it *(shadow)* / Not in play for me *(dormant)*
-**7.** *Seeing what is actually there, and accepting it:* That is where I live *(dominant)* / Familiar. I can get there *(familiar)* / It is gathering *(emerging)* / That reads as coldness to me *(shadow)* / Not in play for me *(dormant)*
-**8.** *Warmth that does not depend on the other person deserving it:* That is where I live *(dominant)* / I have had it. It does not stay *(familiar)* / Something is opening *(emerging)* / I do not trust that in myself or others *(shadow)* / Not in play for me *(dormant)*
-**9.** *Stillness, and the sense of not being separate from things:* That is where I live *(dominant)* / It has happened. I cannot produce it *(familiar)* / Something is thinning *(emerging)* / That reads as escapism to me *(shadow)* / Not in play for me *(dormant)*
+**3.** *The last time something good happened to you:* It barely reached me. Most things land flat right now *(dominant)* / I remember when it wouldn't have reached me. It does now *(familiar)* / It reached me less than it would have a while ago. Something is going flat *(emerging)* / I made sure to feel good about it. I can't afford to be low *(shadow)* / I enjoyed it, simply *(dormant)*
+**4.** *When someone gets in the way of something you want:* I push, or I go cold and plan my next move. It runs most of my days *(dominant)* / I flare up, I notice it, and it passes *(familiar)* / I'm getting shorter with people lately. It's building *(emerging)* / I don't really get angry, and I don't want things that much *(shadow)* / I step round it. It doesn't take hold *(dormant)*
+**5.** *The task you've been putting off because it frightens you:* I'm doing it, scared. That is how most of my days go right now *(dominant)* / I've done things like that before. Some weeks I can, some I can't *(familiar)* / I can feel myself getting closer to simply doing it *(emerging)* / Pushing yourself through fear looks like ego to me. I'd rather wait *(shadow)* / There isn't one. Nothing like that is in front of me *(dormant)*
+**6.** *A plan of yours falls through at the last minute:* I adjust and go with what's there. I'm not attached to how it goes *(dominant)* / I can let it go after a while. I've learned that much *(familiar)* / I'm starting to be able to shrug at it, which is new *(emerging)* / I refuse to just accept it. Letting things go is how you get walked over *(shadow)* / I fight to rescue it. Letting go isn't really in me right now *(dormant)*
+**7.** *When the facts turn against something you believed:* I change my mind and want to understand it properly. That's how I live *(dominant)* / I can get there, with some effort and some time *(familiar)* / I'm becoming more interested in what's true than in being right *(emerging)* / Cold analysis isn't for me. I go with what I feel *(shadow)* / It doesn't come up much. I don't look closely at what I believe *(dormant)*
+**8.** *Someone who has treated you badly needs your help:* I help, and I mean it. The warmth doesn't wait for them to earn it *(dominant)* / I've managed it before. It doesn't always stay *(familiar)* / Something in me is softening toward people I used to write off *(emerging)* / Warmth for people who don't deserve it is how you get used *(shadow)* / I'd weigh what they did. Warmth doesn't come into it for me *(dormant)*
+**9.** *Sitting outside at night, or by water, with nothing to do:* The edges go, and I'm part of it. That's often how it is *(dominant)* / It has happened like that. I can't make it happen *(familiar)* / Lately the line between me and everything feels thinner *(emerging)* / That "oneness" talk feels like a way of leaving your own life *(shadow)* / It's pleasant. I'm here, and it's out there *(dormant)*
 
 ### Q3 Section 3 — Charge and the threshold (2 multiple-choice + 1 open-ended)
 
-**10. Where does the most emotional charge sit for you right now?**
-On something I cannot lift, and have stopped trying to *(Despair)* / On something I want, or someone I am angry with *(Reactive)* / On something I am about to do and have been avoiding *(Courage)* / On letting something be uncertain without forcing it *(Trust)* / On understanding something I have been getting wrong *(Reason)* / On a person, and on wanting to be better to them *(Love)* / Nowhere in particular. It is quiet *(Spirit)*
+**10. What your mind goes to when you can't sleep:**
+What I've lost, or what the point of anything is *(Despair)* / What I want, or the people who have wronged me *(Reactive)* / The hard thing I have to face tomorrow *(Courage)* / What I can't control, and I let it sit there *(Trust)* / A problem I'm trying to understand properly *(Reason)* / Someone I love, and how they are doing *(Love)* / Nothing much. I lie there, and it is quiet *(Spirit)*
 
-**11. This map draws a line at two hundred: below it a life runs on force, above it on power. Where are you in relation to that line?**
-Same five options and tags as Q2 Q10. If the user picks *"I say above and I think I live below"*, say once: *"That's a brave thing to notice about yourself. The questions ahead will hold this carefully."* Then continue.
+**11. This map turns on force and power: pushing against life, or moving with it. Over the past month, most of your days ran on:**
+Pushing, mostly. Forcing, defending, getting through *(below)* / Right on the turn. The pushing is starting to give way *(crossing)* / Moving with it, mostly. Things go without me forcing them *(above)* / It swings from one week to the next *(oscillating)* / I talk about letting go, and I still push hard most days *(bypass)*
+The tags are the same five relationships to the line as Q2 Q10 (below / crossing / above / oscillating / bypass) and read the same way. If the user picks *"I talk about letting go, and I still push hard most days"*, say once: *"That's a brave thing to notice about yourself. The questions ahead will hold this carefully."* Then continue.
 
 **12.** *Describe a recent moment when your register shifted — when something in you dropped or lifted. What happened just before it, and what was different afterwards?* (3-4 min)
 
@@ -390,7 +391,7 @@ From flatness into wanting something again *(Despair)* / From reacting into doin
 **17. What you are most afraid of losing in that crossing:**
 The numbness. It has been protecting me *(Despair)* / The edge. My anger is what gets things done *(Reactive)* / Control. If I stop pushing, it all stops *(Courage)* / Being right. I do not know who I am without the argument *(Reason)* / Distance. Warmth would mean being hurt again *(Love)*
 
-**18. Likert (1-5):** *I can stay with a difficult feeling without reframing it into something more acceptable.* (2 or lower → reframing note)
+**18. Likert (1-5):** *When I am hurt, I can say so plainly instead of turning it into a lesson.* (2 or lower → reframing note)
 
 ### Q3 Section 6 — Emerging and scepticism (2 Likert + 1 open-ended)
 
@@ -419,7 +420,7 @@ The numbness. It has been protecting me *(Despair)* / The edge. My anger is what
 9. **Notes**, in this order, each only if it applies. The copy is fixed:
    - *Self-named gap (Q11):* "That is a brave thing to notice about yourself, and it is the most useful answer you gave. Nothing in this reading is going to argue with it."
    - *Bypass flag:* "You place yourself above the two-hundred line while the registers below it are marked as not in play at all. On this map the levels are moved through rather than skipped, so a profile shaped like that usually means the lower ones are running underneath rather than absent. This is said gently and it is not a demotion: the upper levels described from a distance are the easiest part of this map to reach for, and noticing the gap is what closes it."
-   - *Q18 at 2 or lower:* "You said staying with a difficult feeling without reframing it is hard. On this map that habit is the specific risk: the upper registers make excellent hiding places, and a feeling reframed before it is felt tends to come back at the same strength."
+   - *Q18 at 2 or lower:* "You said that when you are hurt, it is hard to say so plainly without turning it into a lesson. On this map that habit is the specific risk: the upper registers make excellent hiding places, and a feeling reframed before it is felt tends to come back at the same strength."
    - *Q20 at 4 or higher:* "You said you doubt inner states can be ranked on a numbered scale, and that doubt is worth keeping. The numbers here are a device for talking about registers of experience, not a measurement of anyone. The Jung and Spiral Dynamics maps describe overlapping ground without ranking it, and reading yourself against one of them alongside this is a reasonable corrective."
 
 ### Q3 Step 9 — Render the result

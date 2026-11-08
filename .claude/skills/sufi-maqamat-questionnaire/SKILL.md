@@ -304,21 +304,21 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `sufi
 
 > *Scoring:* band themes from language (turning/conscience, letting go/simplicity, trial/patience/trust, devotion/love/contentment, knowing/thinning/dissolution). Note any signal of pride in one's place on the path for the ujb cross-check.
 
-### Q3 Section 2 — Quick band scan (5 multiple-choice)
+### Q3 Section 2 — Band scan through ordinary moments (5 multiple-choice)
 
-Plain states, shuffled, tags hidden. Doubles as the baseline and the selector for Section 4.
+Q2 asked how present each station is; Q3 asks through a moment of ordinary life, so nothing repeats Q2. The band is in brackets after the prompt, the state after each option. Shuffled, tags hidden. Doubles as the baseline and the selector for Section 4.
 
-**3. Awakening conscience, becoming careful, returning:** *(Turning)* Familiar / Pulling at me / Currently where I am / Not in play / I push against it
-**4. Renunciation, simplicity, spiritual poverty:** *(Letting Go)* Currently where I am / Familiar / Pulling at me / Not in play / I push against it
-**5. Patient endurance, surrender of outcomes:** *(Trial & Trust)* Pulling at me / Currently where I am / Familiar / Not in play / I push against it
-**6. Contentment with what is, love of the Beloved:** *(Devotion)* Familiar / Pulling at me / Currently where I am / Not in play yet / I push against it
-**7. Direct gnosis, thinning of the self, annihilation:** *(Knowing)* Not in play / I push against it / Familiar / Pulling at me / Currently where I am
+**3. When you notice you've wronged someone, even in a small way:** *(Turning)* I learned long ago to stop, own it and make amends. It comes back when I need it *(Familiar)* / It weighs on me more than it used to. Something wants me to turn *(Emerging)* / I turn back and put it right. That carefulness is the daily work now *(Current)* / I apologise if it seems needed, and move on *(Dormant)* / Too much conscience makes people timid and prim. I don't dwell on it *(Resisted)*
+**4. Clearing out your things, or giving up a comfort you're used to:** *(Letting Go)* That is where I am. I am shedding, and it feels like the work *(Current)* / I know that lightness. I have let go of a great deal before *(Familiar)* / Something in me wants to put things down and own less *(Emerging)* / It doesn't feel like a matter of the path for me right now *(Dormant)* / Giving things up for its own sake feels like deprivation *(Resisted)*
+**5. Something you've worked for is out of your hands, and still undecided:** *(Trial & Trust)* A trial is coming, or already here, and I can feel it asking for patience *(Emerging)* / I am waiting with it, and trusting. That is my daily practice now *(Current)* / I've had to wait like this before, and I know how to hold it *(Familiar)* / I don't think of it in those terms *(Dormant)* / Waiting and trusting is a polite name for giving up. I push *(Resisted)*
+**6. Ordinary moments, like washing up or walking to work:** *(Devotion)* My heart has opened like that before, and it comes back sometimes *(Familiar)* / The heart is starting to soften toward small things *(Emerging)* / They are full of love. Everything feels given, and I'm grateful for it *(Current)* / They are what they are. Devotion hasn't come into it yet *(Dormant)* / Talk of loving everything sounds sweet and naive to me *(Resisted)*
+**7. In prayer, remembrance or deep stillness, what happens to the one who is doing it:** *(Knowing)* I'm firmly there, the whole time. Nothing thins *(Dormant)* / Losing the self sounds like dissociation to me, and I keep away from it *(Resisted)* / I've known the "I" to go quiet, briefly *(Familiar)* / The sense of a separate me is starting to thin *(Emerging)* / There is hardly anyone left doing it. The Beloved and I are barely two *(Current)*
 
-*(Familiar = Familiar, Pulling at me = Emerging, Currently where I am = Current, Not in play = Dormant, I push against it = Resisted.)*
+
 
 ### Q3 Section 3 — Hal vs maqam, and the lived moment (1 MC + 2 open-ended)
 
-**8. The station you are reporting: how does it actually live in you?** Stable. It's where I live. I can return to it day after day, through dry times and bright ones *(Maqam)* / Recent and consistent. I've been in this for months, but the longer rhythm hasn't been tested *(Possibly maqam)* / Visiting. It's arising lately, but it doesn't feel like home *(Hal)* / Mixed. Stable in some domains, fleeting in others *(Mixed)*
+**8. If a month of dryness or bad news came, what you have described would:** Still be there. It has held through hard months before *(Maqam)* / Probably hold, but it hasn't been tested by a long hard stretch yet *(Possibly maqam)* / Most likely go quiet. It comes and goes, and doesn't feel like home yet *(Hal)* / Hold in some parts of my life, and not in others *(Mixed)*
 **9.** *Describe a recent moment when you were most fully at the station you would name as your current one. What was happening? What was alive in you? What were you doing, or not doing?* (2-3 min)
 **10.** *Describe a recent moment when the station seemed to slip, when you fell out of it, or noticed it was not there. What was that like?* (2-3 min) — tell the user: *"This one and the last are the pair that tells a passing state from an earned station."*
 
@@ -343,13 +343,13 @@ From the Section 2 scan select 3 bands: **the Current band**, **the first Resist
 ### Q3 Section 5 — Transitions and pitfalls (2 MC + 1 Likert)
 
 **14. The transition you sense yourself inside right now:** From ordinary life into the path itself *(→ Tawba)* / From turning back into the disciplined work of letting go *(→ Zuhd)* / From renunciation into the spiritual poverty that knows it has nothing *(→ Faqr)* / From poverty into the trial that tests it *(→ Sabr)* / From patience into trust, from holding into surrender *(→ Tawakkul)* / From trust into contentment, from doing into receiving *(→ Rida)* / From contentment into love, from acceptance into devotion *(→ Mahabba)* / From love into knowing, from heart-opening into self-thinning *(→ Marifa)* / From knowing into annihilation *(→ Fana)* / Not in a clear transition right now *(none)*
-**15. The pitfall most alive for you at your current station:** Conscience hardening into self-criticism, turning becoming relentless self-attack *(Turning)* / Renunciation becoming spiritual showing-off, poverty becoming a new identity *(Letting Go)* / Patience hardening into stoicism, surrender becoming passivity or fatalism *(Trial & Trust)* / Devotion becoming sentimentality, love becoming need, contentment becoming complacency *(Devotion)* / Knowing becoming an experience the self collects, annihilation leaving a collector behind *(Knowing)* / None I can name right now *(none)*
-**16. Likert (1-5):** *I notice quiet self-admiration about where I have reached on the path. The recognition is itself part of my work right now.* (ujb; 4-5 with Devotion or Knowing Current → ujb note)
+**15. What a close friend on the path might gently warn you about:** That my carefulness has turned into attacking myself *(Turning)* / That my simplicity has become something to be seen for *(Letting Go)* / That my patience has gone hard, or my surrender has become passivity *(Trial & Trust)* / That my love has turned into need, or my contentment into complacency *(Devotion)* / That I'm collecting spiritual experiences, with someone still doing the collecting *(Knowing)* / Nothing I can see right now *(none)*
+**16. Likert (1-5):** *When someone praises my spiritual life, part of me enjoys it more than I would like.* (ujb; 4-5 with Devotion or Knowing Current → ujb note)
 
 ### Q3 Section 6 — Longing and pluralism (2 Likert + 1 open-ended)
 
 **17. Likert (1-5):** *Something further on the path is pulling at me. I sense the next station gathering.* (high → strong Emerging signal)
-**18. Likert (1-5):** *The Beloved goes by many names. My path is one of many real paths, and other maps describe the same territory.* (1-2 → over-identification)
+**18. Likert (1-5):** *I can learn from people on other paths without needing them to be on mine.* (1-2 → over-identification)
 **19.** *What do you long for, on the path, that you do not yet have words for? What does the heart secretly ache toward?* (2-3 min)
 
 > *Scoring:* longing (shawq) is itself a mark of love in the tradition. Its language shows which station is most asking to emerge.

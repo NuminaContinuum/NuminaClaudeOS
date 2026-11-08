@@ -232,15 +232,15 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `yin-
 
 > *Scoring:* Q1 is the single most diagnostic question — practice form + frequency + what actually happens place the user precisely. Q2 reveals the working edge.
 
-### Q3 Section 2 — Quick stage scan (5 multiple-choice)
+### Q3 Section 2 — Stage scan in plain description (5 multiple-choice)
 
-Same five stages and state mapping as Q2 Section 1 (Current / Familiar / Emerging / Dormant / Not-yet-attempted), shuffled, tags hidden. Doubles as the baseline + the selector for Section 4 if Q1/Q2 weren't taken.
+Same five stages and states as Q2 Section 1 (Current / Familiar / Emerging / Dormant / Not-yet-attempted), but nothing here repeats Q2: each stage is described by what practice actually feels like, with answers of its own. The stage is in brackets after the prompt. Shuffle, hide tags, and ask exactly these. Doubles as the baseline + the selector for Section 4 if Q1/Q2 weren't taken.
 
-**3. Laying the Foundation** — Currently where I am *(Current)* / Familiar *(Familiar)* / Pulling at me *(Emerging)* / Not in play *(Dormant)* / Not yet attempted *(Not-yet-attempted)*
-**4. Refining Essence into Energy** — Familiar *(Familiar)* / Pulling at me *(Emerging)* / Currently where I am *(Current)* / Not in play *(Dormant)* / Not yet attempted *(Not-yet-attempted)*
-**5. Refining Energy into Spirit** — Pulling at me *(Emerging)* / Currently where I am *(Current)* / Familiar *(Familiar)* / Not in play *(Dormant)* / Not yet attempted *(Not-yet-attempted)*
-**6. Refining Spirit, Returning to Emptiness** — Familiar *(Familiar)* / Pulling at me *(Emerging)* / Currently where I am *(Current)* / Not in play yet *(Dormant)* / Not yet attempted *(Not-yet-attempted)*
-**7. Merging with the Dao** — Not yet attempted *(Not-yet-attempted)* / Not in play *(Dormant)* / Familiar *(Familiar)* / Pulling at me *(Emerging)* / Currently where I am *(Current)*
+**3. Settling the body, lengthening the breath, and simply turning up:** *(Laying the Foundation)* That is the whole of my practice right now *(Current)* / I laid that ground. It holds *(Familiar)* / I am rebuilding it after letting it go *(Emerging)* / Not where my attention is *(Dormant)* / I have not started anything regular *(Not-yet-attempted)*
+**4. Feeling something move in the body, and learning to move it:** *(Refining Essence into Energy)* That is what my sessions are about now *(Current)* / I know that. It comes when I sit properly *(Familiar)* / Something is beginning to be felt rather than imagined *(Emerging)* / Not in play *(Dormant)* / I have only read about this *(Not-yet-attempted)*
+**5. The movement quieting into a stillness that is not empty:** *(Refining Energy into Spirit)* That is where my practice sits *(Current)* / It has happened. It does not stay *(Familiar)* / The energy is starting to settle rather than circulate *(Emerging)* / Not in play *(Dormant)* / Well beyond where I am *(Not-yet-attempted)*
+**6. The one who is practising thinning out:** *(Refining Spirit, Returning to Emptiness)* That is where my practice sits *(Current)* / I have had that. I cannot produce it *(Familiar)* / Something is opening that direction *(Emerging)* / Not in play *(Dormant)* / Well beyond where I am *(Not-yet-attempted)*
+**7. No practice, no practitioner, nothing being done:** *(Merging with the Dao)* That is where I am *(Current)* / It has happened *(Familiar)* / Something is thinning further *(Emerging)* / Not in play *(Dormant)* / Not reached in this practice arc *(Not-yet-attempted)*
 
 ### Q3 Section 3 — Recent session and energy body (2 MC + 2 open-ended)
 
@@ -265,8 +265,8 @@ From the running profile select 3 prompts: **1 on the Current stage**, **1 on th
 
 ### Q3 Section 5 — Energy markers and transitions (2 MC + 1 Likert)
 
-**14. The felt circulation of energy (the microcosmic orbit):** I've never felt energy circulate, I know the idea not the experience *(No-circulation)* / Warmth and aliveness, but no clear circulating path yet *(Partial)* / Energy circulates along a path and I can return to it deliberately *(Circulation — Stage 2+)* / The circulation runs largely on its own, part of the stillness *(Strong — Stage 3+)* / I'm not sure what the microcosmic orbit is, only what I've read *(Honest unfamiliarity)*
-**15. The transition you sense yourself inside right now:** From scattered, depleted living into laying a foundation *(Pre-practice → 1)* / From a settled foundation into feeling and circulating energy *(1 → 2)* / From circulating energy into letting it settle into spirit *(2 → 3)* / From the deep stillness of spirit into the opening of emptiness *(3 → 4)* / From spaciousness into the undivided *(4 → 5)* / Within a stage, deepening it rather than crossing *(within-stage)* / Not in a clear transition right now *(none)*
+**14. If a teacher asked you, right now, to move the energy up the back and down the front:** I would not know where to begin. I have never felt it move *(No-circulation)* / I would feel warmth, but I could not follow a path with it *(Partial)* / I could do it, and do it again *(Circulation — Stage 2+)* / It already runs by itself. I would only be noticing it *(Strong — Stage 3+)* / I am not sure what that means, beyond what I have read *(Honest unfamiliarity)*
+**15. The change your practice is in the middle of:** Going from no regular practice to building one *(Pre-practice → 1)* / Going from a steady base to feeling energy move *(1 → 2)* / Going from moving the energy to letting it settle and go still *(2 → 3)* / Going from deep stillness to an opening into space *(3 → 4)* / Going from openness to the last sense of separation falling away *(4 → 5)* / Deepening where I am rather than crossing anywhere *(within-stage)* / Not in the middle of any clear change *(none)*
 **16. Likert (1-5):** *I'd trust an experienced teacher's read of my stage more than my own self-assessment.* (high → self-awareness signal; low → over-rating risk or healthy independence, cross-reference flags)
 
 ### Q3 Section 6 — Longing and pluralism (2 Likert + 1 open-ended)

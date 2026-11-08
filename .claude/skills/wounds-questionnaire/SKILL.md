@@ -218,20 +218,20 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `woun
 **1.** *Take a breath. In your own words: what's tender in you right now? What gets touched, again and again, in your relationships or your work?*
 **2.** *If you had to name what you most protect yourself from feeling, what would you say?*
 
-### Q3 Section 2 — Quick scan of all 5 wounds (5 multiple-choice)
+### Q3 Section 2 — All 5 wounds through ordinary moments (5 multiple-choice)
 
-Same five territories and state mapping as Q2 Section 1 (acute / active / stirring / dormant / disowned), shuffled, tags hidden. Use this as the baseline if Q1/Q2 weren't taken, and to select the Section 4 deep-dive prompts.
+Same five territories and states as Q2 Section 1 (acute / active / stirring / dormant / disowned), but nothing here repeats Q2: each wound is asked through an ordinary moment. Shuffle, hide tags, and ask exactly these. Use this as the baseline if Q1/Q2 weren't taken, and to select the Section 4 deep-dive prompts.
 
-**3. Belonging and being seen** — Loud now *(Rejection acute)* / Recurring ache *(active)* / Mild hum *(stirring)* / Quiet *(dormant)* / Not my issue *(disowned)*
-**4. Closeness and being left** — Loud now *(Abandonment acute)* / I cling or leave first *(active)* / Stirs sometimes *(stirring)* / Secure *(dormant)* / Don't need people that way *(disowned)*
-**5. Worth and exposure** — Loud now *(Humiliation acute)* / Shrink or over-achieve *(active)* / Surfaces sometimes *(stirring)* / Can take up space *(dormant)* / Not my struggle *(disowned)*
-**6. Trust and betrayal** — Loud now *(Betrayal acute)* / Control / arm's length *(active)* / Stirs when I must depend *(stirring)* / Can lean on people *(dormant)* / Trust easily *(disowned)*
-**7. Fairness and the world** — Loud now *(Injustice acute)* / Frustration or grudge *(active)* / Stirs at unfairness *(stirring)* / Accept imperfection *(dormant)* / Don't get worked up *(disowned)*
+**3. Walking into a room where you know almost nobody:** *(Rejection)* It's raw right now. I feel unwanted before anyone has said a word *(acute)* / The old feeling comes, that I don't quite fit, and I manage it *(active)* / Something tightens a little, then it passes *(stirring)* / I'm fine. I usually find my way in *(dormant)* / That's never bothered me, and it isn't something I think about *(disowned)*
+**4. Someone close to you goes quiet for a few days:** *(Abandonment)* I can hardly think about anything else. I'm sure they're leaving *(acute)* / I chase them for reassurance, or pull away before they can *(active)* / It nags at me, with some people more than others *(stirring)* / I assume they're busy. It doesn't shake me *(dormant)* / It wouldn't register. I've never needed people much *(disowned)*
+**5. You make a visible mistake in front of other people:** *(Humiliation)* It burns for days. I feel exposed, and wrong right down to the root *(acute)* / I make myself small afterwards, or work twice as hard so it can never happen again *(active)* / It stings in certain company *(stirring)* / I wince, laugh, and get on with it *(dormant)* / Embarrassment doesn't really get to me *(disowned)*
+**6. Someone offers to take over a job that really matters to you:** *(Betrayal)* I can't let them. After what happened, I can't rely on anyone right now *(acute)* / I usually say no, or check everything they do. It's easier to do it myself *(active)* / I let them, but it makes me uneasy *(stirring)* / I let them, and I trust it will get done *(dormant)* / I hand things over without a second thought. Trust has never been a question for me *(disowned)*
+**7. Someone gets credit, or gets away with something, and it isn't fair:** *(Injustice)* It's eating at me. Something unfair has happened and I can't let it go *(acute)* / I carry it for a long time. I keep the account *(active)* / It flares when I run into it, then settles *(stirring)* / I notice it, and let it go. Things are imperfect *(dormant)* / I'm above that sort of thing. It doesn't touch me *(disowned)*
 
 ### Q3 Section 3 — Protector and shadow landscape (2 MC + 1 open-ended)
 
-**8. The protector you reach for most when a wound is touched:** Withdrawal, invisibility, perfectionism *(Rejection)* / Clinging, reassurance, or leaving first *(Abandonment)* / Shrinking and self-deprecation, or over-achievement *(Humiliation)* / Control, self-sufficiency, hypervigilance *(Betrayal)* / Rigidity, coldness, righteousness *(Injustice)*
-**9. The part of yourself you most disown:** My desire to be seen, to take up space *(Rejection shadow)* / My self-reliance, my okayness alone *(Abandonment shadow)* / My pride, my anger, my worth *(Humiliation shadow)* / My vulnerability, my need for support *(Betrayal shadow)* / My imperfection, messiness, "good enough" *(Injustice shadow)*
+**8. What the people closest to you would say you do when you are hurt:** Stop answering, and keep to myself until it passes *(Rejection)* / Need to hear that we're all right, again and again *(Abandonment)* / Run myself down, or bury myself in work *(Humiliation)* / Take everything on, and stop letting anyone help *(Betrayal)* / Go cold, and quietly hold it against them *(Injustice)*
+**9. The compliment you find hardest to take in:** That people want me there. That I was chosen *(Rejection shadow)* / That I'd be all right on my own *(Abandonment shadow)* / That I'm good at something, and allowed to be proud of it *(Humiliation shadow)* / That it's fine to need help *(Betrayal shadow)* / That what I did was good enough, mess and all *(Injustice shadow)* (each points at the quality that wound disowns)
 **10.** *Open-ended: Describe a recent moment when one of these wounds got activated. What happened, what did you feel, and what did you do to protect yourself?*
 
 ### Q3 Section 4 — Adaptive deep-dive (3 open-ended)
@@ -246,9 +246,9 @@ From the running profile select 3 prompts: **1 on the most-activated wound**, **
 
 ### Q3 Section 5 — Integration and the gift (2 MC + 1 Likert)
 
-**14. When a wound gets activated now, you most often:** Get fully run by it before I notice *(unintegrated)* / Notice after the fact and feel regret *(noticing)* / Catch it partway and can sometimes choose differently *(integration active)* / Feel it move through without taking the wheel *(integration deepening)*
+**14. These days, when an old hurt is touched, you tend to:** Get fully run by it before I notice *(unintegrated)* / Notice after the fact and feel regret *(noticing)* / Catch it partway and can sometimes choose differently *(integration active)* / Feel it move through without taking the wheel *(integration deepening)*
 **15. The gift you can sense waiting underneath your most active wound:** Discernment, the capacity to truly see and witness others *(Rejection gift)* / Secure presence, loyal connection without losing myself *(Abandonment gift)* / Embodied dignity, compassion for others' shame *(Humiliation gift)* / Integrity, the capacity to be genuinely trustworthy *(Betrayal gift)* / Moral clarity, principled and fair action *(Injustice gift)*
-**16. Likert (1-5):** *I can feel one of these wounds without it deciding how I act.* (high → integration deepening)
+**16. Likert (1-5):** *These days an old hurt can be touched without it running my whole day.* (high → integration deepening)
 
 ### Q3 Section 6 — The gift and longing (2 Likert + 1 open-ended)
 
