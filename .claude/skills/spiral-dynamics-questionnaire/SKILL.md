@@ -344,22 +344,22 @@ The longest read: a settled full level profile woven with the user's own words. 
 **1.** *Take a breath. In your own words: how do you make sense of the world right now? What does life ask of you, and what do you give back?*
 **2.** *If you had to describe the worldview you live inside most days, in plain language, what would you say?*
 
-### Q3 Section 2 — Quick scan of all 8 levels (8 multiple-choice)
+### Q3 Section 2 — All 8 levels through ordinary situations (8 multiple-choice)
 
-For each, options map to *(dominant)* / *(active)* / *(emerging)* / *(dormant)* / *(shadow)* — shuffle, hide tags.
+Q2 asked how present each level is; Q3 asks the same thing through an ordinary situation, so nothing repeats Q2. The level is in brackets after the prompt, the state after each option *(dominant / active / emerging / dormant / shadow)*. Shuffle, hide tags, and ask exactly these.
 
-**3. Survival, basic needs, the body's instinctual signals:** Daily, I live in it *(Beige dominant)* / Close, I can drop into it *(active)* / Pulling at me, asking me back to basics *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**4. Kinship, ritual, ancestors, belonging to your people:** Where I live *(Purple dominant)* / Close, my tribe/roots/rituals matter *(active)* / Pulling at me, I want to find my people *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**5. Raw power, self-claim, conquest, fire:** Where I live *(Red dominant)* / Operational, I can claim what's mine *(active)* / Pulling at me, I need to find my fire *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**6. Order, discipline, faith or code, sacrifice for the right way:** Where I live *(Blue dominant)* / Operational, I have a code I live by *(active)* / Pulling at me, I want structure to commit to *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**7. Strategic achievement, optimization, building, climbing:** Where I live *(Orange dominant)* / Operational, I use it when it serves me *(active)* / Pulling at me, I want to build something measurable *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**8. Community, plurality, equity, listening across difference:** Where I live *(Green dominant)* / Operational, I care/include/listen *(active)* / Pulling at me, I want a larger we *(emerging)* / Not in play *(dormant)* / I push against it *(shadow)*
-**9. Systemic, integrative, flexible, holding paradox:** Where I live *(Yellow dominant)* / Operational, I can take a systemic view *(active)* / Pulling at me, I want a way that holds paradox *(emerging)* / Not in play yet *(dormant)* / I push against it *(shadow)*
-**10. Whole-seeing, the living spiral, planetary mind:** Where I live *(Turquoise dominant)* / Operational, I drop into it in stillness *(active)* / Pulling at me, I want the felt sense of the whole *(emerging)* / Not in play yet *(dormant)* / I push against it *(shadow)*
+**3. When you're exhausted, hungry or unwell:** *(Beige)* That is most days. Getting through the basics takes nearly everything *(dominant)* / I know how to drop everything and look after my body, and I do when I need to *(active)* / I am being called back to basics. Sleep, food and rest matter more than they used to *(emerging)* / It passes. It doesn't shape much of my life *(dormant)* / I push through and ignore it. Needing things feels like weakness *(shadow)*
+**4. A family gathering, a festival, or a ritual your people keep:** *(Purple)* That is the centre of my life. Who I belong to is who I am *(dominant)* / It still matters, and I keep showing up for it *(active)* / I miss having that. I want people and rituals I belong to *(emerging)* / I go or I don't. It doesn't mean a great deal *(dormant)* / I keep my distance. Clan loyalty and superstition put me off *(shadow)*
+**5. Someone tries to take what is yours: the credit, your space, your turn:** *(Red)* I take it back, hard. Nobody pushes me around *(dominant)* / I stand my ground when I need to, and then let it go *(active)* / I usually let it go, and I'm tired of that. I want my fire back *(emerging)* / It rarely comes up, or it doesn't bother me much *(dormant)* / I back away. Anger and dominance frighten me, in me or in anyone *(shadow)*
+**6. When the people around you break a rule that matters to you:** *(Blue)* It's wrong, and it should be put right. There is a right way and I hold to it *(dominant)* / I have a code, and I keep to it quietly without imposing it *(active)* / I am looking for a code like that. I want something to commit to *(emerging)* / I don't feel much about it either way *(dormant)* / I don't trust rules, or anyone who is sure of the one right way *(shadow)*
+**7. A goal you could reach faster if you worked smarter:** *(Orange)* That is how I live. Set the target, find the edge, get there *(dominant)* / I use that mode when it serves me, and put it down afterwards *(active)* / I want to build something that counts, and see clearly how it is going *(emerging)* / I'm not chasing much right now *(dormant)* / Optimising, ranking, getting ahead: it all leaves me cold *(shadow)*
+**8. A group decision where not everyone has been heard yet:** *(Green)* I won't move until everyone has been heard. The "we" comes first *(dominant)* / I make room for the quieter voices, and I'm also fine to decide *(active)* / I want to belong to a "we" like that, where everyone counts *(emerging)* / I'd go with whoever has the best plan *(dormant)* / Endless process exhausts me. Somebody needs to decide *(shadow)*
+**9. Two people you respect hold views that flatly contradict each other:** *(Yellow)* I can usually see what each of them is right about, and use both *(dominant)* / When I step back, I can see the larger system they're both part of *(active)* / I want to be able to hold both without having to pick a side *(emerging)* / I work out which one of them is right *(dormant)* / Seeing every side feels like a cold way of never committing *(shadow)*
+**10. Looking at the night sky, a forest, or a city from a height:** *(Turquoise)* I feel it all as one living thing, and myself inside it *(dominant)* / Sometimes, when I am still, I feel the whole of it alive *(active)* / I want to feel the larger whole I keep sensing at the edges *(emerging)* / It's beautiful, and not much more than that for me *(dormant)* / That kind of cosmic feeling seems like an escape from real life *(shadow)*
 
 ### Q3 Section 3 — Lived experience (2 MC + 1 open-ended)
 
-**11. The domain of your life that feels most alive right now:** Body/survival/safety *(Beige)* / Family/tradition/ritual *(Purple)* / Self-assertion/power *(Red)* / Faith/discipline/code *(Blue)* / Building/achieving *(Orange)* / Connection/equity *(Green)* / Integrating/systems/paradox *(Yellow)* / Whole-seeing/spiritual coherence *(Turquoise)*
+**11. Where your spare time and energy went this past month:** Body/survival/safety *(Beige)* / Family/tradition/ritual *(Purple)* / Self-assertion/power *(Red)* / Faith/discipline/code *(Blue)* / Building/achieving *(Orange)* / Connection/equity *(Green)* / Integrating/systems/paradox *(Yellow)* / Whole-seeing/spiritual coherence *(Turquoise)*
 **12. The domain that feels most stuck, charged, or contested:** (same 8 options) — flags the level you're wrestling with (often shadow, sometimes the next growth edge)
 **13.** *Open-ended: Describe a recent moment when you felt most yourself. What was happening? What was alive in you?*
 
@@ -384,7 +384,7 @@ From the running profile select 3 prompts: **1 on the dominant level**, **1 on t
 
 ### Q3 Section 6 — Emerging and longing (2 Likert + 1 open-ended)
 
-**20. Likert (1-5):** *Something larger than my current way of being is pulling at me.* (high → strong emerging signal)
+**20. Likert (1-5):** *Lately my usual way of seeing things feels too small for what I am living.* (high → strong emerging signal)
 **21. Likert (1-5):** *I feel part of a living whole that exists beyond me.* (high → Turquoise active)
 **22.** *Open-ended: What do you long for that you don't yet have words for?* (longing language reveals the level most asking to emerge)
 

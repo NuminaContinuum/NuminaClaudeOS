@@ -295,7 +295,7 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `sama
 
 ### Q3 Section 1 — Settling in (2 open-ended)
 
-**1.** *Tell me about your practice as it actually is, not as you would like it to be. When you sit, what happens?* (3-4 min)
+**1.** *Tell me about your practice as it actually is, not as you would like it to be. What does an ordinary week of it look like?* (3-4 min)
 **2.** *What made you sit down with this questionnaire today? Something in the practice, or something outside it?* (2 min)
 
 ### Q3 Section 2 — Band scan (5 multiple-choice)
@@ -303,7 +303,7 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `sama
 Same five bands and state mapping as Q2, new wording. Doubles as the baseline and the selector for Section 4.
 
 **3. Getting attention onto the object at all, and keeping it there for a breath or two:** That is the work of my sits right now *(Current)* / I know it well. I am past it, mostly *(Familiar)* / I am rebuilding it after a long gap *(Emerging)* / Not where my attention goes any more *(Dormant)* / I have not really started sitting *(Not-yet-attempted)* — *[Establishing]*
-**4. Losing the object and bringing it back, again and again, and it working:** That is my sit. Constant return, and it holds *(Current)* / Familiar ground. It happens less now *(Familiar)* / The returning is starting to work rather than exhaust me *(Emerging)* / Not the texture of my sits *(Dormant)* / I do not get far enough for this *(Not-yet-attempted)* — *[Returning]*
+**4. Drifting off and coming back, many times a sit, until the coming back starts to hold:** That is my sit. Constant return, and it holds *(Current)* / Familiar ground. It happens less now *(Familiar)* / The returning is starting to work rather than exhaust me *(Emerging)* / Not the texture of my sits *(Dormant)* / I do not get far enough for this *(Not yet)*
 **5. The object stays, and the work is the quality of attention — dimness, or a fine agitation:** That is where my sits live now *(Current)* / I have worked there. It comes and goes *(Familiar)* / I am beginning to notice quality rather than presence *(Emerging)* / Not yet what I am working with *(Dormant)* / Well beyond where I sit *(Not-yet-attempted)* — *[Refining Quality]*
 **6. Gross distraction essentially gone, and effort still needed throughout:** That is my sit. Stable, and it costs effort *(Current)* / I have had stretches like that *(Familiar)* / Stability is starting to hold for longer *(Emerging)* / Not in play *(Dormant)* / Well beyond where I sit *(Not-yet-attempted)* — *[Subtle Work]*
 **7. Attention holding itself, with no need to maintain it, for the length of a sit:** That is my sit *(Current)* / It has happened. I cannot produce it at will *(Familiar)* / Something like it is beginning to appear *(Emerging)* / Not in play *(Dormant)* / Not reached in this practice arc *(Not-yet-attempted)* — *[Effortless]*
@@ -312,7 +312,7 @@ Same five bands and state mapping as Q2, new wording. Doubles as the baseline an
 
 **8.** *Describe one recent sitting in as much detail as you can. What was the object. What happened in the first ten minutes, in the middle, near the end. Where attention went when it left. What the body was doing. How long you sat.* (5-6 min) — add the hint: *"This is the question that places you. Write it as it was, including the parts that went badly."*
 **9.** *Which obstacles are most alive right now — dullness, agitation, the body, time, doubt, something else? Describe the texture of the main one. Not that it happens: what it is actually like.* (2-3 min)
-**10. Averaged across the last few weeks, the texture of your sittings:** Mostly forgetting the object and starting again *(Establishing)* / Constant returning, and it is working *(Returning)* / Mostly stable, with subtle quality issues *(Refining Quality)* / Stable with effort, refining the very subtle *(Subtle Work)* / Effortless throughout, with nothing to maintain *(Effortless)*
+**10. If you could replay your last five sits, most of the time you would see:** Me forgetting the object, and starting over *(Establishing)* / Me losing it and coming back, again and again, and it working *(Returning)* / The object staying, with attention a little dim or a little buzzy *(Refining Quality)* / Steady attention, held with care, making very fine adjustments *(Subtle Work)* / Attention holding itself, with nothing for me to do *(Effortless)*
 **11. Which of these is most alive in your sitting right now?** Attention stays put and the whole thing goes dim *(Dullness → Refining Quality)* / A fine restlessness underneath, even when it is stable *(Agitation → Refining Quality)* / Aches, restlessness, the body wanting to move *(Body → Establishing)* / Finding the time at all *(Time → Establishing)* / Wondering whether any of this is going anywhere *(Doubt → Returning)*
 
 > *Scoring:* Q8 is the single most diagnostic question in the whole ladder. Read it for sit length, how fast attention leaves and returns, whether the object is lost entirely or only dims, the texture of the obstacles, and what the body does. Q9 cross-checks it.
@@ -334,10 +334,10 @@ Select 3 prompts, in this priority: **1 on the Current band** (from Section 2), 
 
 ### Q3 Section 5 — Sit length, pliancy, self-reading (2 MC + 3 Likert)
 
-**15. The length of sit you can sustain with consistent quality:** 5 to 15 minutes *(Establishing)* / 20 to 30 minutes *(Returning)* / 30 to 45 minutes *(Refining Quality)* / 45 to 60 minutes *(Subtle Work)* / 60 minutes or more, effortlessly *(Effortless)* / I am not currently sitting daily *(no nudge)*
-**16. The bodily and mental quality of your sittings:** The body is usually a problem: restlessness, aches, wanting to move *(Establishing)* / The body settles well enough. Mind is the work *(Returning)* / Body and mind both settled, with an ease that supports attention *(Subtle Work)* / Body and mind light, supple, agile — the body itself infused with the attention *(Effortless — pliancy)* / I am not sure what this refers to, or whether I have it *(no nudge)*
+**15. How far into a sit the quality usually starts to fray:** Five to fifteen minutes in *(Establishing)* / Somewhere around twenty to thirty minutes *(Returning)* / Thirty to forty-five minutes *(Refining Quality)* / Forty-five minutes to an hour *(Subtle Work)* / It does not fray. An hour or more holds without effort *(Effortless)* / I am not sitting regularly enough to say *(no nudge)*
+**16. When you stand up from a good sit, the body feels:** Relieved. It spent most of the sit wanting to move *(Establishing)* / Fine. It sat quietly while the mind did the work *(Returning)* / At ease, and the ease was helping the attention *(Subtle Work)* / Light and supple, as if the attention had soaked right through it *(Effortless)* / I have not noticed anything in particular *(no nudge)*
 **17. Likert (1-5):** *I have someone whose reading of my practice I would trust over my own.*
-**18. Likert (1-5):** *I sometimes suspect I've rated my stage higher than my actual practice supports.* (4-5 → self-reported over-rating flag)
+**18. Likert (1-5):** *A teacher who sat with me might find my practice less settled than my answers here suggest.* (4-5 → self-reported over-rating flag)
 **19. Likert (1-5):** *This map is one useful description of concentration among several, rather than the true one.* (low → over-identification with the map; hold the reading more lightly)
 
 ### Q3 Section 6 — What has changed (1 open-ended)

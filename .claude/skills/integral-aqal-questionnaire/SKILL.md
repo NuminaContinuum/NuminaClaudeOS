@@ -290,28 +290,28 @@ The longest read: a settled profile across quadrants and lines, plus a light int
 
 ### Q3 Section 1 — Settling in (2 open-ended)
 
-**1.** *Take a breath. In your own words: when you look at your whole life right now — your inner world, your body, your relationships, the systems you're inside — what's most alive? What's most neglected?*
+**1.** *Take a breath. In your own words: when you look at your whole life right now — your inner world, your body, your relationships, the systems you're inside — what's most alive? And where does your attention never seem to go?*
 **2.** *If you had to describe how you typically meet your life — through your inner experience, through your body and your actions, through your relationships, or through the structures around you — what would you say?*
 
-### Q3 Section 2 — Quick quadrant scan (4 multiple-choice)
+### Q3 Section 2 — Quadrants through ordinary situations (4 multiple-choice)
 
-Options map to *(dominant)* / *(active)* / *(underdeveloped)* / *(shadow)* — shuffle, hide tags.
+Q2 asked how present each quadrant is; Q3 asks through an ordinary situation, so nothing repeats Q2. The quadrant is in brackets after the prompt; options map to *(dominant)* / *(active)* / *(underdeveloped)* / *(shadow)*. Shuffle, hide tags, and ask exactly these.
 
-**3. Inner life — thoughts, feelings, inner experience:** Where I live *(dominant)* / Active, I check in regularly *(active)* / Underdeveloped, I don't really know what's in there *(underdeveloped)* / I avoid it *(shadow)*
-**4. Body and behaviour — what you do, how you act:** Active, I take care of it *(active)* / I avoid it *(shadow)* / Where I live *(dominant)* / Underdeveloped, I forget I have one *(underdeveloped)*
-**5. Relationships and culture — your people, your "we":** Underdeveloped, I don't have a strong "we" *(underdeveloped)* / Where I live *(dominant)* / I avoid it *(shadow)* / Active, I tend it *(active)*
-**6. Systems and structures — environments, institutions you're inside:** I avoid it *(shadow)* / Underdeveloped, I don't really see them *(underdeveloped)* / Active, I notice and shape them *(active)* / Where I live *(dominant)*
+**3. At the end of a long day, before you sleep:** *(Upper Left · I)* I go back over what I felt and thought. My inner world is where I'm most at home *(dominant)* / I check in with myself for a moment, then let it go *(active)* / I couldn't really say what went on inside me. I just go to sleep *(underdeveloped)* / I put something on to fill the quiet. Going inward feels pointless, or risky *(shadow)*
+**4. When something is bothering you:** *(Upper Right · It)* I move, sleep and eat properly, and change what I am doing. It helps *(active)* / What I do and how my body is seem beside the point. The real problem is elsewhere *(shadow)* / I act on it. Doing something with my hands or my body is how I work anything out *(dominant)* / I don't notice my body until it complains *(underdeveloped)*
+**5. When something big happens in your life, good or bad:** *(Lower Left · We)* There isn't really a group of people I'd turn to first *(underdeveloped)* / My people are the first place it goes. Meaning is something we make together *(dominant)* / I keep it to myself. Other people tend to complicate things *(shadow)* / I share it with the people close to me, and listen to what they make of it *(active)*
+**6. When something at work, in your town, or in how things are run gets in your way:** *(Lower Right · Its)* I tune out. Rules, systems and institutions feel lifeless to me *(shadow)* / I take it personally. I rarely see the system behind it *(underdeveloped)* / I can see how the system produces it, and I push on it when I can *(active)* / I map out how the whole thing works. Structure is how I understand anything *(dominant)*
 
 ### Q3 Section 3 — Lines profile (6 MC + 1 open-ended)
 
-Each line's options map to *(strong)* / *(active)* / *(underdeveloped)* / *(shadow)* — shuffle, hide tags.
+Same idea for the six lines: each is asked through a situation, not by name. Options map to *(strong)* / *(active)* / *(underdeveloped)* / *(shadow)*. Shuffle, hide tags.
 
-**7. Cognitive — thinking, perspective-taking, complexity:** Strong / Active / Underdeveloped / Avoided
-**8. Emotional — feelings, affect, emotional intelligence:** Active / Avoided / Strong / Underdeveloped
-**9. Somatic — body awareness, movement, felt sense:** Underdeveloped / Strong / Avoided / Active
-**10. Interpersonal — intimacy, relating, meeting others:** Avoided / Underdeveloped / Active / Strong
-**11. Moral — ethics, integrity, values in action:** Underdeveloped / Strong / Avoided / Active
-**12. Spiritual — ultimate concern, sacred contact, transcendence:** Active / Underdeveloped / Strong / Avoided
+**7. Someone makes an argument you strongly disagree with:** *(Cognitive)* I can put their case better than they did, and hold it next to mine *(strong)* / I can follow it well enough to see where we really differ *(active)* / I lose the thread, or I just know it feels wrong *(underdeveloped)* / I don't trust arguments much. I go with my gut or my heart instead *(shadow)*
+**8. Someone asks how you are really feeling, and means it:** *(Emotional)* I can usually find the words for what's going on *(active)* / I change the subject. Feelings are messy and I'd rather steer round them *(shadow)* / I can tell them, and I can feel what they're feeling too *(strong)* / I'm honestly not sure. I'd have to guess *(underdeveloped)*
+**9. Walking into a tense room, what your body tells you:** *(Somatic)* I don't really notice. I live mostly from the neck up *(underdeveloped)* / A lot. My body reads a situation before my mind does *(strong)* / I'd rather not listen. My body feels foreign, or not to be trusted *(shadow)* / I notice when I tense up or settle, and take it into account *(active)*
+**10. Someone you care about is upset with you:** *(Interpersonal)* I go distant. That much closeness is too much for me *(shadow)* / I can't tell what they need from me, or what is going on between us *(underdeveloped)* / I can stay with them and work out what happened between us *(active)* / I can meet them where they are, and we usually end up closer *(strong)*
+**11. Doing the right thing would cost you, and nobody would ever know:** *(Moral)* I don't think about it in those terms. I do what works *(underdeveloped)* / I'd do it. Living by what I believe isn't optional for me *(strong)* / "The right thing" is usually someone else's rule dressed up as truth *(shadow)* / Most of the time I'd do it, though not always *(active)*
+**12. In a moment of real loss, or real wonder:** *(Spiritual)* I turn to my practice, or to something larger I have a relationship with *(active)* / I don't really know where to turn. This is new ground for me *(underdeveloped)* / Something sacred is already there. It's part of every day for me *(strong)* / I look for an ordinary explanation. Talk of the sacred feels like wishful thinking *(shadow)*
 **13.** *Open-ended: Pick the line you most want to grow into. Why? What's been in the way?* (growth-edge → selects a Section 4 prompt)
 
 ### Q3 Section 4 — Adaptive deep-dive (3 open-ended)

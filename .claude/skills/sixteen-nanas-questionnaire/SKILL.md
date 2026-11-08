@@ -350,8 +350,8 @@ If the user picks "I refuse to go there and I will not discuss it" for the Dark 
 
 ### Q3 Section 3 — Lived experience (2 multiple-choice + 1 open-ended)
 
-**9. The pace of your sensate experience right now:** Ordinary. Sensations feel normal and continuous *(+Pre-Cycle)* / Granular. I am starting to see them break into parts *(+Early Insights)* / Fast. Sensations flicker, vibrate, change rapidly *(+Arising & Passing)* / Slow and heavy. Viscous, painful, or empty *(+Dark Night)* / Steady. Arising and passing at a calm rate *(+Equanimity)* / Subtle. Different than it was, and less gripping *(+Path & Review)*
-**10. How long this quality has been with you:** Hours to days. It came on suddenly *(+Arising & Passing)* / Weeks to months. A sustained territory *(+Dark Night)* / Recently shifted. A line was crossed in the last days or weeks *(+Path & Review)* / Years. This has been my baseline for a long time *(+Pre-Cycle)* / Hard to say. Time has lost its grip a bit *(+Equanimity)*
+**9. Watching one sensation closely for a minute, an itch or a breath, what you find:** It stays one solid thing, much the same from start to finish *(+Pre-Cycle)* / I can see that it is made of parts, and of moments *(+Early Insights)* / It shimmers and flickers, too fast to follow *(+Arising & Passing)* / It is thick, heavy or unpleasant, or hard to find at all *(+Dark Night)* / It comes and goes easily, and I do not mind either way *(+Equanimity)* / It is lighter than it used to be, and it does not hook me *(+Path & Review)*
+**10. When things started feeling the way they do now:** In the last few days. It came on suddenly *(+Arising & Passing)* / Weeks or months ago, and it has stayed *(+Dark Night)* / Something changed recently, as if a line had been crossed *(+Path & Review)* / It has felt like this for years *(+Pre-Cycle)* / I cannot place it. Time has gone a little loose *(+Equanimity)*
 **11.** *Open-ended: Describe a specific recent moment when whatever is happening was most vivid. On the cushion or off it. What did you notice, in the body and in the mind, and what was it like afterwards?* Hint: *"Sensate detail helps more than interpretation. What it was like, rather than what it meant."* (3-4 min)
 
 > *Scoring:* Q11 is the most diagnostic open answer. Read the texture against the framework's stage markers; it is the main way to name a specific ñāṇa in Q3.
@@ -386,9 +386,9 @@ If the user picks "My footing. I am not sure I can take much more of this", paus
 
 ### Q3 Section 6 — Cross-cutting Likert (3 items, 1-5)
 
-**17.** *There is a stage on the arc I avoid thinking about.* (high with no band Pushed against → name possible unseen avoidance)
+**17.** *There is a part of this map I would rather skip over when I read about it.* (high with no band Pushed against → name possible unseen avoidance)
 **18.** *Something feels like it is gathering at the edge of my practice.* (high → strengthens the Emerging reading)
-**19.** *Something feels different than it did, in a way I can't fully explain.* (high → recent threshold, strong Arising & Passing, or strong Dark Night)
+**19.** *My practice has changed in a way I do not yet have words for.* (high → recent threshold, strong Arising & Passing, or strong Dark Night)
 
 ### Q3 Section 7 — Longing and closing (2 open-ended)
 

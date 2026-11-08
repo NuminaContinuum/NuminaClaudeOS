@@ -302,16 +302,16 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `ox-h
 ### Q3 Section 3 — The picture (1 multiple-choice + 2 open-ended)
 
 **8. Of the ten pictures, which one fits where you are — not where you would like to be, and not the one you think is most advanced. The one your body recognises.**
-- A figure alone in tall grass, pushing it aside, looking for something they have never seen *(1)*
+- Alone in high grass by a river, parting it with both arms, after something never yet seen *(1)*
 - The same figure crouched over hoofprints in mud — evidence, at last, that the thing is real *(2)*
 - A glimpse of hindquarters through trees. Not the whole animal. Enough to know *(3)*
-- Both hands on a rope, heels dug in, an animal that has no intention of stopping *(4)*
+- Heels dug into the ground, the animal bolting, the rope burning in both hands *(4)*
 - Walking beside the animal with the rope slack, still holding it, no longer pulling *(5)*
-- Riding home in the evening playing a flute, not steering, the animal knowing the way *(6)*
+- On the animal's back at dusk with a flute, letting it find the way home *(6)*
 - The figure alone at home. The animal is nowhere in the picture and is not missed *(7)*
-- An empty circle on a blank page *(8)*
+- A single brushed circle with nothing inside it: no figure, no animal *(8)*
 - A branch in blossom by running water. No figure at all. The world simply as it is *(9)*
-- An unremarkable person walking into a market with open hands, indistinguishable from anyone else *(10)*
+- Strolling into town with a gourd of wine and open hands, and nobody looking twice *(10)*
 
 **9.** *Describe the picture you chose in your own words. What is happening in it for you? What does the figure know, and what do they not know yet?* (3-4 min) — tell them: *"Your words here are what the reading is written in. It will quote you rather than the caption."*
 **10.** *Describe a specific recent moment when that picture was exactly true. Where you were, what happened, what it felt like in the body.* (2-3 min)
@@ -345,7 +345,7 @@ Prompt library (2-4 min each, voice or text):
 
 *"Rate how true this is for you, from 1 to 5."*
 
-**16.** *I can be ordinary without secretly feeling above the ordinary.* (marketplace-pride check)
+**16.** *I can do ordinary work among ordinary people without needing them to know where I have been.* (marketplace-pride check)
 **17.** *Something in me is already leaning toward the next picture.* (high → strong Emerging signal; cross-reference Section 2)
 **18.** *This is one useful description of the path among several, rather than the true one.* (map-humility check)
 
