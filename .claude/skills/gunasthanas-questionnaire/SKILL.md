@@ -105,12 +105,12 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (d) I have decided several things are wrong for me. I have not stopped doing them *(Seeing)*
 (e) I have started things like this and not sustained them *(Glimpsed)*
 
-**8. If you had to name where you honestly are:**
-(a) Something opened, and I cannot get back to it reliably *(Glimpsed)*
-(b) I have changed some things for real, within an ordinary life *(Partial)*
-(c) At the beginning, or not on the path at all *(Unexamined)*
-(d) I have given the whole thing over to this *(Committed)*
-(e) I can see clearly. I have not changed accordingly *(Seeing)*
+**8. When you are alone and nobody would ever find out:**
+(a) I sometimes remember who I meant to be, and then lose the thread *(Glimpsed)*
+(b) The few things I have given up stay given up, watched or not *(Partial)*
+(c) I do what I feel like. That is what being alone is for *(Unexamined)*
+(d) Nothing changes. How I live does not depend on being seen *(Committed)*
+(e) I know what I would rather do, and I often do the other thing *(Seeing)*
 
 ### Q1 Step 3 — Score inline
 
@@ -357,6 +357,13 @@ Likert, "1 = not at all true, 5 = very true":
 **23.** *What has your practice — or the absence of one — been telling you lately, in one sentence?* (1-2 min) — hint: *This one is quoted back at the top of your reading.* Use it as the direct quote at the top of the reading ("Your practice said: …").
 
 ### Q3 Step 8 — Resolve
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a tenth of the placement.
+- This map is a ladder: if several rungs are claimed, take the earliest. What was written never lifts a claim. It only settles a scan that claimed nothing.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 1. **States** from the Section 2 scan (unanswered = dormant).
 2. **One current stage.** If several came out current, take the **lowest** and mark the others familiar. If none came out current, choose from the familiar stages (or from all seven if none are familiar) the one most supported by the structured answers: count +1 nudges from Q12, Q13, Q17 and Q18. Only if that count is level, let the open-ended answers (Q1, Q2, Q10, Q11, the deep-dives, Q22, Q23) break the tie. Say that the current stage was inferred.

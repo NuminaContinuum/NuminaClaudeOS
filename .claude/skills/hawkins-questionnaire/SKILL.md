@@ -110,14 +110,14 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (f) Steady — neither inflaming nor collapsing the room *(Trust)*
 (g) The one who integrates perspectives *(Reason)*
 
-**7. What do you want from a map like this?**
-(a) Orientation toward what is sacred in ordinary life *(Spirit)*
-(b) Language for the weight I carry without judging it *(Despair)*
-(c) Honesty about reactivity without self-attack *(Reactive)*
-(d) Permission to cross the line into constructive power *(Courage)*
-(e) A read on how to stay open without burning out *(Trust)*
-(f) Clarity that includes head and heart *(Reason)*
-(g) Reminder that warmth is a valid way to live *(Love)*
+**7. When you look a year ahead, what do you see first?**
+(a) The same quiet that is here now *(Spirit)*
+(b) Not much. It is hard to picture anything changing *(Despair)*
+(c) Things to guard against, or things I have to get *(Reactive)*
+(d) Something hard that I mean to do *(Courage)*
+(e) Whatever comes, I expect I can work with it *(Trust)*
+(f) Something I want to understand properly by then *(Reason)*
+(g) The people I want to be good to *(Love)*
 
 **8. Right now, your dominant inner climate is…**
 (a) Balanced — steady or open more than fighting *(Trust)*
@@ -408,6 +408,13 @@ The numbness. It has been protecting me *(Despair)* / The edge. My anger is what
 **23.** *Is there a register here you refuse outright? Say which, and say what you refuse about it.* Tell the user: *"Optional. Skip it if nothing here is being pushed away."* (1-2 min)
 
 ### Q3 Step 8 — Resolve
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a third of the placement.
+- This map is a ladder: if several rungs are claimed, take the earliest. What was written never lifts a claim. It only settles a scan that claimed nothing.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 1. **Read the open answers** (Q1, Q2, Q12, Q13-15, Q21, Q22, Q23) against the seven bands and form a rough distribution of where the language actually sits: the register underneath, not the vocabulary. Pull 2-3 short verbatim phrases for the reading. Never paraphrase a quote.
 2. **States** from the Section 2 scan.

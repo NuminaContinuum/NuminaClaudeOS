@@ -88,13 +88,13 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (e) I can separate observer from observed more than before *(Early Insights)*
 (f) Reality feels like a strobe — nothing holds still *(Arising & Passing)*
 
-**5. What do you want help with on a map like this?**
-(a) Trusting steadiness before any big leap *(Equanimity)*
-(b) Gentle framing if a threshold shift is part of my story *(Path & Review)*
-(c) Orientation — where does the insight journey even begin? *(Pre-Cycle)*
-(d) Language for early discernment without overclaiming *(Early Insights)*
-(e) Grounding when intensity spikes or seduces *(Arising & Passing)*
-(f) Company through difficulty — without spiritual bypass *(Dark Night)*
+**5. What you most need a light for right now:**
+(a) Nothing much. It is clear enough, and I can wait *(Equanimity)*
+(b) Understanding what just changed, and living with it *(Path & Review)*
+(c) Finding where the path of insight even starts *(Pre-Cycle)*
+(d) Seeing more exactly how body and mind fit together *(Early Insights)*
+(e) Not being carried off by how bright and fast it all is *(Arising & Passing)*
+(f) Getting through a stretch that feels bleak and endless *(Dark Night)*
 
 **6. In community or teaching contexts, you tend to…**
 (a) Speak sparingly about breakthrough — integration matters more *(Path & Review)*
@@ -401,6 +401,13 @@ If the user picks "My footing. I am not sure I can take much more of this", paus
 **23.** *If you have been round before: how is this time different? What do you recognise, and what is new?* Hint: *"Optional. Skip it if this is your first pass."* (2-3 min) — skip if Q22 = first.
 
 ### Q3 Step 8 — Resolve and render
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a quarter of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 - **States:** from the Section 2 scan (unanswered → Dormant).
 - **Nudges:** +1 per band from Q9, Q10, Q15 and Q16. Q22 carries none.

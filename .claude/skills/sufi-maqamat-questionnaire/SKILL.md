@@ -79,12 +79,12 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (d) I am cleaning the mirror — conscience awake, willing to amend *(Turning)*
 (e) I am travelling lighter — the world can stay without owning me *(Letting Go)*
 
-**4. What do you want from a map like this?**
-(a) A name for settled peace and the fire of devotion *(Devotion)*
-(b) Orientation near the summit — knowing and the end of spiritual ownership *(Knowing)*
-(c) Language for the first turn — honesty without self-hatred *(Turning)*
-(d) Permission to renounce what dulls the heart, without contempt for life *(Letting Go)*
-(e) Companionship for the hard middle — endurance and reliance *(Trial & Trust)*
+**4. What you are steering by at the moment:**
+(a) Love. I go where the heart is drawn *(Devotion)*
+(b) Nothing of my own. I am being steered *(Knowing)*
+(c) My conscience. It has woken up and I am following it *(Turning)*
+(d) Less. Whatever lets me put something down *(Letting Go)*
+(e) Patience. Holding on, and trusting what I cannot see *(Trial & Trust)*
 
 **5. In difficulty, your default move is…**
 (a) See — or let the separate claim dissolve in what is Real *(Knowing)*
@@ -370,6 +370,13 @@ From the Section 2 scan select 3 bands: **the Current band**, **the first Resist
 > *Scoring:* Q22 sets the result's tone: deeper traditional context (Quranic lines, classical teachers) for a Muslim Sufi path or deep Sufi reading; introductory framing for someone new; agnostic, descriptive framing for someone who distrusts the frame.
 
 ### Q3 Step 10 — Resolve and render
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a third of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 - **States:** Section 2 gives the state per band. Open-ended answers (1, 2, 9-13, 19-21) are scored against the five band themes (`sufi-maqamat-framework.md`) and carry roughly 40% of the signal. They refine and deepen; the user's direct scan answer outranks an inference from their prose.
 - **Exactly one Current band:** none claimed → pick from the Familiar bands (or all bands) the one the open-ended language points to most, and say it was inferred. Several claimed → keep the one the language supports most, move the others to Familiar.

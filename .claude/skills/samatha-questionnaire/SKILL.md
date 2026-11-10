@@ -79,12 +79,12 @@ On Q7, you may add the app's hint: *"Honest averages help calibrate."*
 (d) I am building the habit — the flame of effort burns bright *(Establishing)*
 (e) Fixing is improving — I see when I slip and recover *(Returning)*
 
-**4. What do you want from a map like this?**
-(a) Orientation near single-pointed stability *(Subtle Work)*
-(b) Gentle check-in on effortless placement *(Effortless)*
-(c) Grounding — where does concentration training begin? *(Establishing)*
-(d) Language for the returning phase without overclaiming *(Returning)*
-(e) Help with subtle dullness and subtle excitement *(Refining Quality)*
+**4. The instruction you most need to hear right now:**
+(a) Do less. Trust the stability that is already there *(Subtle Work)*
+(b) Leave it alone. There is nothing left to adjust *(Effortless)*
+(c) Just sit. Find the object, and come back to it *(Establishing)*
+(d) Notice sooner that you have gone, and return lightly *(Returning)*
+(e) Brighten it when it dims. Loosen it when it tightens *(Refining Quality)*
 
 **5. After a sit, you usually feel…**
 (a) Naturally gathered — little sense of forcing *(Effortless)*
@@ -295,7 +295,7 @@ Prepend a `## Q2 Reading — YYYY-MM-DD` section (above the Q1 reading) to `sama
 
 ### Q3 Section 1 — Settling in (2 open-ended)
 
-**1.** *Tell me about your practice as it actually is, not as you would like it to be. What does an ordinary week of it look like?* (3-4 min)
+**1.** *Tell me about your practice as it actually is, not as you would like it to be. Once you are sitting, what does attention actually do?* (3-4 min)
 **2.** *What made you sit down with this questionnaire today? Something in the practice, or something outside it?* (2 min)
 
 ### Q3 Section 2 — Band scan (5 multiple-choice)
@@ -357,6 +357,13 @@ Select 3 prompts, in this priority: **1 on the Current band** (from Section 2), 
 > *Scoring:* each answer sets a ceiling (table in `samatha-framework.md`); the lowest of the three is the **maximum-plausible stage**. Depth never inflates. It only caps over-claims.
 
 ### Q3 Step 9 — Resolve
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a tenth of the placement.
+- This map is a ladder: if several rungs are claimed, take the earliest. What was written never lifts a claim. It only settles a scan that claimed nothing.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 1. **Current band** from Section 2, same rules as Q2: one Current → use it; none → infer from Familiar (or all bands) by the probe nudges (Q10, Q11, Q15, Q16), with the open-ended answers breaking a tie; several → the earliest, the rest Familiar.
 2. **Claimed stage** = the earliest stage of the Current band (Effortless → Stage 9). Q3 has no within-band resolution; let the open-ended answers say in prose whether the user is toward the later stage of the band, without moving the number.
