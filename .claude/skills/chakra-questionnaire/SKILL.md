@@ -320,6 +320,13 @@ From the running profile, pick the **top 2 active chakras** and select 3 prompts
 
 ### Q3 Step 8 — Resolve and render
 
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a quarter of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
+
 - Combine: Section 2 (+2 to the keyed state per chakra), Section 3 (tension/numbness → deficient nudge; even aliveness → balanced), Section 4 open-ended (deep texture → HIGH confidence on those centres), Sections 5-6 nudges. Open-ended carries ~40% of the weight.
 - Final state per chakra: balanced / deficient / excessive / mixed; HIGH confidence on deepened chakras, MEDIUM on the rest.
 - Render: ASCII 7-centre column styled by state (reuse the Q1 legend, annotate direction), the closing body quote at the top, a 2-4 sentence reading per centre woven with the user's phrases, and a **"Where your work is"** section calling out 1-2 centres with concrete practice (e.g. *"Throat deficient: try voice journalling, or speak one true thing each day to someone who matters"*). Confidence: **settled**.

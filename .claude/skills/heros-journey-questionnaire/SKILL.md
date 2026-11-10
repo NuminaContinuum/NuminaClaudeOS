@@ -291,6 +291,13 @@ The longest reflection: a settled placement on the 12-stage arc, woven with the 
 
 ### Q3 Step 7 — Resolve and render
 
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a quarter of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
+
 - Score structured questions to their mapped stages (range mappings split evenly), ~60% of the weight; the open-ended responses contribute the remaining ~40% (read affect, agency, self-language, loss/growth, mentorship). Resolve a single settled stage with a **tight halo on only the one adjacent stage** (the tightest of the three questionnaires).
 - Render a personalised reading: sharp pin at the resolved stage, the stage name, a 4-6 sentence description woven with the user's own phrases, then three short paragraphs — **"What's true here," "What this stage is asking of you," "What comes next."** Confidence: **settled**.
 

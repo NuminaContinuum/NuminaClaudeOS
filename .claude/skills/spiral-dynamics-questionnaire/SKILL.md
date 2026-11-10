@@ -271,10 +271,11 @@ Each adds a +1 nudge to the level it implies, confirming or refining the scan.
 
 **10. Conflict:**
 (a) I avoid it. It's dangerous *(Beige/Purple)*
-(b) I fight to win, or I invoke the higher authority that settles it *(Red/Blue)*
-(c) I negotiate for the best outcome *(Orange)*
-(d) I want everyone heard. Process matters *(Green)*
-(e) I shift styles depending on what the situation actually needs *(Yellow)*
+(b) I fight to win *(Red)*
+(c) I look to the rule or the authority that settles it *(Blue)*
+(d) I negotiate for the best outcome *(Orange)*
+(e) I want everyone heard. Process matters *(Green)*
+(f) I shift styles depending on what the situation actually needs *(Yellow)*
 
 **11. When you feel most alive, it's usually:**
 (a) In immediate bodily experience *(Beige)*
@@ -393,6 +394,13 @@ From the running profile select 3 prompts: **1 on the dominant level**, **1 on t
 **23.** *If your spiral could speak to you right now, in one sentence, what would it say about where you are and where you're going?* — use as a direct quote at the top of the reading ("Your spiral said: …").
 
 ### Q3 Step 8 — Resolve and render
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a third of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 - Combine Section 2 (state per level), Section 3 (charged-domain Q12 flags shadow/edge), Section 4 open-ended (deep texture → HIGH confidence on those levels), Section 5 (named transition + what's feared lost), Section 6 (emerging signal). Open-ended carries ~40%.
 - Final state per level: dominant / active / emerging / dormant / shadow; HIGH on deepened levels.

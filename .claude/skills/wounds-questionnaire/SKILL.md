@@ -263,6 +263,13 @@ From the running profile select 3 prompts: **1 on the most-activated wound**, **
 
 ### Q3 Step 8 — Resolve and render
 
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a quarter of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
+
 - Combine Section 2 (state per wound), Section 3 (protector + shadow, lived moment), Section 4 open-ended (deep texture → HIGH confidence on covered wounds), Section 5 (integration level + named gift), Section 6 (gift-emergence + shadow-integration). Open-ended carries ~40%.
 - Final state per wound: acute / active / stirring / dormant / disowned; HIGH on deepened wounds.
 - Render: the closing **"What your wound said it was protecting"** quote at the top; the pentagon styled by state; a 2-4 sentence reading per active or acute wound naming protector mask, emotional pattern, shadow expression, and the integrated gift, woven with the user's phrases; a careful disowned note as a question; **"What your work is"** with gentle concrete practice on the most-activated wound; **"The gift underneath"** — one line on the gift waiting under it. Confidence: **settled**. Always end toward the gift, not the wound.

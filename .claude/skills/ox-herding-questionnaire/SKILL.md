@@ -77,12 +77,12 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (d) I am gathering clues — teachings, teachers, or my own noticing *(Searching)*
 (e) I am in the messy middle — taming what I have met *(Working)*
 
-**4. What do you want from a map like this?**
-(a) Permission to rest in simplicity before re-entering life *(Empty)*
-(b) Grounding in the return — life as practice *(Marketplace)*
-(c) Orientation — where does the path even begin? *(Searching)*
-(d) Language for the work phase without romanticizing it *(Working)*
-(e) Reminder that joy on the path is real, not a trap *(Riding)*
+**4. What you would most like someone to tell you right now:**
+(a) Nothing. There is no one here who needs telling *(Empty)*
+(b) Who could use a hand today *(Marketplace)*
+(c) That what I am looking for exists, and where to start *(Searching)*
+(d) That the struggle is the work, and to keep at it *(Working)*
+(e) That it is allowed to be this easy *(Riding)*
 
 **5. In difficulty, your default move is…**
 (a) Stay relational — help, listen, show up barefoot *(Marketplace)*
@@ -231,7 +231,7 @@ Ask one resolution question for each **multi-stage band** (Searching, Working, R
 
 Each answer adds a +1 nudge to the tagged band.
 
-**6. The metaphor that fits your current inner life best:** A person searching in tall grass for what they can't yet see *(Searching)* / Someone holding a rope, knuckles white, on a wild animal *(Working)* / Someone walking peacefully with an animal that no longer pulls *(Working)* / Riding home in the evening, music playing, no destination needed *(Riding)* / An empty circle on a blank page *(Empty)* / A small figure entering a marketplace, hands open, blending in *(Marketplace)*
+**6. What a good day looks like for you right now:** I come across something that feels like a real clue *(Searching)* / I hold on. The mind pulls hard and I do not get thrown *(Working)* / The struggle stays quiet, and I can walk beside it without gripping *(Working)* / I forget I am practising at all, and enjoy the way home *(Riding)* / Nothing in particular happens, and nothing is missing *(Empty)* / I am useful to somebody, and nobody notices anything special *(Marketplace)*
 **7. The effort level of your daily practice or attention:** Almost nothing. I don't know what to do, where to start *(Searching)* / High. Effort, discipline, returning again and again *(Working)* / Steady but easier. The practice carries itself most of the time *(Riding)* / None to speak of. There is no separate practice anymore *(Empty)*
 **8. What you've been told you are by others who know you well:** "Searching for something" or "lost in your own head" *(Searching)* / "Disciplined" or "going through something hard" *(Working)* / "Calmer" or "different in a way I can't name" *(Riding)* / "Distant" or "spacey" or "not quite here" *(Empty)* / "Helpful" or "just there when needed" or "an ordinary kind of wise" *(Marketplace)*
 **9. The pitfall you most need to watch for right now:** Chasing teachings I don't yet need *(Searching)* / Forcing the mind, mistaking effort for progress *(Working)* / Inflation, mistaking ease for arrival *(Riding)* / Detachment, using emptiness to skip the world *(Empty)* / Pride of return, secretly enjoying "having come back" *(Marketplace)*
@@ -362,6 +362,13 @@ Prompt library (2-4 min each, voice or text):
 > *Scoring:* Q22 never moves the placement. It sets the framing line in the result (see Step 9).
 
 ### Q3 Step 9 — Resolve and render
+
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to about a third of the placement.
+- This map is a ladder: if several rungs are claimed, take the earliest. What was written never lifts a claim. It only settles a scan that claimed nothing.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
 
 - **State per band** from Section 2 (unanswered → Dormant). Nudges: +1 to the band tagged by each of Q8, Q14 and Q15.
 - **The picture wins.** If Q8 was answered, its band becomes Current and that picture is the placement; any other band marked Current drops to Familiar. The scan stays as texture around it.

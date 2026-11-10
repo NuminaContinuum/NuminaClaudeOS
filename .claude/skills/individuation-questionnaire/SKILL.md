@@ -54,7 +54,7 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (b) A felt presence guiding me. The world feels meaningful *(Wise Elder)*
 (c) A spacious, settled aliveness. Inner and outer feel of one piece *(The Self)*
 (d) Things feel whole. The world is mostly as it should be *(Unconscious Wholeness)*
-(e) A pull to perform, to suit up, to be the version of me that's expected *(Persona)*
+(e) Time to get going. There's a lot to do and people are counting on me *(Persona)*
 (f) A weight of something I've been refusing to look at *(Shadow Work)*
 
 **2. The dream that returns to you most often is:**
@@ -75,13 +75,13 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (e) What is missing in me, and where does it live in others? *(Anima/Animus)*
 (f) What is the deeper wisdom of this moment trying to teach me? *(Wise Elder)*
 
-**4. What you most often find yourself projecting onto others:**
+**4. What you most often put onto other people that is really yours:**
 
 (a) My judgments. The qualities I refuse in myself, I condemn in them *(Shadow Work)*
 (b) My longing. The qualities I lack, I find irresistible in them *(Anima/Animus)*
 (c) My wish for guidance. I keep looking for the teacher who has the answer *(Wise Elder)*
-(d) Less and less. I'm increasingly aware of projection as it happens *(The Self)*
-(e) I don't really notice projection. People are as they appear *(Unconscious Wholeness)*
+(d) Less and less. I usually catch myself doing it *(The Self)*
+(e) Nothing that I notice. People are as they appear *(Unconscious Wholeness)*
 (f) My ideals. The version of who I should be *(Persona)*
 
 **5. The figure you've been most preoccupied with lately:**
@@ -96,7 +96,7 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 **6. When you think about the version of you that's "real":**
 
 (a) It's whoever I am, day to day. No hidden version *(Unconscious Wholeness)*
-(b) It's the one others see. My role is who I am *(Persona)*
+(b) It's who I am at work and with the people who rely on me. What I do is who I am *(Persona)*
 (c) There's a hidden me I'm slowly meeting. The "real" me is more complex than I thought *(Shadow Work)*
 (d) The real me includes qualities I've avoided. I'm growing into them *(Anima/Animus)*
 (e) The real me carries a wisdom I'm only beginning to live from *(Wise Elder)*
@@ -111,14 +111,14 @@ One at a time. Wait for each answer. Accept the letter only. **No commentary bet
 (e) Nothing specific. Just to live my life *(Unconscious Wholeness)*
 (f) Listening to the inner voice of wisdom. Letting it teach me *(Wise Elder)*
 
-**8. If you had to describe where you are on the journey of becoming yourself:**
+**8. If your life is a road, what is slowing you down on it right now:**
 
-(a) I'm listening to a deeper wisdom that's becoming clearer *(Wise Elder)*
-(b) I haven't really started thinking of it as a journey *(Unconscious Wholeness)*
-(c) I'm engaging the qualities I've avoided or only seen in others *(Anima/Animus)*
-(d) I'm meeting the parts of me I'd refused to see *(Shadow Work)*
-(e) I'm coming into a wholeness that includes everything I am *(The Self)*
-(f) I'm building the self I want to be in the world *(Persona)*
+(a) I'm waiting to be shown the next step, and it hasn't come yet *(Wise Elder)*
+(b) Nothing. The road is fine as it is *(Unconscious Wholeness)*
+(c) Someone, or something, I keep chasing that stays out of reach *(Anima/Animus)*
+(d) Something behind me I keep not turning round to face *(Shadow Work)*
+(e) Nothing needs to hurry. I've stopped needing to arrive *(The Self)*
+(f) I'm not far enough along. Others are ahead of me *(Persona)*
 
 ### Q1 Step 3 — Score inline
 
@@ -175,7 +175,7 @@ Q2 resolves the **full profile**: which stage is primary, which earlier stages a
 
 ### Q2 Section 1 — Stage scan (6 questions, one per stage)
 
-**1. Unconscious Wholeness — the pre-individuation state, before the work of becoming yourself begins:**
+**1. Unconscious Wholeness — simply living, at ease, before any pull to look inward:**
 (a) This is where I live. I haven't really felt the call to deeper inquiry *(primary)*
 (b) Active. I can return to a felt sense of simple wholeness when I rest *(active)*
 (c) Pulling at me. I'm being asked to return to a simpler state under all the work *(emerging)*
@@ -221,14 +221,14 @@ Q2 resolves the **full profile**: which stage is primary, which earlier stages a
 
 Each adds a +1 nudge to the stage it implies, confirming or refining the scan.
 
-**7. Dreams or recurring inner imagery, lately:**
-(a) Performing, succeeding, failing in a role. Public scrutiny *(Persona)*
-(b) Dark figures, chase scenes, monsters, criminals, despised people *(Shadow Work)*
-(c) A compelling figure of the other sex / opposite energy. An inner beloved or tormentor *(Anima/Animus)*
-(d) A wise old man or woman, a teacher, an elder figure *(Wise Elder)*
-(e) Mandalas, circles, sacred geometry, the union of opposites *(The Self)*
-(f) Open landscapes, paradise, simple peaceful scenes *(Unconscious Wholeness)*
-(g) No memorable inner imagery right now *(no nudge)*
+**7. Where your mind goes as you fall asleep, lately:** *(Q1 already asks about dreams, so this does not.)*
+(a) Tomorrow. What I have to get done, and how it will be judged *(Persona)*
+(b) Something I said or did that I'd rather not look at *(Shadow Work)*
+(c) Someone I can't stop thinking about *(Anima/Animus)*
+(d) A question I'm waiting on, hoping the answer comes from deeper than thought *(Wise Elder)*
+(e) A quiet sense that the day, good and bad, belongs together *(The Self)*
+(f) Nowhere much. I just fall asleep *(Unconscious Wholeness)*
+(g) It's different every night *(no nudge)*
 
 **8. What triggers your strongest emotional reactions in others?**
 (a) Their flaws. I have a list of people I judge harshly *(Shadow Work)*
@@ -243,6 +243,7 @@ Each adds a +1 nudge to the stage it implies, confirming or refining the scan.
 (b) The midlife crossing. The structures I built no longer fit. Something is asking to be undone *(Shadow Work / Anima-Animus)*
 (c) Later adulthood. The work is integration, depth, harvest *(Wise Elder / The Self)*
 (d) Before any of this. I haven't felt the call *(Unconscious Wholeness)*
+(e) None of these fits how it feels *(no nudge)*
 
 **10. The inner figure who's most present in moments of stillness:**
 (a) None in particular *(Unconscious Wholeness)*
@@ -254,17 +255,19 @@ Each adds a +1 nudge to the stage it implies, confirming or refining the scan.
 
 ### Q2 Section 3 — Cross-cutting Likert (4 items, 1-5)
 
-Ask each as "1 = not at all true, 5 = very true." These validate the profile shape.
+Ask each as "1 = not at all true, 5 = very true." Each rating speaks for the stages named after it and counts like a probe: a 5 adds +1 to each of those stages, a 4 adds +½, a 3 adds nothing, a 2 takes ½ away and a 1 takes 1 away.
 
-**11.** *I notice my projections in real time and can sometimes take them back.* (high → Shadow Work or beyond; low → Unconscious Wholeness or Persona)
-**12.** *The figures in my dreams or imagination feel like teachers, not just dreams.* (high → Wise Elder or Self active; low → earlier stages)
-**13.** *I'm being asked to grow into qualities I've avoided or only admired in others.* (high → Anima/Animus or Shadow Work emerging/active)
-**14.** *There is a wholeness in me that isn't dependent on circumstance.* (high → The Self active; low → earlier stages)
+**11.** *I notice my projections in real time and can sometimes take them back.* *(Shadow Work, Anima/Animus)*
+**12.** *The figures in my dreams or imagination feel like teachers, not just dreams.* *(Wise Elder)*
+**13.** *I'm being asked to grow into qualities I've avoided or only admired in others.* *(Anima/Animus)*
+**14.** *There is a wholeness in me that isn't dependent on circumstance.* *(The Self)*
 
 ### Q2 Step 4 — Resolve and render
 
 - From Section 1, assign each of the 6 stages one state: primary / active / emerging / dormant / shadow. Typical shape: 1 primary, 1-2 active, 0-1 emerging, 0-1 shadow.
-- Section 2 probes add +1 nudges; where they agree with the scan, mark that state's confidence HIGH, otherwise MEDIUM (scan wins). Likert items confirm overall shape.
+- Section 2 probes add +1 nudges and Section 3 ratings add or remove up to 1 (see above). If Q1 exists, its stage gets +½. Where a stage's total is above zero, mark that state's confidence HIGH, otherwise MEDIUM (the scan still decides the states).
+- If the scan names several stages as primary, the one with the highest total keeps it and the others become active. If it names none, the active stage with the highest total becomes primary, and say it was inferred.
+- If Q1 exists, end the summary with one sentence saying whether this agrees with it (*"This agrees with your first reading…"* or *"Your first reading placed you in X. This fuller one places you in Y."*).
 - Render the ASCII arc with all 6 stages, each styled by state, e.g.:
 
 ```
@@ -293,7 +296,7 @@ The longest read: a settled full stage profile woven with the user's own words. 
 ### Q3 Section 1 — Settling in (2 open-ended)
 
 **1.** *Take a breath. In your own words: when you look at the work of your own becoming, what's most alive right now? What's been asking for you?*
-**2.** *Describe a part of you that almost nobody sees. What is it like, and why does it stay out of sight?*
+**2.** *In plain language, who are you underneath what you do and how you're seen? Describe that person as they are right now.*
 
 ### Q3 Section 2 — Stage scan through lived situations (6 multiple-choice)
 
@@ -360,14 +363,14 @@ From the running profile select 3 prompts: **1 on the primary stage**, **1 on th
 
 ### Q3 Section 5 — Projection and integration (2 MC + 1 Likert)
 
-**15. A day or two after a strong reaction to someone has passed:** I'm still building the case against them *(shadow projection, unintegrated)* / I'm still thinking about them, wishing I were more like them *(anima/animus projection, unintegrated)* / I'm asking what the reaction showed me about me *(integration active)* / I can usually see what was mine in it, and own it *(integration deepening)* / It's gone. I don't think about it again *(early stage)*
+**15. A day or two after a strong reaction to someone has passed:** I'm still building the case against them *(Shadow Work)* / I'm still thinking about them, wishing I were more like them *(Anima/Animus)* / I'm asking what the reaction showed me about me *(Shadow Work — the owning is under way)* / I can usually see what was mine in it, and own it *(The Self)* / It's gone. I don't think about it again *(Unconscious Wholeness)*
 **16. The threshold you're being asked to cross now:** From simply living, to looking inward at all *(Wholeness → Persona/Shadow)* / From living through the mask, to meeting what's underneath *(Persona → Shadow)* / From meeting the disowned, to welcoming it home *(Shadow encounter → integration)* / From projecting the inner partner, to integrating those qualities *(Shadow → Anima/Animus)* / From integrating the inner partner, to listening to a deeper wisdom *(Anima/Animus → Wise Elder)* / From listening to wisdom, to living from wholeness *(Wise Elder → The Self)* / Not in a clear transition *(none)*
-**17. Likert (1-5):** *When a dream or a strong reaction unsettles me, I go back to it to ask what it wants from me.* (high → Wise Elder or Self active)
+**17. Likert (1-5):** *When a dream or a strong reaction unsettles me, I go back to it to ask what it wants from me.* *(Shadow Work, Anima/Animus)*
 
 ### Q3 Section 6 — The Self and longing (2 Likert + 1 open-ended)
 
-**18. Likert (1-5):** *I can feel part of something larger than me without losing myself in it.* (high → Self active)
-**19. Likert (1-5):** *I can hold opposites in me — light and dark, ego and shadow — without needing to resolve them.* (high → integration deepening)
+**18. Likert (1-5):** *I can feel part of something larger than me without losing myself in it.* *(Wise Elder, The Self)*
+**19. Likert (1-5):** *I can hold opposites in me — light and dark, ego and shadow — without needing to resolve them.* *(The Self)*
 **20.** *Open-ended: What do you long for that you don't yet have words for?* (longing language reveals the stage most asking to emerge)
 
 ### Q3 Section 7 — Closing reflection (1 open-ended)
@@ -378,7 +381,10 @@ From the running profile select 3 prompts: **1 on the primary stage**, **1 on th
 
 ### Q3 Step 8 — Resolve and render
 
-- Combine Section 2 (state per stage), Section 3 (most-charged archetype confirms/shifts), Section 4 open-ended (deep texture → HIGH confidence on covered stages), Section 5 (threshold + projection take-back), Section 6 (Self + emerging signal). Open-ended carries ~40%.
+- **Closed answers.** Give each stage a weight: 1 if the scan (Section 2) says primary, ½ if active, about ⅓ if emerging, 0 if dormant or shadow. Add ¼ for each probe pointing at it (Q9, Q10, Q15). Add the three ratings (Q17-19) to the stages named after them: +¼ for a 5, +⅛ for a 4, nothing for a 3, −⅛ for a 2, −¼ for a 1. If Q2 (or Q1) exists, add ¼ to the stage it placed.
+- **Written answers.** Read Q1, Q2, Q11, Q20 and Q21 and judge which stage each one most evidences. Leave the three deep-dive answers out of this judgement, because each deep-dive question names its own stage; use them for texture and quotes. Long answers count for more than one-liners.
+- **Together.** The written answers count for up to about a quarter of the placement on this map (the 40% in the spec, cut back because prose is harder to read reliably than a chosen answer). In practice: a single clear primary in the scan holds whatever was written. When the closed answers are close or split, or name no primary, what was written decides. Only a stage the scan gave as primary or active can become the primary. Never place the user in a stage their closed answers gave no weight to.
+- If what they wrote points to a different stage than the one placed, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If an earlier reading exists, say in one sentence whether this one agrees with it.
 - Final state per stage: primary / active / emerging / dormant / shadow; HIGH on deepened stages, MEDIUM otherwise.
 - Render: the closing **"What the Self said"** quote at the top; the ASCII arc with all 6 stages styled by state (same logic as Q2); a 2-4 sentence reading per active stage woven with the user's phrases; **"The threshold you're at"** named explicitly (e.g. *Shadow Work → Anima/Animus*) with concrete practice; **"What you fear losing in the crossing"** reflected back from Q16. Confidence: **settled**.
 

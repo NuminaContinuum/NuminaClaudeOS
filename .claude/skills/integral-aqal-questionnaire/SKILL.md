@@ -352,6 +352,13 @@ States are temporary modes of consciousness available to everyone, distinct from
 
 ### Q3 Step 8 — Resolve and render
 
+**How the written answers count (updated 2026-11).** Closed answers come first; the written answers count for up to 40% of the placement.
+- A single clear claim in the scan holds whatever was written. When the closed answers are close, split, or claim nothing, what was written decides.
+- Leave the adaptive deep-dive answers out of the placement (each deep-dive question names its own item); use them for texture and quotes. Long answers count for more than one-liners.
+- Never place the user on an item their closed answers gave no weight to.
+- If what they wrote points somewhere other than the placement, say so in one sentence (*"What you wrote leans toward X, which is worth sitting with."*). If a Q2 reading exists, treat it as a light tie-breaker and say in one sentence whether this reading agrees with it.
+- Every rating (1-5) is used: either it counts toward the items it describes, or it is checked against the scan and any disagreement is named.
+
 - Combine Section 2 (state per quadrant), Section 3 (state per line), Section 4 open-ended (deep texture → HIGH confidence on covered areas), Section 5 (accessible + foreign-curious state), Section 6 (integration challenge). Open-ended carries ~40%.
 - Final state per quadrant: dominant / active / underdeveloped / shadow. Final state per line: strong / active / underdeveloped / shadow. HIGH on deepened areas.
 - Render: the closing **"What your life said"** quote at the top; the ASCII 2×2 grid styled by state + a 6-line bar profile (same logic as Q2); a small **states badge** (accessible state(s) + foreign-curious state); a 2-4 sentence reading per active/shadow quadrant and per notable line (strongest, growth-edge, any shadow); **"The integration you're being asked to make"** named as a bridge (e.g. *Upper Left → Upper Right*) with 2-3 concrete practices; **"The state you're invited into"** — one line on the foreign-curious state with a practice doorway. Plain English. Confidence: **settled**.
